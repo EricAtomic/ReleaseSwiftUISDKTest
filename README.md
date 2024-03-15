@@ -1,1 +1,3 @@
 # ReleaseSwiftUISDKTest
+## Install
+Test instructions.
