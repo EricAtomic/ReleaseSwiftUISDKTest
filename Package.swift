@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "AtomicSwiftUISDK",
+    platforms: [
+        .iOS(.v16)
+    ],
     products: [
         .library(
             name: "AtomicSwiftUISDK",
@@ -16,7 +19,11 @@ let package = Package(
             name: "AtomicSwiftUISDK",
             path: "iOS/AtomicSwiftUISDK.xcframework"),
         .target(
-            name: "AtomicSwiftUISDK",
-            dependencies: ["AtomicSDK"])
+            name: "AtomicSwiftUISDKTarget",
+            dependencies: [
+                .target(name: "AtomicSwiftUISDK"),
+                .product(name: "AtomicSDK", package: "AtomicSDK")
+            ]
+        )
     ]
 )
