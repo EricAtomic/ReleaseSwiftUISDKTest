@@ -9,7 +9,7 @@ let package = Package(
     products: [
         .library(
             name: "AtomicSwiftUISDK",
-            targets: ["AtomicSwiftUISDK"]),
+            targets: ["AtomicSwiftUISDKTarget"]),
     ],
     dependencies: [
         .package(name: "AtomicSDK", url: "https://github.com/EricAtomic/releaseTest.git", from: "35.0.0")
