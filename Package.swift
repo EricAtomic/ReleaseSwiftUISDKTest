@@ -17,6 +17,6 @@ let package = Package(
     dependencies: [],
     targets: [
         .binaryTarget(name: "AtomicSDK", path: "iOS/AtomicSDK.xcframework"),
-        .binaryTarget(name: "AtomicSwiftUISDK", path: "iOS/AtomicSDK.xcframework")
+        .binaryTarget(name: "AtomicSwiftUISDK", path: "iOS/AtomicSwiftUISDK.xcframework")
     ]
 )
