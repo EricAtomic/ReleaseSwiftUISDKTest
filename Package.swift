@@ -1,24 +1,22 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.10
 import PackageDescription
 
 let package = Package(
-    name: "Name",
+    name: "AtomicCards",
     platforms: [
         .iOS(.v16)
     ],
     products: [
-        .library(name: "AtomicSwiftUISDK", targets: ["AtomicSwiftUISDKTarget"])
+        .library(
+            name: "AtomicSDK",
+            targets: ["AtomicSDK"]),
+        .library(
+            name: "AtomicSwiftUISDK",
+            targets: ["AtomicSwiftUISDK"]),
     ],
-    dependencies: [
-        .package(name: "AtomicSDK", url: "https://github.com/EricAtomic/releaseTest.git", exact: "35.0.0")
-    ],
+    dependencies: [],
     targets: [
-        .binaryTarget(name: "AtomicSwiftUISDK", path: "iOS/AtomicSwiftUISDK.xcframework"),
-        .target(
-            name: "AtomicSwiftUISDKTarget",
-            dependencies: [
-                .target(name: "AtomicSwiftUISDK"),
-                .product(name: "AtomicSDK", package: "AtomicSDK")
-            ])
+        .binaryTarget(name: "AtomicSDK", path: "iOS/AtomicSDK.xcframework"),
+        .binaryTarget(name: "AtomicSwiftUISDK", path: "iOS/AtomicSDK.xcframework")
     ]
 )
