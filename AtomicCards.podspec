@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                = 'AtomicCards'
-s.version             = '4.0.1'
+s.version             = '24.1.1'
 s.summary             = 'Atomic SDK for iOS, distributed as an xcframework.'
 s.license             = { :type => 'Commercial', :text => ' ' }
 s.authors             = 'Atomic.io Limited'
