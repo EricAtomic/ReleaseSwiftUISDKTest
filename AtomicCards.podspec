@@ -9,8 +9,5 @@ s.description         = 'The Atomic SwiftUI SDK for integrating Atomic into your
 s.requires_arc        = true
 s.source              = { :git => 'https://github.com/EricAtomic/ReleaseSwiftUISDKTest.git', :tag => '3.0.1' }
 s.platform            = :ios, '16.0'
-# s.preserve_paths      = 'iOS/AtomicSDK.xcframework', 'iOS/AtomicSwiftUISDK.xcframework'
-# s.public_header_files = 'iOS/AtomicSDK.xcframework/ios-arm64/AtomicSDK.framework/Headers/*.h', 'iOS/AtomicSwiftUISDK.xcframework/ios-arm64/AtomicSwiftUISDK.framework/Headers/*.h'
-# s.source_files        = 'iOS/AtomicSDK.xcframework/ios-arm64/AtomicSDK.framework/Headers/*.h', 'iOS/AtomicSwiftUISDK.xcframework/ios-arm64/AtomicSwiftUISDK.framework/Headers/*.h'
 s.vendored_frameworks = 'iOS/AtomicSDK.xcframework', 'iOS/AtomicSwiftUISDK.xcframework'
 end
