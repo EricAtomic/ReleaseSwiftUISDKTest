@@ -23,6 +23,8 @@ typedef void(^AACSessionAppearanceCollectionCompletionHandler)(AACAppearanceColl
  */
 @interface AACSwiftUISession : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
+
 /**
  Requests an appearance collection for the stream container.
  
@@ -50,6 +52,17 @@ typedef void(^AACSessionAppearanceCollectionCompletionHandler)(AACAppearanceColl
  @param event The event from SwiftUI SDK.
  */
 + (void)dispatchAnalyticsWithEventType:(AACSwiftUIAnalyticsEvent *)event;
+
+/**
+ Given a markdown string, returns an attributed string.
+ 
+ @return An attributed string rendered from the provided markdown text.
+ */
++ (NSAttributedString*)attributedStringFromMarkdown:(NSString *)markdown
+                                    typographyStyle:(AACTypography *)typographyStyle
+                                          textColor:(AACColor *)textColor
+                                          linkColor:(AACColor *)linkColor
+                            isVerticalCentreAligned:(BOOL)isVerticalCentreAligned;
 
 @end
 

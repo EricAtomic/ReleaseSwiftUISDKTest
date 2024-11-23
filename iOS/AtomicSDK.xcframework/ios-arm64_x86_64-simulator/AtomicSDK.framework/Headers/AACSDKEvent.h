@@ -70,6 +70,15 @@ typedef NS_ENUM(NSUInteger, AACSDKEventType) {
     /// This event is only occurred when you call the SDK's track method. Read more in the documentation of `AACSDKEventNotificationReceived`.
     AACSDKEventTypeNotificationReceived,
     
+    /// One or more file uploads have started as part of a card submission.
+    AACSDKEventTypeUserFileUploadsStarted,
+    
+    /// One or more file uploads have failed during card submission.
+    AACSDKEventTypeUserFileUploadsFailed,
+    
+    /// One or more file uploads have successfully completed. This event does not necessarily mean the card submission has succeeded.
+    AACSDKEventTypeUserFileUploadsCompleted,
+    
     /// An unknown event is observed.
     AACSDKEventTypeUnknown
 };
@@ -141,6 +150,20 @@ typedef NS_ENUM(NSUInteger, AACSDKEventRedirectDetailType) {
     
     /// The user is redirected from a hyperlink in markdown text.
     AACSDKEventRedirectDetailTypeTextLink
+};
+
+/**
+ The types of possible sources that can trigger card actions, such as snoozing, dismissal or voting.
+ */
+typedef NS_ENUM(NSUInteger, AACSDKEventActionSource) {
+    /// The action is initiated from an unknown source.
+    AACSDKEventActionSourceUnknown,
+    /// The action is initiated from the overflow menu.
+    AACSDKEventActionSourceOverflow,
+    /// The action is initiated from the swipe gesture.
+    AACSDKEventActionSourceSwipe,
+    /// The action is initiated from buttons on the card.
+    AACSDKEventActionSourceCardButton
 };
 
 /**
@@ -311,18 +334,35 @@ typedef NS_ENUM(NSUInteger, AACSDKEventRedirectDetailType) {
  This event does not undergo de-duplication.
  */
 @interface AACSDKEventCardDisplayed : AACSDKEventCREVT
+
+/**
+ Represents any metadata payload sent as part of a card trigger.
+*/
+@property (nonatomic, readonly, nullable) NSDictionary *payloadMetadata;
+
 @end
 
 /**
  Represents an event in which the user taps on the “This is useful” option in the card overflow menu.
  */
 @interface AACSDKEventCardVotedUp : AACSDKEventCREVT
+
+/**
+ The source from which this voting event was initiated.
+ */
+@property (nonatomic, readonly) AACSDKEventActionSource source;
+
 @end
 
 /**
  Represents an event in which the user taps the “Submit” button on the card feedback screen, which is brought up by tapping on the “This isn't useful” option in the card overflow menu.
  */
 @interface AACSDKEventCardVotedDown : AACSDKEventCREVT
+
+/**
+ The source from which this voting event was initiated.
+ */
+@property (nonatomic, readonly) AACSDKEventActionSource source;
 
 /**
  The reason that the user chooses on the card feedback screen.
@@ -470,7 +510,7 @@ typedef NS_ENUM(NSUInteger, AACSDKEventRedirectDetailType) {
 /**
  The URL of this video.
  */
-@property (nonatomic, readonly) NSURL* videoUrl;
+@property (nonatomic, readonly, nullable) NSURL* videoUrl;
 
 @end
 
@@ -522,6 +562,11 @@ typedef NS_ENUM(NSUInteger, AACSDKEventRedirectDetailType) {
 @property (nonatomic, readonly, nullable) NSString *streamContainerId;
 
 /**
+ The array of stream container IDs associated with the request. `nil` if the request isn't related to multiple stream containers.
+ */
+@property (nonatomic, readonly, nullable) NSArray<NSString *> *streamContainerIds;
+
+/**
  The card instance ID associated with the request. `nil` if the request isn't related to a specific card.
  */
 @property (nonatomic, readonly, nullable) NSString *cardInstanceId;
@@ -535,5 +580,53 @@ typedef NS_ENUM(NSUInteger, AACSDKEventRedirectDetailType) {
  */
 @interface AACSDKEventNotificationReceived : AACSDKEventCREVT
 @end
+
+/**
+ The data type containing details of an uploaded file.
+ */
+@interface AACSDKEventUserFileUploadsData : NSObject
+
+/**
+ The name of the file, derived from the local disk name but unique within the platform's bucket.
+ */
+@property (nonatomic, readonly) NSString *filename;
+
+/**
+ The identifier of the bucket to which the file is uploaded.
+ */
+@property (nonatomic, readonly) NSString *bucketId;
+
+@end
+
+/**
+ Represents an event in which one or more files are uploaded.
+ */
+@interface AACSDKEventUsrFlUpldEVT : AACSDKEventCREVT <AACSDKEventHasViewState>
+
+/**
+ Detailed information about the uploaded files.
+ */
+@property (nonatomic, readonly, nonnull) NSArray<AACSDKEventUserFileUploadsData *> *fileInfo;
+
+@end
+
+/**
+ Represents an event where one or more files start being uploaded.
+ */
+@interface AACSDKEventUserFileUploadsStarted : AACSDKEventUsrFlUpldEVT
+@end
+
+/**
+ Represents an event where one or more files failed to upload.
+ */
+@interface AACSDKEventUserFileUploadsFailed : AACSDKEventUsrFlUpldEVT
+@end
+
+/**
+ Represents an event where one or more files have been successfully uploaded.
+ */
+@interface AACSDKEventUserFileUploadsCompleted : AACSDKEventUsrFlUpldEVT
+@end
+
 
 NS_ASSUME_NONNULL_END
