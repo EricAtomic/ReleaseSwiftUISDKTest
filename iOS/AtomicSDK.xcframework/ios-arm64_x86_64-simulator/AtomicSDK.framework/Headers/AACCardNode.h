@@ -164,6 +164,18 @@ typedef NS_ENUM(NSInteger, AACCardButtonType) {
 @end
 
 /**
+ Shared formats for rendering input-like nodes.
+ */
+typedef NS_ENUM(NSUInteger, AACCardNodeInputFormat) {
+    /// The label and value are displayed side-by-side, inside the input field.
+    AACCardNodeInputFormatInline,
+    /// The label is displayed above value, inside the input field.
+    AACCardNodeInputFormatStacked,
+    /// The label is displayed above the value, outside the input field.
+    AACCardNodeInputFormatExternal
+};
+
+/**
  A base class for button nodes that hold a url and a payload, such as link or submit buttons.
  */
 @interface AACCardNodeButton: AACCardBaseButton
@@ -201,6 +213,22 @@ typedef NS_ENUM(NSInteger, AACCardButtonType) {
 /**
  A node that renders a category title (e.g. 'Leave Request').
  */
+typedef NS_ENUM(NSUInteger, AACCardNodeCategoryTextRole) {
+    AACCardNodeCategoryTextRoleMain,
+    AACCardNodeCategoryTextRoleSub
+};
+
+typedef NS_ENUM(NSUInteger, AACCardNodeCategoryIconDisplaySize) {
+    AACCardNodeCategoryIconDisplaySizeMatchHeaderHeight,
+    AACCardNodeCategoryIconDisplaySizeMatchTextBlockHeight,
+    AACCardNodeCategoryIconDisplaySizeFixedSize
+};
+
+typedef NS_ENUM(NSUInteger, AACCardNodeCategoryIconAlignment) {
+    AACCardNodeCategoryIconAlignmentTop,
+    AACCardNodeCategoryIconAlignmentCenter
+};
+
 @interface AACCardNodeCategory: AACCardNode
 
 /**
@@ -210,6 +238,21 @@ typedef NS_ENUM(NSInteger, AACCardButtonType) {
 
 /// The title to display.
 @property (nonatomic, copy, nonnull) NSString* text;
+
+/// An optional sub header to display alongside the title.
+@property (nonatomic, copy, nullable) NSString *subText;
+
+/// The order in which visible category text roles should be displayed.
+@property (nonatomic, copy, nonnull) NSArray<NSNumber *> *textRoleOrder;
+
+/// The size mode to use when rendering the icon for this category.
+@property (nonatomic) AACCardNodeCategoryIconDisplaySize iconDisplaySize;
+
+/// The vertical alignment to use when rendering a fixed-size icon for this category.
+@property (nonatomic) AACCardNodeCategoryIconAlignment iconAlignment;
+
+/// The fixed icon height to use when `iconDisplaySize` is `AACCardNodeCategoryIconDisplaySizeFixedSize`.
+@property (nonatomic, strong, nullable) NSNumber *iconDimensionHeight;
 
 @end
 

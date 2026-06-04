@@ -10,6 +10,7 @@
 #import <AtomicSDK/AACCardNode.h>
 #import <AtomicSDK/AACEdgeInsets.h>
 #import <AtomicSDK/AACThemeShadow.h>
+#import <AtomicSDK/AACHorizontalRule.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -39,6 +40,15 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 };
 
 /**
+ The vertical alignment types of theme elements.
+ */
+typedef NS_CLOSED_ENUM(NSInteger, AACThemeVerticalAlignment) {
+    AACThemeVerticalAlignmentTop,
+    AACThemeVerticalAlignmentCenter,
+    AACThemeVerticalAlignmentBottom
+};
+
+/**
  Represents a theme that is rendered in a part of the SDK.
  A theme encapsulates colours, text styles and measured values (such as the border radius
  on elements) to create a visual style.
@@ -54,6 +64,8 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 
 - (AACColor *)backgroundButton:(AACCardButtonType)buttonType;
 - (AACColor *)backgroundButtonBorder:(AACCardButtonType)buttonType;
+- (AACColor *)backgroundButtonPressed:(AACCardButtonType)buttonType;
+- (AACColor *)backgroundButtonBorderPressed:(AACCardButtonType)buttonType;
 - (AACColor *)borderCheckbox:(BOOL)isChecked;
 - (AACColor *)backgroundCheckbox:(BOOL)isChecked;
 
@@ -62,6 +74,7 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACColor *borderMediaThumb;
 @property (nonatomic, strong) AACColor *borderComponent;
 @property (nonatomic, strong) AACColor *borderSheetItemDivider;
+@property (nonatomic, strong) AACColor *borderCategoryIcon;
 
 @property (nonatomic, strong) AACColor *backgroundDefault;
 @property (nonatomic, strong) AACColor *backgroundCard;
@@ -84,10 +97,15 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACColor *backgroundBanner;
 @property (nonatomic, strong) AACColor *backgroundOptions;
 @property (nonatomic, strong) AACColor *backgroundUploadPlaceholder;
+@property (nonatomic, strong) AACColor *backgroundModalContainer;
+@property (nonatomic, strong) AACColor *backgroundCategoryIcon;
 
 - (AACColor *)textButton:(AACCardButtonType)buttonType;
+- (AACColor *)textButtonPressed:(AACCardButtonType)buttonType;
+@property (nonatomic, strong) AACColor *textExpandCollapse;
 @property (nonatomic, strong) AACColor *textListTitle;
 @property (nonatomic, strong) AACColor *textCategory;
+@property (nonatomic, strong) AACColor *textCategorySubText;
 @property (nonatomic, strong) AACColor *textHeadline;
 @property (nonatomic, strong) AACColor *textBody;
 @property (nonatomic, strong) AACColor *textLink;
@@ -95,7 +113,7 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACColor *textMediaSubtitle;
 @property (nonatomic, strong) AACColor *textMediaAction;
 @property (nonatomic, strong) AACColor *textToast;
-@property (nonatomic, strong) AACColor *textPrimary;
+@property (nonatomic, strong) AACColor *textPrimary __attribute__((deprecated("Use `inline label or value stacked` instead.")));
 @property (nonatomic, strong) AACColor *textError;
 @property (nonatomic, strong) AACColor *textHint;
 @property (nonatomic, strong) AACColor *textSecondary;
@@ -112,6 +130,9 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACColor *textFooterMessage;
 @property (nonatomic, strong) AACColor *textProcessingStateMessage;
 @property (nonatomic, strong) AACColor *textProcessingStateButtonLabel;
+@property (nonatomic, strong) AACColor *textLabelInline;
+@property (nonatomic, strong) AACColor *textLabelExternal;
+@property (nonatomic, strong) AACColor *textValueStacked;
 
 - (AACColor *__nullable)iconButton:(AACCardButtonType)buttonType;
 @property (nonatomic, strong) AACColor *iconOptions;
@@ -153,8 +174,10 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 - (AACTypography *)typographyButton:(AACCardButtonType)buttonType;
 - (AACThemeAlignment)buttonTitleAlign:(AACCardButtonType)buttonType;
 
+@property (nonatomic, strong) AACTypography *typographyExpandCollapse;
 @property (nonatomic, strong) AACTypography *typographyListTitle;
 @property (nonatomic, strong) AACTypography *typographyCategory;
+@property (nonatomic, strong) AACTypography *typographyCategorySubText;
 @property (nonatomic, strong) AACTypography *typographyHeadline;
 @property (nonatomic, strong) AACTypography *typographyBody;
 @property (nonatomic, strong) AACTypography *typographyBullet;
@@ -163,7 +186,7 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACTypography *typographyMediaAction;
 @property (nonatomic, strong) AACTypography *typographyMediaTruncation;
 @property (nonatomic, strong) AACTypography *typographyToast;
-@property (nonatomic, strong) AACTypography *typographyPrimary;
+@property (nonatomic, strong) AACTypography *typographyPrimary __attribute__((deprecated("Use `typographyLabelInline` or `typographyValueStacked` instead.")));
 @property (nonatomic, strong) AACTypography *typographySecondary;
 @property (nonatomic, strong) AACTypography *typographyPinned;
 @property (nonatomic, strong) AACTypography *typographySheetItem;
@@ -178,11 +201,36 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACTypography *typographyFooterMessage;
 @property (nonatomic, strong) AACTypography *typographyProcessingStateMessage;
 @property (nonatomic, strong) AACTypography *typographyProcessingStateButtonLabel;
+@property (nonatomic, strong) AACTypography *typographyLabelInline;
+@property (nonatomic, strong) AACTypography *typographyLabelExternal;
+@property (nonatomic, strong) AACTypography *typographyValueStacked;
 
 #pragma mark - Shape
+@property (nonatomic, strong) AACMeasurement *expandCollapseLeftPadding;
+// Remove these properties for now as they're removed from workbench.
+//@property (nonatomic) AACThemeVerticalAlignment modalContainerAlignment;
+//@property (nonatomic) AACMeasurement *modalContainerPadding;
+@property (nonatomic) AACEdgeInsets *paddingCard;
+@property (nonatomic) AACEdgeInsets *paddingMenuButton;
+@property (nonatomic) AACEdgeInsets *paddingVerticalStream; // Also affects subview paddings
+/// The following paddings are essentially the same as `paddingVerticalStream`.
+/// They are separated only to allow different default values when `paddingVerticalStream` is not set in the theme editor.
+/// For example, a single card container has default top and bottom paddings of 0.
+@property (nonatomic) AACEdgeInsets *paddingHorizontalStream;
+@property (nonatomic) AACEdgeInsets *paddingModalContainer;
+@property (nonatomic) AACEdgeInsets *paddingSingleCardView;
+@property (nonatomic) AACEdgeInsets *paddingButtonGroup; // Defaults to card padding if not specified in the theme.
+@property (nonatomic) AACMeasurement *spaceBetweenElements;
+@property (nonatomic) AACMeasurement *spaceBetweenCategoryTexts;
+@property (nonatomic) AACMeasurement *spaceBetweenCards;
+@property (nonatomic) AACMeasurement *spaceBetweenCategoryTextsIcon;
+
 - (AACMeasurement *)borderRadiusButton:(AACCardButtonType)buttonType;
 - (AACMeasurement *)borderWidthButton:(AACCardButtonType)buttonType;
 - (AACEdgeInsets *)paddingsButton:(AACCardButtonType)buttonType;
+- (AACMeasurement *)borderRadiusButtonPressed:(AACCardButtonType)buttonType;
+- (AACMeasurement *)borderWidthButtonPressed:(AACCardButtonType)buttonType;
+- (AACEdgeInsets *)paddingsButtonPressed:(AACCardButtonType)buttonType;
 - (AACMeasurement *)lineHeightButtonIcon:(AACCardButtonType)buttonType;
 /**
  Button icon alignment only has left and right alignment.
@@ -197,6 +245,7 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACMeasurement *offsetCardShadow;
 @property (nonatomic, strong) AACMeasurement *blurNavigationShadow;
 @property (nonatomic, strong) AACMeasurement *offsetNavigationShadow;
+@property (nonatomic, strong) AACThemeShadow *categoryIconShadow;
 
 - (AACMeasurement *)borderRadiusCheckbox:(BOOL)isChecked;
 
@@ -205,12 +254,24 @@ typedef NS_ENUM(NSInteger, AACThemeAlignment) {
 @property (nonatomic, strong) AACMeasurement *borderRadiusMediaThumb;
 @property (nonatomic, strong) AACMeasurement *borderRadiusSheet;
 @property (nonatomic, strong) AACMeasurement *borderRadiusUploadPlaceholder;
+@property (nonatomic, strong) AACMeasurement *borderRadiusCategoryIcon;
 
 - (AACMeasurement *)borderWidthCheckbox:(BOOL)isChecked;
 @property (nonatomic, strong) AACMeasurement *borderWidthCard;
+@property (nonatomic, strong) AACMeasurement *borderWidthCategoryIcon;
+
+@property (nonatomic, nullable) AACHorizontalRule *horizontalRuleTop;
+@property (nonatomic, nullable) AACHorizontalRule *horizontalRuleBetween;
+@property (nonatomic, nullable) AACHorizontalRule *horizontalRuleBottom;
 
 #pragma mark - Button shadow
 - (AACThemeShadow *)shadowButton:(AACCardButtonType)buttonType;
+- (AACThemeShadow *)shadowButtonPressed:(AACCardButtonType)buttonType;
+
+/**
+ Forces the font size for each typography style to be recalculated when next requested.
+ */
+- (void)invalidateTypographyStylesForContentSizeCategory:(UIContentSizeCategory)category;
 
 @end
 

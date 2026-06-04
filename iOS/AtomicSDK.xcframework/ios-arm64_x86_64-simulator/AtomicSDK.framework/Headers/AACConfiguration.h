@@ -94,8 +94,7 @@ typedef NS_ENUM(NSUInteger, AACCustomString) {
     */
     AACCustomStringVotingNotUseful,
     /**
-     The title to display at the top of the screen allowing a user to provide feedback on why
-     they didn't find a card useful.
+     The title displayed at the top of the screen, allowing users to provide feedback on why they found a card useful or not.
      Defaults to `Send feedback`.
      */
     AACCustomStringVotingFeedbackTitle,
@@ -155,7 +154,15 @@ typedef NS_ENUM(NSUInteger, AACCustomString) {
     /**
      The title for the button in the toast message prompting for camera access, which navigates to the Settings app. Defaults to `Settings`.
      */
-    AACCustomStringRequestCameraAccessSettingsTitle
+    AACCustomStringRequestCameraAccessSettingsTitle,
+    /**
+     The call-to-action text displayed at the bottom of a thumbnail image element. Defaults to “View”.
+     */
+    AACCustomStringThumbnailImageActionLinkTitle,
+    /**
+     The call-to-action text displayed at the bottom of a thumbnail video element. Defaults to "Watch".
+     */
+    AACCustomStringThumbnailVideoActionLinkTitle
 };
 
 /**
