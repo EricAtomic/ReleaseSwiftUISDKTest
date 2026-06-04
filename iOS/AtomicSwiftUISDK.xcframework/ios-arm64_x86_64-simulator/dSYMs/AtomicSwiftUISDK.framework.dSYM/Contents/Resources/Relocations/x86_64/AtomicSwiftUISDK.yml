@@ -2552,7 +2552,7 @@ relocations:
   - { offset: 0x58364, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK16FileUploadStatusO21objcValidationContext0A3SDK07AACFileehI0CSgvg', symObjAddr: 0x0, symBinAddr: 0xB5D50, symSize: 0x160 }
   - { offset: 0x5839B, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK16FileUploadStatusO21objcValidationContext0A3SDK07AACFileehI0CSgvg', symObjAddr: 0x0, symBinAddr: 0xB5D50, symSize: 0x160 }
   - { offset: 0x58625, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK30didRegisterNewFontNotification_WZ', symObjAddr: 0x0, symBinAddr: 0xB5EB0, symSize: 0x30 }
-  - { offset: 0x58648, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK30didRegisterNewFontNotificationSo18NSNotificationNameavp', symObjAddr: 0x2280, symBinAddr: 0x34F3A0, symSize: 0x0 }
+  - { offset: 0x58648, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK30didRegisterNewFontNotificationSo18NSNotificationNameavp', symObjAddr: 0x2208, symBinAddr: 0x34F3A0, symSize: 0x0 }
   - { offset: 0x58656, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK30didRegisterNewFontNotification_WZ', symObjAddr: 0x0, symBinAddr: 0xB5EB0, symSize: 0x30 }
   - { offset: 0x58CE1, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK35AACRuntimeVariableDelegateProcessorCfETo', symObjAddr: 0xC50, symBinAddr: 0xB6B30, symSize: 0x20 }
   - { offset: 0x58D0E, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK35AACRuntimeVariableDelegateProcessorCMa', symObjAddr: 0xC70, symBinAddr: 0xB6B50, symSize: 0x20 }
@@ -2575,7 +2575,7 @@ relocations:
   - { offset: 0x59722, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK35AACRuntimeVariableDelegateProcessorC37cardSessionDidRequestRuntimeVariablesySaySo15AACCardInstanceCGAGYaFyyYacfU_ToTQ0_', symObjAddr: 0xB30, symBinAddr: 0xB6A10, symSize: 0xC0 }
   - { offset: 0x5974C, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK35AACRuntimeVariableDelegateProcessorCACycfcTo', symObjAddr: 0xBF0, symBinAddr: 0xB6AD0, symSize: 0x30 }
   - { offset: 0x597A6, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK35AACRuntimeVariableDelegateProcessorCfD', symObjAddr: 0xC20, symBinAddr: 0xB6B00, symSize: 0x30 }
-  - { offset: 0x59974, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK29sessionLogoutNotificationNameSo014NSNotificationG0avp', symObjAddr: 0x14110, symBinAddr: 0x34F3A8, symSize: 0x0 }
+  - { offset: 0x59974, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK29sessionLogoutNotificationNameSo014NSNotificationG0avp', symObjAddr: 0x14030, symBinAddr: 0x34F3A8, symSize: 0x0 }
   - { offset: 0x59982, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK29sessionLogoutNotificationName_WZ', symObjAddr: 0x360, symBinAddr: 0xB7270, symSize: 0x30 }
   - { offset: 0x59BE9, size: 0x8, addend: 0x0, symName: '_$sSo7NSArrayCIeyBhy_SaySo21AACUploadServiceErrorCGTz_', symObjAddr: 0x7B0, symBinAddr: 0xB7620, symSize: 0x60 }
   - { offset: 0x59C8D, size: 0x8, addend: 0x0, symName: '_$ss20_ArrayBufferProtocolPsE15replaceSubrange_4with10elementsOfySnySiG_Siqd__ntSlRd__7ElementQyd__AGRtzlFs01_aB0Vy16AtomicSwiftUISDK9LayerTreeO9TransformOG_s010CollectionH3OneVyAPGTg5', symObjAddr: 0xA30, symBinAddr: 0xB78A0, symSize: 0x100 }
@@ -2688,7 +2688,7 @@ relocations:
   - { offset: 0x5F862, size: 0x8, addend: 0x0, symName: '_$sSo21UIContentSizeCategorya16AtomicSwiftUISDKE011dynamicTypeB00E2UI07DynamichB0Ovg', symObjAddr: 0x190, symBinAddr: 0xBD020, symSize: 0x5D3 }
   - { offset: 0x6035F, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK22fontAwesomeInitialised33_A740F59C6514856BCDBC71B4A9B99DDFLLSbvp', symObjAddr: 0x0, symBinAddr: 0x32C1F8, symSize: 0x0 }
   - { offset: 0x604E8, size: 0x8, addend: 0x0, symName: '_$sSo7NSErrorC16AtomicSwiftUISDKE24networkConnectivityCodes_WZ', symObjAddr: 0x0, symBinAddr: 0xBD600, symSize: 0x40 }
-  - { offset: 0x6050B, size: 0x8, addend: 0x0, symName: '_$sSo7NSErrorC16AtomicSwiftUISDKE24networkConnectivityCodesShySiGvpZ', symObjAddr: 0x32E0, symBinAddr: 0x34F3B0, symSize: 0x0 }
+  - { offset: 0x6050B, size: 0x8, addend: 0x0, symName: '_$sSo7NSErrorC16AtomicSwiftUISDKE24networkConnectivityCodesShySiGvpZ', symObjAddr: 0x3270, symBinAddr: 0x34F3B0, symSize: 0x0 }
   - { offset: 0x60523, size: 0x8, addend: 0x0, symName: '_$sSo7NSErrorC16AtomicSwiftUISDKE24networkConnectivityCodes_WZ', symObjAddr: 0x0, symBinAddr: 0xBD600, symSize: 0x40 }
   - { offset: 0x605A7, size: 0x8, addend: 0x0, symName: '_$sSo7NSErrorC16AtomicSwiftUISDKE24isNetworkConnectionErrorSbvg', symObjAddr: 0x40, symBinAddr: 0xBD640, symSize: 0x340 }
   - { offset: 0x608C1, size: 0x8, addend: 0x0, symName: '_$sSo14NSItemProviderC16AtomicSwiftUISDKE9loadImageSo7UIImageCSgyYaKF', symObjAddr: 0x0, symBinAddr: 0xBD980, symSize: 0x30 }
@@ -2741,7 +2741,7 @@ relocations:
   - { offset: 0x64220, size: 0x8, addend: 0x0, symName: '_$sSo15UIBarButtonItemCMa', symObjAddr: 0x250, symBinAddr: 0xC0A30, symSize: 0x40 }
   - { offset: 0x64233, size: 0x8, addend: 0x0, symName: '_$sSo9UIToolbarC16AtomicSwiftUISDKE29toolbarWithDoneNegativeTarget_10doneAction09plusMinusK0ABypSg_10ObjectiveC8SelectorVAJtFZTf4nnnd_n', symObjAddr: 0x2F0, symBinAddr: 0xC0A70, symSize: 0x2BF }
   - { offset: 0x64547, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010CrossStackD033_4C2E29908CB9D64CF5AD5E8583BDCE5BLLVAA0D2IDAdaHP12defaultValue2in12CoreGraphics7CGFloatVAA14ViewDimensionsV_tFZTW', symObjAddr: 0x0, symBinAddr: 0xC0D30, symSize: 0x20 }
-  - { offset: 0x6456A, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010crossStackD5GuideACvpZ', symObjAddr: 0x2D50, symBinAddr: 0x34F3B8, symSize: 0x0 }
+  - { offset: 0x6456A, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010crossStackD5GuideACvpZ', symObjAddr: 0x2CD8, symBinAddr: 0x34F3B8, symSize: 0x0 }
   - { offset: 0x645B7, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010crossStackD5Guide_WZ', symObjAddr: 0x30, symBinAddr: 0xC0D60, symSize: 0x30 }
   - { offset: 0x645D0, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010CrossStackD033_4C2E29908CB9D64CF5AD5E8583BDCE5BLLVAgA0D2IDADWl', symObjAddr: 0x60, symBinAddr: 0xC0D90, symSize: 0x30 }
   - { offset: 0x645E3, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010CrossStackD033_4C2E29908CB9D64CF5AD5E8583BDCE5BLLVMa', symObjAddr: 0x90, symBinAddr: 0xC0DC0, symSize: 0xA }
@@ -3973,7 +3973,7 @@ relocations:
   - { offset: 0xB7580, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO4PathCSQAASQ2eeoiySbx_xtFZTW', symObjAddr: 0x890, symBinAddr: 0x11B500, symSize: 0x50 }
   - { offset: 0xB75D2, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO4PathC7SegmentO2eeoiySbAG_AGtFZTf4nnd_n', symObjAddr: 0x920, symBinAddr: 0x11B590, symSize: 0x100 }
   - { offset: 0xB77C2, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO4PathC10DerivativeV5rootsSaySfGvg', symObjAddr: 0x0, symBinAddr: 0x11B690, symSize: 0x210 }
-  - { offset: 0xB77E5, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO5PointV7minimumAEvpZ', symObjAddr: 0x5408, symBinAddr: 0x34F540, symSize: 0x0 }
+  - { offset: 0xB77E5, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO5PointV7minimumAEvpZ', symObjAddr: 0x53A0, symBinAddr: 0x34F540, symSize: 0x0 }
   - { offset: 0xB7917, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO5PointV7minimum_WZ', symObjAddr: 0x210, symBinAddr: 0x11B8A0, symSize: 0x20 }
   - { offset: 0xB7A9B, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO4PathC10DerivativeV5rootsSaySfGvg', symObjAddr: 0x0, symBinAddr: 0x11B690, symSize: 0x210 }
   - { offset: 0xB7E3B, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK9LayerTreeO4PathC12BoundsFinderV04makeG04from8control18control22toAC5PointV3min_AN3maxtAN_A3NtFZTf4nnnnd_n', symObjAddr: 0x230, symBinAddr: 0x11B8C0, symSize: 0x390 }
@@ -4312,7 +4312,7 @@ relocations:
   - { offset: 0xD25E0, size: 0x8, addend: 0x0, symName: '_$sSo20NSURLSessionDataTaskC16AtomicSwiftUISDK010URLSessionbC8ProtocolA2cDP6resumeyyFTW', symObjAddr: 0x1D0, symBinAddr: 0x1397F0, symSize: 0x20 }
   - { offset: 0xD260D, size: 0x8, addend: 0x0, symName: '_$sSo20NSURLSessionDataTaskC16AtomicSwiftUISDK010URLSessionbC8ProtocolA2cDP6cancelyyFTW', symObjAddr: 0x1F0, symBinAddr: 0x139810, symSize: 0x20 }
   - { offset: 0xD27A6, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK11DIContainerC8register_7factory8lifetimeyxm_xyYbcAC8LifetimeOtlFAA18AACSessionProtocol_p_Ttg5', symObjAddr: 0x0, symBinAddr: 0x1398A0, symSize: 0x150 }
-  - { offset: 0xD27C9, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK18CentralResourceHubC6sharedACvpZ', symObjAddr: 0x45C8, symBinAddr: 0x34F548, symSize: 0x0 }
+  - { offset: 0xD27C9, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK18CentralResourceHubC6sharedACvpZ', symObjAddr: 0x4530, symBinAddr: 0x34F548, symSize: 0x0 }
   - { offset: 0xD2955, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK18CentralResourceHubC6shared_WZ', symObjAddr: 0x2A0, symBinAddr: 0x139B40, symSize: 0xA0 }
   - { offset: 0xD2A0D, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK18CentralResourceHubCMa', symObjAddr: 0x470, symBinAddr: 0x139D10, symSize: 0x20 }
   - { offset: 0xD2A7D, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK11DIContainerC8register_7factory8lifetimeyxm_xyYbcAC8LifetimeOtlFAA18AACSessionProtocol_p_Ttg5', symObjAddr: 0x0, symBinAddr: 0x1398A0, symSize: 0x150 }
@@ -5215,7 +5215,7 @@ relocations:
   - { offset: 0x108496, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK25SnoozeDatePickerViewModelCfD', symObjAddr: 0x1FB0, symBinAddr: 0x1836B0, symSize: 0x80 }
   - { offset: 0x1084D9, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK25SnoozeDatePickerViewModelC13timeFormatter33_2F59FE4B1C2F451E9E327152FCFFBD90LLSo06NSDateJ0CvgTf4d_n', symObjAddr: 0x25B0, symBinAddr: 0x183C60, symSize: 0x110 }
   - { offset: 0x10852B, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK25SnoozeDatePickerViewModelC25shouldAdjustHourAndMinute33_2F59FE4B1C2F451E9E327152FCFFBD90LL_03maxE10ComponentsSb10Foundation0eW0V_AItFTf4nnd_n', symObjAddr: 0x29B0, symBinAddr: 0x183FF0, symSize: 0xD0 }
-  - { offset: 0x1087B1, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea16AtomicSwiftUISDKE20videoPlaybackChangedABvpZ', symObjAddr: 0xF770, symBinAddr: 0x34F5C8, symSize: 0x0 }
+  - { offset: 0x1087B1, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea16AtomicSwiftUISDKE20videoPlaybackChangedABvpZ', symObjAddr: 0xF698, symBinAddr: 0x34F5C8, symSize: 0x0 }
   - { offset: 0x10881F, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea16AtomicSwiftUISDKE20videoPlaybackChanged_WZ', symObjAddr: 0x10, symBinAddr: 0x184360, symSize: 0x30 }
   - { offset: 0x108B38, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK20VideoPlayerViewModelCMU', symObjAddr: 0x6F0, symBinAddr: 0x1849F0, symSize: 0x10 }
   - { offset: 0x108B4B, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK20VideoPlayerViewModelCMa', symObjAddr: 0x700, symBinAddr: 0x184A00, symSize: 0x30 }
@@ -7154,8 +7154,8 @@ relocations:
   - { offset: 0x160303, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK24CachedImageFetchPipelineC14cancelDataTask33_332ABFE84F916CDE7B0BDE263592264ALLyyF', symObjAddr: 0x790, symBinAddr: 0x23EE90, symSize: 0x120 }
   - { offset: 0x16035B, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK24CachedImageFetchPipelineCfD', symObjAddr: 0x1180, symBinAddr: 0x23F880, symSize: 0xC0 }
   - { offset: 0x1605B9, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK10ImageCacheC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x23FF10, symSize: 0x40 }
-  - { offset: 0x1605DC, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK10ImageCacheC6sharedAA0D7Caching_pvpZ', symObjAddr: 0x3038, symBinAddr: 0x34F5F0, symSize: 0x0 }
-  - { offset: 0x1605F6, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK15ImageURLSessionC6sharedAA0E8Protocol_pvpZ', symObjAddr: 0x3048, symBinAddr: 0x34F600, symSize: 0x0 }
+  - { offset: 0x1605DC, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK10ImageCacheC6sharedAA0D7Caching_pvpZ', symObjAddr: 0x2FC8, symBinAddr: 0x34F5F0, symSize: 0x0 }
+  - { offset: 0x1605F6, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK15ImageURLSessionC6sharedAA0E8Protocol_pvpZ', symObjAddr: 0x2FD8, symBinAddr: 0x34F600, symSize: 0x0 }
   - { offset: 0x160664, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK10ImageCacheC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x23FF10, symSize: 0x40 }
   - { offset: 0x1606AF, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK10ImageCacheCMa', symObjAddr: 0x60, symBinAddr: 0x23FF50, symSize: 0x20 }
   - { offset: 0x1606C3, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK15ImageURLSessionC6shared_WZ', symObjAddr: 0x80, symBinAddr: 0x23FF70, symSize: 0x60 }

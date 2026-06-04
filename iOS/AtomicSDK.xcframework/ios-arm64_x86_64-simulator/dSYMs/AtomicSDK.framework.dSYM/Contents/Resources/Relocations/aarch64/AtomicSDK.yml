@@ -6,7 +6,7 @@ relocations:
   - { offset: 0x67, size: 0x8, addend: 0x0, symName: _AtomicSDKVersionNumber, symObjAddr: 0x38, symBinAddr: 0x16F748, symSize: 0x0 }
   - { offset: 0xA3, size: 0x8, addend: 0x0, symName: '+[UIFont(AACFont) aac_registerFontWithUrl:error:]', symObjAddr: 0x0, symBinAddr: 0x1C18, symSize: 0xD4 }
   - { offset: 0xB0, size: 0x8, addend: 0x0, symName: '+[UIFont(AACFont) aac_loadFontAwesome]', symObjAddr: 0x18C, symBinAddr: 0x1DA4, symSize: 0x28 }
-  - { offset: 0xD5, size: 0x8, addend: 0x0, symName: _aac_loadFontAwesome.onceToken, symObjAddr: 0x3758, symBinAddr: 0x220310, symSize: 0x0 }
+  - { offset: 0xD5, size: 0x8, addend: 0x0, symName: _aac_loadFontAwesome.onceToken, symObjAddr: 0x3708, symBinAddr: 0x220310, symSize: 0x0 }
   - { offset: 0x204, size: 0x8, addend: 0x0, symName: '+[UIFont(AACFont) aac_registerFontWithUrl:error:]', symObjAddr: 0x0, symBinAddr: 0x1C18, symSize: 0xD4 }
   - { offset: 0x3B2, size: 0x8, addend: 0x0, symName: '+[UIFont(AACFont) aac_unregisterFontWithUrl:]', symObjAddr: 0xD4, symBinAddr: 0x1CEC, symSize: 0xB8 }
   - { offset: 0x555, size: 0x8, addend: 0x0, symName: '+[UIFont(AACFont) aac_loadFontAwesome].cold.1', symObjAddr: 0x258, symBinAddr: 0x138944, symSize: 0x14 }
@@ -207,8 +207,8 @@ relocations:
   - { offset: 0x9399, size: 0x8, addend: 0x0, symName: '+[AACMacros modelIdentifier]', symObjAddr: 0x0, symBinAddr: 0x6AC0, symSize: 0x30 }
   - { offset: 0x9410, size: 0x8, addend: 0x0, symName: _AACMacrosPlatformHeaderKeyToString, symObjAddr: 0x4F8, symBinAddr: 0x1C8A40, symSize: 0x0 }
   - { offset: 0x9431, size: 0x8, addend: 0x0, symName: '+[AACMacros modelIdentifier]', symObjAddr: 0x0, symBinAddr: 0x6AC0, symSize: 0x30 }
-  - { offset: 0x945A, size: 0x8, addend: 0x0, symName: _modelIdentifier.onceToken, symObjAddr: 0x3DB8, symBinAddr: 0x220318, symSize: 0x0 }
-  - { offset: 0x946F, size: 0x8, addend: 0x0, symName: _modelIdentifier.model, symObjAddr: 0x3DC0, symBinAddr: 0x220320, symSize: 0x0 }
+  - { offset: 0x945A, size: 0x8, addend: 0x0, symName: _modelIdentifier.onceToken, symObjAddr: 0x3B08, symBinAddr: 0x220318, symSize: 0x0 }
+  - { offset: 0x946F, size: 0x8, addend: 0x0, symName: _modelIdentifier.model, symObjAddr: 0x3B10, symBinAddr: 0x220320, symSize: 0x0 }
   - { offset: 0x9605, size: 0x8, addend: 0x0, symName: '+[AACMacros modelIdentifier].cold.1', symObjAddr: 0x320, symBinAddr: 0x138980, symSize: 0x14 }
   - { offset: 0x9620, size: 0x8, addend: 0x0, symName: '+[AACMacros modelIdentifier].cold.1', symObjAddr: 0x320, symBinAddr: 0x138980, symSize: 0x14 }
   - { offset: 0x9631, size: 0x8, addend: 0x0, symName: '___28+[AACMacros modelIdentifier]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x6AF0, symSize: 0x88 }
@@ -280,14 +280,14 @@ relocations:
   - { offset: 0xEAC3, size: 0x8, addend: 0x0, symName: _kAACCardViewImageUploadTopSpacingFirst, symObjAddr: 0x25F0, symBinAddr: 0x16F818, symSize: 0x0 }
   - { offset: 0xEAD8, size: 0x8, addend: 0x0, symName: _kAACCardViewImageUploadRightSpacing, symObjAddr: 0x25F8, symBinAddr: 0x16F820, symSize: 0x0 }
   - { offset: 0xEAE1, size: 0x8, addend: 0x0, symName: '+[AACCardViewImageUpload thumbnailPlaceholder]', symObjAddr: 0x0, symBinAddr: 0x84E8, symSize: 0x30 }
-  - { offset: 0xEB0A, size: 0x8, addend: 0x0, symName: _thumbnailPlaceholder.onceToken, symObjAddr: 0x18778, symBinAddr: 0x220328, symSize: 0x0 }
-  - { offset: 0xEB1F, size: 0x8, addend: 0x0, symName: _thumbnailPlaceholder.image, symObjAddr: 0x18780, symBinAddr: 0x220330, symSize: 0x0 }
+  - { offset: 0xEB0A, size: 0x8, addend: 0x0, symName: _thumbnailPlaceholder.onceToken, symObjAddr: 0x185B8, symBinAddr: 0x220328, symSize: 0x0 }
+  - { offset: 0xEB1F, size: 0x8, addend: 0x0, symName: _thumbnailPlaceholder.image, symObjAddr: 0x185C0, symBinAddr: 0x220330, symSize: 0x0 }
   - { offset: 0xF925, size: 0x8, addend: 0x0, symName: '+[AACCardViewImageUpload righthandIconPaperclip]', symObjAddr: 0x90, symBinAddr: 0x8578, symSize: 0x30 }
-  - { offset: 0xF94E, size: 0x8, addend: 0x0, symName: _righthandIconPaperclip.onceToken, symObjAddr: 0x18788, symBinAddr: 0x220338, symSize: 0x0 }
-  - { offset: 0xF963, size: 0x8, addend: 0x0, symName: _righthandIconPaperclip.image, symObjAddr: 0x18790, symBinAddr: 0x220340, symSize: 0x0 }
+  - { offset: 0xF94E, size: 0x8, addend: 0x0, symName: _righthandIconPaperclip.onceToken, symObjAddr: 0x185C8, symBinAddr: 0x220338, symSize: 0x0 }
+  - { offset: 0xF963, size: 0x8, addend: 0x0, symName: _righthandIconPaperclip.image, symObjAddr: 0x185D0, symBinAddr: 0x220340, symSize: 0x0 }
   - { offset: 0xF998, size: 0x8, addend: 0x0, symName: '+[AACCardViewImageUpload righthandIconDelete]', symObjAddr: 0x120, symBinAddr: 0x8608, symSize: 0x30 }
-  - { offset: 0xF9C1, size: 0x8, addend: 0x0, symName: _righthandIconDelete.onceToken, symObjAddr: 0x18798, symBinAddr: 0x220348, symSize: 0x0 }
-  - { offset: 0xF9D6, size: 0x8, addend: 0x0, symName: _righthandIconDelete.image, symObjAddr: 0x187A0, symBinAddr: 0x220350, symSize: 0x0 }
+  - { offset: 0xF9C1, size: 0x8, addend: 0x0, symName: _righthandIconDelete.onceToken, symObjAddr: 0x185D8, symBinAddr: 0x220348, symSize: 0x0 }
+  - { offset: 0xF9D6, size: 0x8, addend: 0x0, symName: _righthandIconDelete.image, symObjAddr: 0x185E0, symBinAddr: 0x220350, symSize: 0x0 }
   - { offset: 0xFA0B, size: 0x8, addend: 0x0, symName: '-[AACCardViewImageUpload updateView]', symObjAddr: 0x1768, symBinAddr: 0x9C50, symSize: 0x4A4 }
   - { offset: 0x12F1E, size: 0x8, addend: 0x0, symName: '+[AACCardViewImageUpload thumbnailPlaceholder].cold.1', symObjAddr: 0x258C, symBinAddr: 0x138994, symSize: 0x14 }
   - { offset: 0x12F39, size: 0x8, addend: 0x0, symName: '+[AACCardViewImageUpload thumbnailPlaceholder].cold.1', symObjAddr: 0x258C, symBinAddr: 0x138994, symSize: 0x14 }
@@ -408,8 +408,8 @@ relocations:
   - { offset: 0x1748E, size: 0x8, addend: 0x0, symName: '-[AACCardNodeRadioItem .cxx_destruct]', symObjAddr: 0xF8, symBinAddr: 0xBAE8, symSize: 0x40 }
   - { offset: 0x1755F, size: 0x8, addend: 0x0, symName: '+[NSString(ISO8601DurationParsing) durationRegexp]', symObjAddr: 0x0, symBinAddr: 0xBB28, symSize: 0x30 }
   - { offset: 0x1756C, size: 0x8, addend: 0x0, symName: '+[NSString(ISO8601DurationParsing) durationRegexp]', symObjAddr: 0x0, symBinAddr: 0xBB28, symSize: 0x30 }
-  - { offset: 0x17595, size: 0x8, addend: 0x0, symName: _durationRegexp.onceToken, symObjAddr: 0x3AC8, symBinAddr: 0x220358, symSize: 0x0 }
-  - { offset: 0x175AA, size: 0x8, addend: 0x0, symName: _durationRegexp.regExp, symObjAddr: 0x3AD0, symBinAddr: 0x220360, symSize: 0x0 }
+  - { offset: 0x17595, size: 0x8, addend: 0x0, symName: _durationRegexp.onceToken, symObjAddr: 0x3A78, symBinAddr: 0x220358, symSize: 0x0 }
+  - { offset: 0x175AA, size: 0x8, addend: 0x0, symName: _durationRegexp.regExp, symObjAddr: 0x3A80, symBinAddr: 0x220360, symSize: 0x0 }
   - { offset: 0x1783A, size: 0x8, addend: 0x0, symName: '+[NSString(ISO8601DurationParsing) durationRegexp].cold.1', symObjAddr: 0x600, symBinAddr: 0x1389D0, symSize: 0x14 }
   - { offset: 0x17855, size: 0x8, addend: 0x0, symName: '+[NSString(ISO8601DurationParsing) durationRegexp].cold.1', symObjAddr: 0x600, symBinAddr: 0x1389D0, symSize: 0x14 }
   - { offset: 0x17866, size: 0x8, addend: 0x0, symName: '___50+[NSString(ISO8601DurationParsing) durationRegexp]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xBB58, symSize: 0xA4 }
@@ -574,8 +574,8 @@ relocations:
   - { offset: 0x2555F, size: 0x8, addend: 0x0, symName: '+[AACCardCellHeading1 viewClass]', symObjAddr: 0x99C, symBinAddr: 0x11974, symSize: 0xC }
   - { offset: 0x2614E, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize, symObjAddr: 0x0, symBinAddr: 0x11980, symSize: 0x30 }
   - { offset: 0x2615B, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize, symObjAddr: 0x0, symBinAddr: 0x11980, symSize: 0x30 }
-  - { offset: 0x26180, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize.size, symObjAddr: 0xF30, symBinAddr: 0x220368, symSize: 0x0 }
-  - { offset: 0x26195, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize.onceToken, symObjAddr: 0xF38, symBinAddr: 0x220370, symSize: 0x0 }
+  - { offset: 0x26180, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize.size, symObjAddr: 0xEE8, symBinAddr: 0x220368, symSize: 0x0 }
+  - { offset: 0x26195, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize.onceToken, symObjAddr: 0xEF0, symBinAddr: 0x220370, symSize: 0x0 }
   - { offset: 0x2628A, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize.cold.1, symObjAddr: 0x50, symBinAddr: 0x1389E4, symSize: 0x14 }
   - { offset: 0x262A5, size: 0x8, addend: 0x0, symName: _AACSRDefaultBufferSize.cold.1, symObjAddr: 0x50, symBinAddr: 0x1389E4, symSize: 0x14 }
   - { offset: 0x262B6, size: 0x8, addend: 0x0, symName: ___AACSRDefaultBufferSize_block_invoke, symObjAddr: 0x30, symBinAddr: 0x119B0, symSize: 0x20 }
@@ -612,8 +612,8 @@ relocations:
   - { offset: 0x26E31, size: 0x8, addend: 0x0, symName: _AACWSServerErrorMessageIdKey, symObjAddr: 0xBF0, symBinAddr: 0x1C8B70, symSize: 0x0 }
   - { offset: 0x26EB4, size: 0x8, addend: 0x0, symName: _AACWSServerErrorSubscriptionIdKey, symObjAddr: 0xBF8, symBinAddr: 0x1C8B78, symSize: 0x0 }
   - { offset: 0x26EBD, size: 0x8, addend: 0x0, symName: '+[AACWSServerEventError errorTypeMapping]', symObjAddr: 0x0, symBinAddr: 0x120B8, symSize: 0x30 }
-  - { offset: 0x26EE6, size: 0x8, addend: 0x0, symName: _errorTypeMapping.onceToken, symObjAddr: 0x4ED8, symBinAddr: 0x220378, symSize: 0x0 }
-  - { offset: 0x26EFB, size: 0x8, addend: 0x0, symName: _errorTypeMapping.errorTypeMapping, symObjAddr: 0x4EE0, symBinAddr: 0x220380, symSize: 0x0 }
+  - { offset: 0x26EE6, size: 0x8, addend: 0x0, symName: _errorTypeMapping.onceToken, symObjAddr: 0x4E90, symBinAddr: 0x220378, symSize: 0x0 }
+  - { offset: 0x26EFB, size: 0x8, addend: 0x0, symName: _errorTypeMapping.errorTypeMapping, symObjAddr: 0x4E98, symBinAddr: 0x220380, symSize: 0x0 }
   - { offset: 0x271B9, size: 0x8, addend: 0x0, symName: '+[AACWSServerEventError errorTypeMapping].cold.1', symObjAddr: 0x948, symBinAddr: 0x1389F8, symSize: 0x14 }
   - { offset: 0x271D4, size: 0x8, addend: 0x0, symName: '+[AACWSServerEventError errorTypeMapping].cold.1', symObjAddr: 0x948, symBinAddr: 0x1389F8, symSize: 0x14 }
   - { offset: 0x271E5, size: 0x8, addend: 0x0, symName: '___41+[AACWSServerEventError errorTypeMapping]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x120E8, symSize: 0x14C }
@@ -636,20 +636,20 @@ relocations:
   - { offset: 0x27650, size: 0x8, addend: 0x0, symName: '-[AACWSServerEventAnalyticsProcessed .cxx_destruct]', symObjAddr: 0x934, symBinAddr: 0x129EC, symSize: 0x14 }
   - { offset: 0x27910, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601FormatterWithMilliseconds]', symObjAddr: 0x0, symBinAddr: 0x12A00, symSize: 0x30 }
   - { offset: 0x2797B, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601FormatterWithMilliseconds]', symObjAddr: 0x0, symBinAddr: 0x12A00, symSize: 0x30 }
-  - { offset: 0x279A4, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithMilliseconds.onceToken, symObjAddr: 0x4430, symBinAddr: 0x220388, symSize: 0x0 }
-  - { offset: 0x279B9, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithMilliseconds.dateFormatter, symObjAddr: 0x4438, symBinAddr: 0x220390, symSize: 0x0 }
+  - { offset: 0x279A4, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithMilliseconds.onceToken, symObjAddr: 0x43E0, symBinAddr: 0x220388, symSize: 0x0 }
+  - { offset: 0x279B9, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithMilliseconds.dateFormatter, symObjAddr: 0x43E8, symBinAddr: 0x220390, symSize: 0x0 }
   - { offset: 0x27F79, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601Formatter]', symObjAddr: 0xAC, symBinAddr: 0x12AAC, symSize: 0x30 }
-  - { offset: 0x27FA2, size: 0x8, addend: 0x0, symName: _aac_iso8601Formatter.onceToken, symObjAddr: 0x4440, symBinAddr: 0x220398, symSize: 0x0 }
-  - { offset: 0x27FB7, size: 0x8, addend: 0x0, symName: _aac_iso8601Formatter.dateFormatter, symObjAddr: 0x4448, symBinAddr: 0x2203A0, symSize: 0x0 }
+  - { offset: 0x27FA2, size: 0x8, addend: 0x0, symName: _aac_iso8601Formatter.onceToken, symObjAddr: 0x43F0, symBinAddr: 0x220398, symSize: 0x0 }
+  - { offset: 0x27FB7, size: 0x8, addend: 0x0, symName: _aac_iso8601Formatter.dateFormatter, symObjAddr: 0x43F8, symBinAddr: 0x2203A0, symSize: 0x0 }
   - { offset: 0x27FEC, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601FormatterWithoutSeconds]', symObjAddr: 0x158, symBinAddr: 0x12B58, symSize: 0x30 }
-  - { offset: 0x28015, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithoutSeconds.onceToken, symObjAddr: 0x4450, symBinAddr: 0x2203A8, symSize: 0x0 }
-  - { offset: 0x2802A, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithoutSeconds.dateFormatter, symObjAddr: 0x4458, symBinAddr: 0x2203B0, symSize: 0x0 }
+  - { offset: 0x28015, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithoutSeconds.onceToken, symObjAddr: 0x4400, symBinAddr: 0x2203A8, symSize: 0x0 }
+  - { offset: 0x2802A, size: 0x8, addend: 0x0, symName: _aac_iso8601FormatterWithoutSeconds.dateFormatter, symObjAddr: 0x4408, symBinAddr: 0x2203B0, symSize: 0x0 }
   - { offset: 0x2805F, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601UtcFormatter]', symObjAddr: 0x204, symBinAddr: 0x12C04, symSize: 0x30 }
-  - { offset: 0x28088, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatter.onceToken, symObjAddr: 0x4460, symBinAddr: 0x2203B8, symSize: 0x0 }
-  - { offset: 0x2809D, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatter.dateFormatter, symObjAddr: 0x4468, symBinAddr: 0x2203C0, symSize: 0x0 }
+  - { offset: 0x28088, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatter.onceToken, symObjAddr: 0x4410, symBinAddr: 0x2203B8, symSize: 0x0 }
+  - { offset: 0x2809D, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatter.dateFormatter, symObjAddr: 0x4418, symBinAddr: 0x2203C0, symSize: 0x0 }
   - { offset: 0x280D2, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601UtcFormatterWithMilliseconds]', symObjAddr: 0x2EC, symBinAddr: 0x12CEC, symSize: 0x30 }
-  - { offset: 0x280FB, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatterWithMilliseconds.onceToken, symObjAddr: 0x4470, symBinAddr: 0x2203C8, symSize: 0x0 }
-  - { offset: 0x28110, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatterWithMilliseconds.dateFormatter, symObjAddr: 0x4478, symBinAddr: 0x2203D0, symSize: 0x0 }
+  - { offset: 0x280FB, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatterWithMilliseconds.onceToken, symObjAddr: 0x4420, symBinAddr: 0x2203C8, symSize: 0x0 }
+  - { offset: 0x28110, size: 0x8, addend: 0x0, symName: _aac_iso8601UtcFormatterWithMilliseconds.dateFormatter, symObjAddr: 0x4428, symBinAddr: 0x2203D0, symSize: 0x0 }
   - { offset: 0x281DD, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601FormatterWithMilliseconds].cold.1', symObjAddr: 0x63C, symBinAddr: 0x138A0C, symSize: 0x14 }
   - { offset: 0x281F8, size: 0x8, addend: 0x0, symName: '+[NSDate(ISO8601) aac_iso8601FormatterWithMilliseconds].cold.1', symObjAddr: 0x63C, symBinAddr: 0x138A0C, symSize: 0x14 }
   - { offset: 0x28209, size: 0x8, addend: 0x0, symName: '___55+[NSDate(ISO8601) aac_iso8601FormatterWithMilliseconds]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x12A30, symSize: 0x7C }
@@ -722,11 +722,11 @@ relocations:
   - { offset: 0x2D69F, size: 0x8, addend: 0x0, symName: _kAACBundleDefaultBaseURLKey, symObjAddr: 0x488, symBinAddr: 0x1C8D40, symSize: 0x0 }
   - { offset: 0x2D6B4, size: 0x8, addend: 0x0, symName: _kAACDundleDefaultBaseURL, symObjAddr: 0x490, symBinAddr: 0x1C8D48, symSize: 0x0 }
   - { offset: 0x2D6BD, size: 0x8, addend: 0x0, symName: '+[NSBundle(AACBundle) aac_actionCardsBundle]', symObjAddr: 0x0, symBinAddr: 0x142D4, symSize: 0x30 }
-  - { offset: 0x2D6E6, size: 0x8, addend: 0x0, symName: _aac_actionCardsBundle.onceToken, symObjAddr: 0x2CE8, symBinAddr: 0x2203D8, symSize: 0x0 }
-  - { offset: 0x2D6FB, size: 0x8, addend: 0x0, symName: _aac_actionCardsBundle.bundle, symObjAddr: 0x2CF0, symBinAddr: 0x2203E0, symSize: 0x0 }
+  - { offset: 0x2D6E6, size: 0x8, addend: 0x0, symName: _aac_actionCardsBundle.onceToken, symObjAddr: 0x2C98, symBinAddr: 0x2203D8, symSize: 0x0 }
+  - { offset: 0x2D6FB, size: 0x8, addend: 0x0, symName: _aac_actionCardsBundle.bundle, symObjAddr: 0x2CA0, symBinAddr: 0x2203E0, symSize: 0x0 }
   - { offset: 0x2DC17, size: 0x8, addend: 0x0, symName: '+[NSBundle(AACBundle) aac_apiBaseUrl]', symObjAddr: 0x174, symBinAddr: 0x14448, symSize: 0x30 }
-  - { offset: 0x2DC40, size: 0x8, addend: 0x0, symName: _aac_apiBaseUrl.onceToken, symObjAddr: 0x2CF8, symBinAddr: 0x2203E8, symSize: 0x0 }
-  - { offset: 0x2DC55, size: 0x8, addend: 0x0, symName: _aac_apiBaseUrl.baseUrl, symObjAddr: 0x2D00, symBinAddr: 0x2203F0, symSize: 0x0 }
+  - { offset: 0x2DC40, size: 0x8, addend: 0x0, symName: _aac_apiBaseUrl.onceToken, symObjAddr: 0x2CA8, symBinAddr: 0x2203E8, symSize: 0x0 }
+  - { offset: 0x2DC55, size: 0x8, addend: 0x0, symName: _aac_apiBaseUrl.baseUrl, symObjAddr: 0x2CB0, symBinAddr: 0x2203F0, symSize: 0x0 }
   - { offset: 0x2DD1A, size: 0x8, addend: 0x0, symName: '+[NSBundle(AACBundle) aac_actionCardsBundle].cold.1', symObjAddr: 0x2CC, symBinAddr: 0x138A70, symSize: 0x14 }
   - { offset: 0x2DD35, size: 0x8, addend: 0x0, symName: '+[NSBundle(AACBundle) aac_actionCardsBundle].cold.1', symObjAddr: 0x2CC, symBinAddr: 0x138A70, symSize: 0x14 }
   - { offset: 0x2DD46, size: 0x8, addend: 0x0, symName: '___44+[NSBundle(AACBundle) aac_actionCardsBundle]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x14304, symSize: 0x3C }
@@ -862,11 +862,11 @@ relocations:
   - { offset: 0x3A614, size: 0x8, addend: 0x0, symName: '+[AACWSServerEvent eventTypeMapping]', symObjAddr: 0x0, symBinAddr: 0x185D4, symSize: 0x30 }
   - { offset: 0x3A62D, size: 0x8, addend: 0x0, symName: _kEventUnknownKey, symObjAddr: 0x8A0, symBinAddr: 0x1C8DC0, symSize: 0x0 }
   - { offset: 0x3A699, size: 0x8, addend: 0x0, symName: '+[AACWSServerEvent eventTypeMapping]', symObjAddr: 0x0, symBinAddr: 0x185D4, symSize: 0x30 }
-  - { offset: 0x3A6C2, size: 0x8, addend: 0x0, symName: _eventTypeMapping.onceToken, symObjAddr: 0x3140, symBinAddr: 0x2203F8, symSize: 0x0 }
-  - { offset: 0x3A6D7, size: 0x8, addend: 0x0, symName: _eventTypeMapping.mapping, symObjAddr: 0x3148, symBinAddr: 0x220400, symSize: 0x0 }
+  - { offset: 0x3A6C2, size: 0x8, addend: 0x0, symName: _eventTypeMapping.onceToken, symObjAddr: 0x3100, symBinAddr: 0x2203F8, symSize: 0x0 }
+  - { offset: 0x3A6D7, size: 0x8, addend: 0x0, symName: _eventTypeMapping.mapping, symObjAddr: 0x3108, symBinAddr: 0x220400, symSize: 0x0 }
   - { offset: 0x3A756, size: 0x8, addend: 0x0, symName: '+[AACWSServerEvent eventClassMapping]', symObjAddr: 0x1E4, symBinAddr: 0x187B8, symSize: 0x30 }
-  - { offset: 0x3A77F, size: 0x8, addend: 0x0, symName: _eventClassMapping.onceToken, symObjAddr: 0x3150, symBinAddr: 0x220408, symSize: 0x0 }
-  - { offset: 0x3A794, size: 0x8, addend: 0x0, symName: _eventClassMapping.mapping, symObjAddr: 0x3158, symBinAddr: 0x220410, symSize: 0x0 }
+  - { offset: 0x3A77F, size: 0x8, addend: 0x0, symName: _eventClassMapping.onceToken, symObjAddr: 0x3110, symBinAddr: 0x220408, symSize: 0x0 }
+  - { offset: 0x3A794, size: 0x8, addend: 0x0, symName: _eventClassMapping.mapping, symObjAddr: 0x3118, symBinAddr: 0x220410, symSize: 0x0 }
   - { offset: 0x3A8C7, size: 0x8, addend: 0x0, symName: '+[AACWSServerEvent eventTypeMapping].cold.1', symObjAddr: 0x5D4, symBinAddr: 0x138A98, symSize: 0x14 }
   - { offset: 0x3A8E2, size: 0x8, addend: 0x0, symName: '+[AACWSServerEvent eventTypeMapping].cold.1', symObjAddr: 0x5D4, symBinAddr: 0x138A98, symSize: 0x14 }
   - { offset: 0x3A8F3, size: 0x8, addend: 0x0, symName: '___36+[AACWSServerEvent eventTypeMapping]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x18604, symSize: 0x1B4 }
@@ -1013,8 +1013,8 @@ relocations:
   - { offset: 0x43E95, size: 0x8, addend: 0x0, symName: '-[AACRegistrationRequest .cxx_destruct]', symObjAddr: 0x110, symBinAddr: 0x1B3E4, symSize: 0x30 }
   - { offset: 0x43F17, size: 0x8, addend: 0x0, symName: '+[AACUserMetricsService sharedService]', symObjAddr: 0x0, symBinAddr: 0x1B414, symSize: 0x74 }
   - { offset: 0x43F24, size: 0x8, addend: 0x0, symName: '+[AACUserMetricsService sharedService]', symObjAddr: 0x0, symBinAddr: 0x1B414, symSize: 0x74 }
-  - { offset: 0x43F4D, size: 0x8, addend: 0x0, symName: _sharedService.onceToken, symObjAddr: 0x5BF8, symBinAddr: 0x220418, symSize: 0x0 }
-  - { offset: 0x43F62, size: 0x8, addend: 0x0, symName: _sharedService.sharedService, symObjAddr: 0x5C00, symBinAddr: 0x220420, symSize: 0x0 }
+  - { offset: 0x43F4D, size: 0x8, addend: 0x0, symName: _sharedService.onceToken, symObjAddr: 0x5A78, symBinAddr: 0x220418, symSize: 0x0 }
+  - { offset: 0x43F62, size: 0x8, addend: 0x0, symName: _sharedService.sharedService, symObjAddr: 0x5A80, symBinAddr: 0x220420, symSize: 0x0 }
   - { offset: 0x441F9, size: 0x8, addend: 0x0, symName: '___38+[AACUserMetricsService sharedService]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x1B488, symSize: 0x84 }
   - { offset: 0x44261, size: 0x8, addend: 0x0, symName: '-[AACUserMetricsService initWithMetricsApi:]', symObjAddr: 0xF8, symBinAddr: 0x1B50C, symSize: 0xDC }
   - { offset: 0x442A4, size: 0x8, addend: 0x0, symName: '-[AACUserMetricsService userMetricsWithCompletionHandler:]', symObjAddr: 0x1D4, symBinAddr: 0x1B5E8, symSize: 0xE0 }
@@ -1033,8 +1033,8 @@ relocations:
   - { offset: 0x446CF, size: 0x8, addend: 0x0, symName: '-[AACUserMetricsService .cxx_destruct]', symObjAddr: 0xAE8, symBinAddr: 0x1BE9C, symSize: 0x54 }
   - { offset: 0x44E31, size: 0x8, addend: 0x0, symName: '+[AACNotificationReceivedService sharedService]', symObjAddr: 0x0, symBinAddr: 0x1BEF0, symSize: 0x74 }
   - { offset: 0x44E3E, size: 0x8, addend: 0x0, symName: '+[AACNotificationReceivedService sharedService]', symObjAddr: 0x0, symBinAddr: 0x1BEF0, symSize: 0x74 }
-  - { offset: 0x44E67, size: 0x8, addend: 0x0, symName: _sharedService.onceToken, symObjAddr: 0x39A0, symBinAddr: 0x220428, symSize: 0x0 }
-  - { offset: 0x44E7C, size: 0x8, addend: 0x0, symName: _sharedService.sharedService, symObjAddr: 0x39A8, symBinAddr: 0x220430, symSize: 0x0 }
+  - { offset: 0x44E67, size: 0x8, addend: 0x0, symName: _sharedService.onceToken, symObjAddr: 0x3820, symBinAddr: 0x220428, symSize: 0x0 }
+  - { offset: 0x44E7C, size: 0x8, addend: 0x0, symName: _sharedService.sharedService, symObjAddr: 0x3828, symBinAddr: 0x220430, symSize: 0x0 }
   - { offset: 0x45069, size: 0x8, addend: 0x0, symName: '___47+[AACNotificationReceivedService sharedService]_block_invoke', symObjAddr: 0x74, symBinAddr: 0x1BF64, symSize: 0x84 }
   - { offset: 0x450D1, size: 0x8, addend: 0x0, symName: '-[AACNotificationReceivedService initWithNotificationReceivedApi:]', symObjAddr: 0xF8, symBinAddr: 0x1BFE8, symSize: 0xB4 }
   - { offset: 0x45114, size: 0x8, addend: 0x0, symName: '-[AACNotificationReceivedService sendNotificationReceivedRequest:completionHandler:]', symObjAddr: 0x1AC, symBinAddr: 0x1C09C, symSize: 0x74 }
@@ -1816,11 +1816,11 @@ relocations:
   - { offset: 0x7666F, size: 0x8, addend: 0x0, symName: '-[AACSessionCardAction .cxx_destruct]', symObjAddr: 0x254, symBinAddr: 0x3382C, symSize: 0x48 }
   - { offset: 0x76719, size: 0x8, addend: 0x0, symName: '+[AACCardFeedbackPresenter feedbackOptionsWithOther]', symObjAddr: 0x0, symBinAddr: 0x33874, symSize: 0x30 }
   - { offset: 0x76726, size: 0x8, addend: 0x0, symName: '+[AACCardFeedbackPresenter feedbackOptionsWithOther]', symObjAddr: 0x0, symBinAddr: 0x33874, symSize: 0x30 }
-  - { offset: 0x7674F, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithOther.onceToken, symObjAddr: 0x5228, symBinAddr: 0x220438, symSize: 0x0 }
-  - { offset: 0x76764, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithOther.options, symObjAddr: 0x5230, symBinAddr: 0x220440, symSize: 0x0 }
+  - { offset: 0x7674F, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithOther.onceToken, symObjAddr: 0x51A0, symBinAddr: 0x220438, symSize: 0x0 }
+  - { offset: 0x76764, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithOther.options, symObjAddr: 0x51A8, symBinAddr: 0x220440, symSize: 0x0 }
   - { offset: 0x7681F, size: 0x8, addend: 0x0, symName: '+[AACCardFeedbackPresenter feedbackOptionsWithoutOther]', symObjAddr: 0x124, symBinAddr: 0x33998, symSize: 0x30 }
-  - { offset: 0x76848, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithoutOther.onceToken, symObjAddr: 0x5238, symBinAddr: 0x220448, symSize: 0x0 }
-  - { offset: 0x7685D, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithoutOther.options, symObjAddr: 0x5240, symBinAddr: 0x220450, symSize: 0x0 }
+  - { offset: 0x76848, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithoutOther.onceToken, symObjAddr: 0x51B0, symBinAddr: 0x220448, symSize: 0x0 }
+  - { offset: 0x7685D, size: 0x8, addend: 0x0, symName: _feedbackOptionsWithoutOther.options, symObjAddr: 0x51B8, symBinAddr: 0x220450, symSize: 0x0 }
   - { offset: 0x76B1C, size: 0x8, addend: 0x0, symName: '+[AACCardFeedbackPresenter feedbackOptionsWithOther].cold.1', symObjAddr: 0xA74, symBinAddr: 0x138AC0, symSize: 0x14 }
   - { offset: 0x76B37, size: 0x8, addend: 0x0, symName: '+[AACCardFeedbackPresenter feedbackOptionsWithOther].cold.1', symObjAddr: 0xA74, symBinAddr: 0x138AC0, symSize: 0x14 }
   - { offset: 0x76B48, size: 0x8, addend: 0x0, symName: '___52+[AACCardFeedbackPresenter feedbackOptionsWithOther]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x338A4, symSize: 0xF4 }
@@ -1852,8 +1852,8 @@ relocations:
   - { offset: 0x770D7, size: 0x8, addend: 0x0, symName: '-[AACCardFeedbackPresenter .cxx_destruct]', symObjAddr: 0xA3C, symBinAddr: 0x342B0, symSize: 0x38 }
   - { offset: 0x77264, size: 0x8, addend: 0x0, symName: '-[AACSDKEventCardViewStateHelper initWithSDKEvent:]', symObjAddr: 0x0, symBinAddr: 0x342E8, symSize: 0x6C }
   - { offset: 0x77271, size: 0x8, addend: 0x0, symName: '+[AACSDKEventFactory eventMapping]', symObjAddr: 0x2BC, symBinAddr: 0x345A4, symSize: 0x30 }
-  - { offset: 0x7729A, size: 0x8, addend: 0x0, symName: _eventMapping.onceToken, symObjAddr: 0x13448, symBinAddr: 0x220458, symSize: 0x0 }
-  - { offset: 0x772AF, size: 0x8, addend: 0x0, symName: _eventMapping.eventMapping, symObjAddr: 0x13450, symBinAddr: 0x220460, symSize: 0x0 }
+  - { offset: 0x7729A, size: 0x8, addend: 0x0, symName: _eventMapping.onceToken, symObjAddr: 0x133F8, symBinAddr: 0x220458, symSize: 0x0 }
+  - { offset: 0x772AF, size: 0x8, addend: 0x0, symName: _eventMapping.eventMapping, symObjAddr: 0x13400, symBinAddr: 0x220460, symSize: 0x0 }
   - { offset: 0x78024, size: 0x8, addend: 0x0, symName: '-[AACSDKEventCardViewStateHelper initWithSDKEvent:]', symObjAddr: 0x0, symBinAddr: 0x342E8, symSize: 0x6C }
   - { offset: 0x78067, size: 0x8, addend: 0x0, symName: '-[AACSDKEventCardViewStateHelper cardViewState]', symObjAddr: 0x6C, symBinAddr: 0x34354, symSize: 0x88 }
   - { offset: 0x780AA, size: 0x8, addend: 0x0, symName: '-[AACSDKEventCardViewStateHelper subviewId]', symObjAddr: 0xF4, symBinAddr: 0x343DC, symSize: 0x88 }
@@ -1985,25 +1985,25 @@ relocations:
   - { offset: 0x7B2C4, size: 0x8, addend: 0x0, symName: '-[AACCardNodeListItem setAttributedStringCache:]', symObjAddr: 0x5A8, symBinAddr: 0x37770, symSize: 0x14 }
   - { offset: 0x7B301, size: 0x8, addend: 0x0, symName: '-[AACCardNodeListItem .cxx_destruct]', symObjAddr: 0x5BC, symBinAddr: 0x37784, symSize: 0xA4 }
   - { offset: 0x7B704, size: 0x8, addend: 0x0, symName: '-[AACMessageCentre init]', symObjAddr: 0x0, symBinAddr: 0x37828, symSize: 0x204 }
-  - { offset: 0x7B77B, size: 0x8, addend: 0x0, symName: _aacMessageCentreWebSocketsService, symObjAddr: 0x1CB60, symBinAddr: 0x220468, symSize: 0x0 }
-  - { offset: 0x7BB09, size: 0x8, addend: 0x0, symName: _aacMessageCentreApiKey, symObjAddr: 0x1CB68, symBinAddr: 0x220470, symSize: 0x0 }
-  - { offset: 0x7BB1E, size: 0x8, addend: 0x0, symName: _aacMessageCentreApiBaseURL, symObjAddr: 0x1CB70, symBinAddr: 0x220478, symSize: 0x0 }
-  - { offset: 0x7BB33, size: 0x8, addend: 0x0, symName: _aacMessageCentreEnvironmentId, symObjAddr: 0x1CB78, symBinAddr: 0x220480, symSize: 0x0 }
+  - { offset: 0x7B77B, size: 0x8, addend: 0x0, symName: _aacMessageCentreWebSocketsService, symObjAddr: 0x1C858, symBinAddr: 0x220468, symSize: 0x0 }
+  - { offset: 0x7BB09, size: 0x8, addend: 0x0, symName: _aacMessageCentreApiKey, symObjAddr: 0x1C860, symBinAddr: 0x220470, symSize: 0x0 }
+  - { offset: 0x7BB1E, size: 0x8, addend: 0x0, symName: _aacMessageCentreApiBaseURL, symObjAddr: 0x1C868, symBinAddr: 0x220478, symSize: 0x0 }
+  - { offset: 0x7BB33, size: 0x8, addend: 0x0, symName: _aacMessageCentreEnvironmentId, symObjAddr: 0x1C870, symBinAddr: 0x220480, symSize: 0x0 }
   - { offset: 0x7BB48, size: 0x8, addend: 0x0, symName: _AACWebSocketFallbackNotification, symObjAddr: 0x6FF8, symBinAddr: 0x1C9558, symSize: 0x0 }
   - { offset: 0x7BB62, size: 0x8, addend: 0x0, symName: _AACWebSocketAuthenticatedNotification, symObjAddr: 0x7000, symBinAddr: 0x1C9560, symSize: 0x0 }
   - { offset: 0x7BB77, size: 0x8, addend: 0x0, symName: _AACMessageCentreErrorDomain, symObjAddr: 0x7008, symBinAddr: 0x1C9568, symSize: 0x0 }
   - { offset: 0x7BB8C, size: 0x8, addend: 0x0, symName: _kAACMessageCentreUniversalSubscriptionId, symObjAddr: 0x7010, symBinAddr: 0x1C9570, symSize: 0x0 }
   - { offset: 0x7BBA1, size: 0x8, addend: 0x0, symName: _kAACMessageCentreRetryTimes, symObjAddr: 0x71A8, symBinAddr: 0x16F978, symSize: 0x0 }
   - { offset: 0x7BBAF, size: 0x8, addend: 0x0, symName: '+[AACMessageCentre messageCentreDispatchQueue]', symObjAddr: 0x204, symBinAddr: 0x37A2C, symSize: 0x30 }
-  - { offset: 0x7BBD8, size: 0x8, addend: 0x0, symName: _messageCentreDispatchQueue.onceToken, symObjAddr: 0x1CB80, symBinAddr: 0x220488, symSize: 0x0 }
-  - { offset: 0x7BBED, size: 0x8, addend: 0x0, symName: _messageCentreDispatchQueue.serialQueue, symObjAddr: 0x1CB88, symBinAddr: 0x220490, symSize: 0x0 }
+  - { offset: 0x7BBD8, size: 0x8, addend: 0x0, symName: _messageCentreDispatchQueue.onceToken, symObjAddr: 0x1C878, symBinAddr: 0x220488, symSize: 0x0 }
+  - { offset: 0x7BBED, size: 0x8, addend: 0x0, symName: _messageCentreDispatchQueue.serialQueue, symObjAddr: 0x1C880, symBinAddr: 0x220490, symSize: 0x0 }
   - { offset: 0x7BC5A, size: 0x8, addend: 0x0, symName: '+[AACMessageCentre webSocketDispatcher]', symObjAddr: 0x12D0, symBinAddr: 0x38AD4, symSize: 0x74 }
-  - { offset: 0x7BC86, size: 0x8, addend: 0x0, symName: _webSocketDispatcher.onceToken, symObjAddr: 0x1CBA0, symBinAddr: 0x2204A8, symSize: 0x0 }
-  - { offset: 0x7BC9D, size: 0x8, addend: 0x0, symName: _webSocketDispatcher.webSocketDispatcher, symObjAddr: 0x1CBA8, symBinAddr: 0x2204B0, symSize: 0x0 }
+  - { offset: 0x7BC86, size: 0x8, addend: 0x0, symName: _webSocketDispatcher.onceToken, symObjAddr: 0x1C898, symBinAddr: 0x2204A8, symSize: 0x0 }
+  - { offset: 0x7BC9D, size: 0x8, addend: 0x0, symName: _webSocketDispatcher.webSocketDispatcher, symObjAddr: 0x1C8A0, symBinAddr: 0x2204B0, symSize: 0x0 }
   - { offset: 0x7C06E, size: 0x8, addend: 0x0, symName: '+[AACMessageCentre setupWebSocketService:]', symObjAddr: 0x14B4, symBinAddr: 0x38CB8, symSize: 0x38C }
-  - { offset: 0x7C096, size: 0x8, addend: 0x0, symName: '_setupWebSocketService:.onceNotificationRegisterToken', symObjAddr: 0x1CBB0, symBinAddr: 0x2204B8, symSize: 0x0 }
-  - { offset: 0x7C177, size: 0x8, addend: 0x0, symName: _shouldReconnectWhenReturning, symObjAddr: 0x1CB90, symBinAddr: 0x220498, symSize: 0x0 }
-  - { offset: 0x7C194, size: 0x8, addend: 0x0, symName: _aacMessageCentreDefaultInitialCloseCode, symObjAddr: 0x1CB98, symBinAddr: 0x2204A0, symSize: 0x0 }
+  - { offset: 0x7C096, size: 0x8, addend: 0x0, symName: '_setupWebSocketService:.onceNotificationRegisterToken', symObjAddr: 0x1C8A8, symBinAddr: 0x2204B8, symSize: 0x0 }
+  - { offset: 0x7C177, size: 0x8, addend: 0x0, symName: _shouldReconnectWhenReturning, symObjAddr: 0x1C888, symBinAddr: 0x220498, symSize: 0x0 }
+  - { offset: 0x7C194, size: 0x8, addend: 0x0, symName: _aacMessageCentreDefaultInitialCloseCode, symObjAddr: 0x1C890, symBinAddr: 0x2204A0, symSize: 0x0 }
   - { offset: 0x7C443, size: 0x8, addend: 0x0, symName: '-[AACMessageCentre init]', symObjAddr: 0x0, symBinAddr: 0x37828, symSize: 0x204 }
   - { offset: 0x7C507, size: 0x8, addend: 0x0, symName: '+[AACMessageCentre messageCentreDispatchQueue].cold.1', symObjAddr: 0x5434, symBinAddr: 0x138AFC, symSize: 0x14 }
   - { offset: 0x7C522, size: 0x8, addend: 0x0, symName: '+[AACMessageCentre messageCentreDispatchQueue].cold.1', symObjAddr: 0x5434, symBinAddr: 0x138AFC, symSize: 0x14 }
@@ -2599,14 +2599,14 @@ relocations:
   - { offset: 0xAB03A, size: 0x8, addend: 0x0, symName: _AACCardNodeMediaHeightDynamic, symObjAddr: 0x1058, symBinAddr: 0x16F9D8, symSize: 0x0 }
   - { offset: 0xAB066, size: 0x8, addend: 0x0, symName: _AACCardNodeMediaHeightDynamicPlaceholder, symObjAddr: 0x1060, symBinAddr: 0x16F9E0, symSize: 0x0 }
   - { offset: 0xAB06F, size: 0x8, addend: 0x0, symName: '+[AACCardNodeMedia formatMapping]', symObjAddr: 0x0, symBinAddr: 0x4B404, symSize: 0x30 }
-  - { offset: 0xAB098, size: 0x8, addend: 0x0, symName: _formatMapping.onceToken, symObjAddr: 0x7F20, symBinAddr: 0x2204C0, symSize: 0x0 }
-  - { offset: 0xAB0AD, size: 0x8, addend: 0x0, symName: _formatMapping.formatMapping, symObjAddr: 0x7F28, symBinAddr: 0x2204C8, symSize: 0x0 }
+  - { offset: 0xAB098, size: 0x8, addend: 0x0, symName: _formatMapping.onceToken, symObjAddr: 0x7E90, symBinAddr: 0x2204C0, symSize: 0x0 }
+  - { offset: 0xAB0AD, size: 0x8, addend: 0x0, symName: _formatMapping.formatMapping, symObjAddr: 0x7E98, symBinAddr: 0x2204C8, symSize: 0x0 }
   - { offset: 0xAB168, size: 0x8, addend: 0x0, symName: '+[AACCardNodeMedia actionTypeMapping]', symObjAddr: 0x17C, symBinAddr: 0x4B580, symSize: 0x30 }
-  - { offset: 0xAB191, size: 0x8, addend: 0x0, symName: _actionTypeMapping.onceToken, symObjAddr: 0x7F30, symBinAddr: 0x2204D0, symSize: 0x0 }
-  - { offset: 0xAB1A6, size: 0x8, addend: 0x0, symName: _actionTypeMapping.actionTypeMapping, symObjAddr: 0x7F38, symBinAddr: 0x2204D8, symSize: 0x0 }
+  - { offset: 0xAB191, size: 0x8, addend: 0x0, symName: _actionTypeMapping.onceToken, symObjAddr: 0x7EA0, symBinAddr: 0x2204D0, symSize: 0x0 }
+  - { offset: 0xAB1A6, size: 0x8, addend: 0x0, symName: _actionTypeMapping.actionTypeMapping, symObjAddr: 0x7EA8, symBinAddr: 0x2204D8, symSize: 0x0 }
   - { offset: 0xAB1DB, size: 0x8, addend: 0x0, symName: '+[AACCardNodeMedia heightTypeMapping]', symObjAddr: 0x330, symBinAddr: 0x4B734, symSize: 0x30 }
-  - { offset: 0xAB204, size: 0x8, addend: 0x0, symName: _heightTypeMapping.onceToken, symObjAddr: 0x7F40, symBinAddr: 0x2204E0, symSize: 0x0 }
-  - { offset: 0xAB219, size: 0x8, addend: 0x0, symName: _heightTypeMapping.mapping, symObjAddr: 0x7F48, symBinAddr: 0x2204E8, symSize: 0x0 }
+  - { offset: 0xAB204, size: 0x8, addend: 0x0, symName: _heightTypeMapping.onceToken, symObjAddr: 0x7EB0, symBinAddr: 0x2204E0, symSize: 0x0 }
+  - { offset: 0xAB219, size: 0x8, addend: 0x0, symName: _heightTypeMapping.mapping, symObjAddr: 0x7EB8, symBinAddr: 0x2204E8, symSize: 0x0 }
   - { offset: 0xAB98D, size: 0x8, addend: 0x0, symName: '+[AACCardNodeMedia formatMapping].cold.1', symObjAddr: 0x101C, symBinAddr: 0x138B10, symSize: 0x14 }
   - { offset: 0xAB9A8, size: 0x8, addend: 0x0, symName: '+[AACCardNodeMedia formatMapping].cold.1', symObjAddr: 0x101C, symBinAddr: 0x138B10, symSize: 0x14 }
   - { offset: 0xAB9B9, size: 0x8, addend: 0x0, symName: '___33+[AACCardNodeMedia formatMapping]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x4B434, symSize: 0x14C }
@@ -2656,8 +2656,8 @@ relocations:
   - { offset: 0xAC3BA, size: 0x8, addend: 0x0, symName: '-[AACCardNodeMedia .cxx_destruct]', symObjAddr: 0xF14, symBinAddr: 0x4C318, symSize: 0x108 }
   - { offset: 0xAC58B, size: 0x8, addend: 0x0, symName: '+[NSString(AACVariableReplacement) aac_variableRegularExpression]', symObjAddr: 0x0, symBinAddr: 0x4C420, symSize: 0x30 }
   - { offset: 0xAC598, size: 0x8, addend: 0x0, symName: '+[NSString(AACVariableReplacement) aac_variableRegularExpression]', symObjAddr: 0x0, symBinAddr: 0x4C420, symSize: 0x30 }
-  - { offset: 0xAC5C1, size: 0x8, addend: 0x0, symName: _aac_variableRegularExpression.onceToken, symObjAddr: 0x2C20, symBinAddr: 0x2204F0, symSize: 0x0 }
-  - { offset: 0xAC5D6, size: 0x8, addend: 0x0, symName: _aac_variableRegularExpression.regex, symObjAddr: 0x2C28, symBinAddr: 0x2204F8, symSize: 0x0 }
+  - { offset: 0xAC5C1, size: 0x8, addend: 0x0, symName: _aac_variableRegularExpression.onceToken, symObjAddr: 0x2BD0, symBinAddr: 0x2204F0, symSize: 0x0 }
+  - { offset: 0xAC5D6, size: 0x8, addend: 0x0, symName: _aac_variableRegularExpression.regex, symObjAddr: 0x2BD8, symBinAddr: 0x2204F8, symSize: 0x0 }
   - { offset: 0xAC887, size: 0x8, addend: 0x0, symName: '+[NSString(AACVariableReplacement) aac_variableRegularExpression].cold.1', symObjAddr: 0x3EC, symBinAddr: 0x138B4C, symSize: 0x14 }
   - { offset: 0xAC8A2, size: 0x8, addend: 0x0, symName: '+[NSString(AACVariableReplacement) aac_variableRegularExpression].cold.1', symObjAddr: 0x3EC, symBinAddr: 0x138B4C, symSize: 0x14 }
   - { offset: 0xAC8B3, size: 0x8, addend: 0x0, symName: '___65+[NSString(AACVariableReplacement) aac_variableRegularExpression]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x4C450, symSize: 0x44 }
@@ -2755,11 +2755,11 @@ relocations:
   - { offset: 0xB2E99, size: 0x8, addend: 0x0, symName: _AACServiceBaseUrlDidChangeNotification, symObjAddr: 0x5E0, symBinAddr: 0x1C9880, symSize: 0x0 }
   - { offset: 0xB2EB3, size: 0x8, addend: 0x0, symName: _AACServiceBaseUrlDidChangeNewUrlKey, symObjAddr: 0x5E8, symBinAddr: 0x1C9888, symSize: 0x0 }
   - { offset: 0xB2EC8, size: 0x8, addend: 0x0, symName: _AACServiceErrorDomain, symObjAddr: 0x5F0, symBinAddr: 0x1C9890, symSize: 0x0 }
-  - { offset: 0xB2EDD, size: 0x8, addend: 0x0, symName: _AuthenticationService, symObjAddr: 0x3D08, symBinAddr: 0x220500, symSize: 0x0 }
-  - { offset: 0xB2F25, size: 0x8, addend: 0x0, symName: _manualApiBaseUrl, symObjAddr: 0x3D10, symBinAddr: 0x220508, symSize: 0x0 }
+  - { offset: 0xB2EDD, size: 0x8, addend: 0x0, symName: _AuthenticationService, symObjAddr: 0x3BC8, symBinAddr: 0x220500, symSize: 0x0 }
+  - { offset: 0xB2F25, size: 0x8, addend: 0x0, symName: _manualApiBaseUrl, symObjAddr: 0x3BD0, symBinAddr: 0x220508, symSize: 0x0 }
   - { offset: 0xB3226, size: 0x8, addend: 0x0, symName: '+[AACService activeServices]', symObjAddr: 0x0, symBinAddr: 0x4E6FC, symSize: 0x30 }
-  - { offset: 0xB324F, size: 0x8, addend: 0x0, symName: _activeServices.onceToken, symObjAddr: 0x3D18, symBinAddr: 0x220510, symSize: 0x0 }
-  - { offset: 0xB3264, size: 0x8, addend: 0x0, symName: _activeServices.pointerArray, symObjAddr: 0x3D20, symBinAddr: 0x220518, symSize: 0x0 }
+  - { offset: 0xB324F, size: 0x8, addend: 0x0, symName: _activeServices.onceToken, symObjAddr: 0x3BD8, symBinAddr: 0x220510, symSize: 0x0 }
+  - { offset: 0xB3264, size: 0x8, addend: 0x0, symName: _activeServices.pointerArray, symObjAddr: 0x3BE0, symBinAddr: 0x220518, symSize: 0x0 }
   - { offset: 0xB3480, size: 0x8, addend: 0x0, symName: '+[AACService activeServices].cold.1', symObjAddr: 0x438, symBinAddr: 0x138B60, symSize: 0x14 }
   - { offset: 0xB349B, size: 0x8, addend: 0x0, symName: '+[AACService activeServices].cold.1', symObjAddr: 0x438, symBinAddr: 0x138B60, symSize: 0x14 }
   - { offset: 0xB34AC, size: 0x8, addend: 0x0, symName: '___28+[AACService activeServices]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x4E72C, symSize: 0x34 }
@@ -2876,11 +2876,11 @@ relocations:
   - { offset: 0xBCCDB, size: 0x8, addend: 0x0, symName: '+[AACFontRegistry sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x534AC, symSize: 0x30 }
   - { offset: 0xBCD52, size: 0x8, addend: 0x0, symName: _kAACFontRegistryDidRegisterNewFontNotification, symObjAddr: 0x2050, symBinAddr: 0x1C98C0, symSize: 0x0 }
   - { offset: 0xBCD60, size: 0x8, addend: 0x0, symName: '+[AACFontRegistry sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x534AC, symSize: 0x30 }
-  - { offset: 0xBCD89, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC3A8, symBinAddr: 0x220520, symSize: 0x0 }
-  - { offset: 0xBCD9E, size: 0x8, addend: 0x0, symName: _sharedInstance.registry, symObjAddr: 0xC3B0, symBinAddr: 0x220528, symSize: 0x0 }
+  - { offset: 0xBCD89, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0xC0E8, symBinAddr: 0x220520, symSize: 0x0 }
+  - { offset: 0xBCD9E, size: 0x8, addend: 0x0, symName: _sharedInstance.registry, symObjAddr: 0xC0F0, symBinAddr: 0x220528, symSize: 0x0 }
   - { offset: 0xBCE5C, size: 0x8, addend: 0x0, symName: '+[AACFontRegistry sharedFontDownloadQueue]', symObjAddr: 0xD8, symBinAddr: 0x53584, symSize: 0x30 }
-  - { offset: 0xBCE85, size: 0x8, addend: 0x0, symName: _sharedFontDownloadQueue.onceToken, symObjAddr: 0xC3B8, symBinAddr: 0x220530, symSize: 0x0 }
-  - { offset: 0xBCE9A, size: 0x8, addend: 0x0, symName: _sharedFontDownloadQueue.operationQueue, symObjAddr: 0xC3C0, symBinAddr: 0x220538, symSize: 0x0 }
+  - { offset: 0xBCE85, size: 0x8, addend: 0x0, symName: _sharedFontDownloadQueue.onceToken, symObjAddr: 0xC0F8, symBinAddr: 0x220530, symSize: 0x0 }
+  - { offset: 0xBCE9A, size: 0x8, addend: 0x0, symName: _sharedFontDownloadQueue.operationQueue, symObjAddr: 0xC100, symBinAddr: 0x220538, symSize: 0x0 }
   - { offset: 0xBD7C7, size: 0x8, addend: 0x0, symName: '+[AACFontRegistry sharedInstance].cold.1', symObjAddr: 0x1B44, symBinAddr: 0x138B74, symSize: 0x14 }
   - { offset: 0xBD7E2, size: 0x8, addend: 0x0, symName: '+[AACFontRegistry sharedInstance].cold.1', symObjAddr: 0x1B44, symBinAddr: 0x138B74, symSize: 0x14 }
   - { offset: 0xBD7F3, size: 0x8, addend: 0x0, symName: '___33+[AACFontRegistry sharedInstance]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x534DC, symSize: 0x30 }
@@ -3492,24 +3492,24 @@ relocations:
   - { offset: 0xD0096, size: 0x8, addend: 0x0, symName: _AACSessionUpdateUserErrorDomain, symObjAddr: 0x82D8, symBinAddr: 0x1C99C8, symSize: 0x0 }
   - { offset: 0xD00AB, size: 0x8, addend: 0x0, symName: _AACSessionCardActionsErrorDomain, symObjAddr: 0x82E0, symBinAddr: 0x1C99D0, symSize: 0x0 }
   - { offset: 0xD00C0, size: 0x8, addend: 0x0, symName: _maximumVersionStringLength, symObjAddr: 0x85F0, symBinAddr: 0x16FA30, symSize: 0x0 }
-  - { offset: 0xD00DA, size: 0x8, addend: 0x0, symName: _AACSessionEnvironmentId, symObjAddr: 0x21658, symBinAddr: 0x220540, symSize: 0x0 }
-  - { offset: 0xD00EF, size: 0x8, addend: 0x0, symName: _AACSessionApiKey, symObjAddr: 0x21660, symBinAddr: 0x220548, symSize: 0x0 }
+  - { offset: 0xD00DA, size: 0x8, addend: 0x0, symName: _AACSessionEnvironmentId, symObjAddr: 0x21268, symBinAddr: 0x220540, symSize: 0x0 }
+  - { offset: 0xD00EF, size: 0x8, addend: 0x0, symName: _AACSessionApiKey, symObjAddr: 0x21270, symBinAddr: 0x220548, symSize: 0x0 }
   - { offset: 0xD0104, size: 0x8, addend: 0x0, symName: _AACSessionClientAPPVersion, symObjAddr: 0x85F8, symBinAddr: 0x21AE40, symSize: 0x0 }
-  - { offset: 0xD0119, size: 0x8, addend: 0x0, symName: _AACSessionCustomUserIdKeyName, symObjAddr: 0x21668, symBinAddr: 0x220550, symSize: 0x0 }
+  - { offset: 0xD0119, size: 0x8, addend: 0x0, symName: _AACSessionCustomUserIdKeyName, symObjAddr: 0x21278, symBinAddr: 0x220550, symSize: 0x0 }
   - { offset: 0xD012E, size: 0x8, addend: 0x0, symName: _AACSessionLogoutNotification, symObjAddr: 0x82E8, symBinAddr: 0x1C99D8, symSize: 0x0 }
   - { offset: 0xD0137, size: 0x8, addend: 0x0, symName: '+[AACSession initialize]', symObjAddr: 0x0, symBinAddr: 0x5E474, symSize: 0x28 }
-  - { offset: 0xD015C, size: 0x8, addend: 0x0, symName: _initialize.onceToken, symObjAddr: 0x21670, symBinAddr: 0x220558, symSize: 0x0 }
+  - { offset: 0xD015C, size: 0x8, addend: 0x0, symName: _initialize.onceToken, symObjAddr: 0x21280, symBinAddr: 0x220558, symSize: 0x0 }
   - { offset: 0xD01B9, size: 0x8, addend: 0x0, symName: '+[AACSession streamContainerObservers]', symObjAddr: 0xE4, symBinAddr: 0x5E558, symSize: 0x30 }
-  - { offset: 0xD01E2, size: 0x8, addend: 0x0, symName: _streamContainerObservers.onceToken, symObjAddr: 0x21688, symBinAddr: 0x220570, symSize: 0x0 }
-  - { offset: 0xD01F7, size: 0x8, addend: 0x0, symName: _streamContainerObservers.observations, symObjAddr: 0x21690, symBinAddr: 0x220578, symSize: 0x0 }
+  - { offset: 0xD01E2, size: 0x8, addend: 0x0, symName: _streamContainerObservers.onceToken, symObjAddr: 0x21298, symBinAddr: 0x220570, symSize: 0x0 }
+  - { offset: 0xD01F7, size: 0x8, addend: 0x0, symName: _streamContainerObservers.observations, symObjAddr: 0x212A0, symBinAddr: 0x220578, symSize: 0x0 }
   - { offset: 0xD025E, size: 0x8, addend: 0x0, symName: '+[AACSession cardCountObservers]', symObjAddr: 0x144, symBinAddr: 0x5E5B8, symSize: 0x30 }
-  - { offset: 0xD0287, size: 0x8, addend: 0x0, symName: _cardCountObservers.onceToken, symObjAddr: 0x21698, symBinAddr: 0x220580, symSize: 0x0 }
-  - { offset: 0xD029C, size: 0x8, addend: 0x0, symName: _cardCountObservers.observations, symObjAddr: 0x216A0, symBinAddr: 0x220588, symSize: 0x0 }
-  - { offset: 0xD02DD, size: 0x8, addend: 0x0, symName: _embeddedFontList, symObjAddr: 0x216B0, symBinAddr: 0x220598, symSize: 0x0 }
-  - { offset: 0xD0324, size: 0x8, addend: 0x0, symName: _sdkEventObserver, symObjAddr: 0x216B8, symBinAddr: 0x2205A0, symSize: 0x0 }
-  - { offset: 0xD036C, size: 0x8, addend: 0x0, symName: _currentApiProtocol, symObjAddr: 0x216A8, symBinAddr: 0x220590, symSize: 0x0 }
-  - { offset: 0xD03A8, size: 0x8, addend: 0x0, symName: _AACSessionLockObject, symObjAddr: 0x21678, symBinAddr: 0x220560, symSize: 0x0 }
-  - { offset: 0xD03C2, size: 0x8, addend: 0x0, symName: _AACSessionCurrentStatus, symObjAddr: 0x21680, symBinAddr: 0x220568, symSize: 0x0 }
+  - { offset: 0xD0287, size: 0x8, addend: 0x0, symName: _cardCountObservers.onceToken, symObjAddr: 0x212A8, symBinAddr: 0x220580, symSize: 0x0 }
+  - { offset: 0xD029C, size: 0x8, addend: 0x0, symName: _cardCountObservers.observations, symObjAddr: 0x212B0, symBinAddr: 0x220588, symSize: 0x0 }
+  - { offset: 0xD02DD, size: 0x8, addend: 0x0, symName: _embeddedFontList, symObjAddr: 0x212C0, symBinAddr: 0x220598, symSize: 0x0 }
+  - { offset: 0xD0324, size: 0x8, addend: 0x0, symName: _sdkEventObserver, symObjAddr: 0x212C8, symBinAddr: 0x2205A0, symSize: 0x0 }
+  - { offset: 0xD036C, size: 0x8, addend: 0x0, symName: _currentApiProtocol, symObjAddr: 0x212B8, symBinAddr: 0x220590, symSize: 0x0 }
+  - { offset: 0xD03A8, size: 0x8, addend: 0x0, symName: _AACSessionLockObject, symObjAddr: 0x21288, symBinAddr: 0x220560, symSize: 0x0 }
+  - { offset: 0xD03C2, size: 0x8, addend: 0x0, symName: _AACSessionCurrentStatus, symObjAddr: 0x21290, symBinAddr: 0x220568, symSize: 0x0 }
   - { offset: 0xD0B5B, size: 0x8, addend: 0x0, symName: '+[AACSession initialize].cold.1', symObjAddr: 0x5914, symBinAddr: 0x138B9C, symSize: 0x14 }
   - { offset: 0xD0B76, size: 0x8, addend: 0x0, symName: '+[AACSession initialize].cold.1', symObjAddr: 0x5914, symBinAddr: 0x138B9C, symSize: 0x14 }
   - { offset: 0xD0B87, size: 0x8, addend: 0x0, symName: '___24+[AACSession initialize]_block_invoke', symObjAddr: 0x28, symBinAddr: 0x5E49C, symSize: 0x30 }
@@ -3660,8 +3660,8 @@ relocations:
   - { offset: 0xDACFE, size: 0x8, addend: 0x0, symName: '+[AACThemeService sharedWriteQueue]', symObjAddr: 0x0, symBinAddr: 0x64FE0, symSize: 0x30 }
   - { offset: 0xDAD75, size: 0x8, addend: 0x0, symName: _AACThemeServiceErrorDomain, symObjAddr: 0x15E8, symBinAddr: 0x1C9CF0, symSize: 0x0 }
   - { offset: 0xDAD83, size: 0x8, addend: 0x0, symName: '+[AACThemeService sharedWriteQueue]', symObjAddr: 0x0, symBinAddr: 0x64FE0, symSize: 0x30 }
-  - { offset: 0xDADAC, size: 0x8, addend: 0x0, symName: _sharedWriteQueue.onceToken, symObjAddr: 0x9E80, symBinAddr: 0x2205A8, symSize: 0x0 }
-  - { offset: 0xDADC1, size: 0x8, addend: 0x0, symName: _sharedWriteQueue.operationQueue, symObjAddr: 0x9E88, symBinAddr: 0x2205B0, symSize: 0x0 }
+  - { offset: 0xDADAC, size: 0x8, addend: 0x0, symName: _sharedWriteQueue.onceToken, symObjAddr: 0x9C80, symBinAddr: 0x2205A8, symSize: 0x0 }
+  - { offset: 0xDADC1, size: 0x8, addend: 0x0, symName: _sharedWriteQueue.operationQueue, symObjAddr: 0x9C88, symBinAddr: 0x2205B0, symSize: 0x0 }
   - { offset: 0xDB5D9, size: 0x8, addend: 0x0, symName: '+[AACThemeService sharedWriteQueue].cold.1', symObjAddr: 0x10C4, symBinAddr: 0x138BD8, symSize: 0x14 }
   - { offset: 0xDB5F4, size: 0x8, addend: 0x0, symName: '+[AACThemeService sharedWriteQueue].cold.1', symObjAddr: 0x10C4, symBinAddr: 0x138BD8, symSize: 0x14 }
   - { offset: 0xDB605, size: 0x8, addend: 0x0, symName: '___35+[AACThemeService sharedWriteQueue]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x65010, symSize: 0x44 }
@@ -3924,11 +3924,11 @@ relocations:
   - { offset: 0xF2D15, size: 0x8, addend: 0x0, symName: '+[AACAnalyticsQueue sharedQueue]', symObjAddr: 0x0, symBinAddr: 0x6C628, symSize: 0x30 }
   - { offset: 0xF2D8C, size: 0x8, addend: 0x0, symName: _maxEventQueueSize, symObjAddr: 0x3510, symBinAddr: 0x16FA68, symSize: 0x0 }
   - { offset: 0xF2DAC, size: 0x8, addend: 0x0, symName: '+[AACAnalyticsQueue sharedQueue]', symObjAddr: 0x0, symBinAddr: 0x6C628, symSize: 0x30 }
-  - { offset: 0xF2DD5, size: 0x8, addend: 0x0, symName: _sharedQueue.onceToken, symObjAddr: 0x10698, symBinAddr: 0x2205B8, symSize: 0x0 }
-  - { offset: 0xF2DEA, size: 0x8, addend: 0x0, symName: _sharedQueue.queue, symObjAddr: 0x106A0, symBinAddr: 0x2205C0, symSize: 0x0 }
+  - { offset: 0xF2DD5, size: 0x8, addend: 0x0, symName: _sharedQueue.onceToken, symObjAddr: 0x10370, symBinAddr: 0x2205B8, symSize: 0x0 }
+  - { offset: 0xF2DEA, size: 0x8, addend: 0x0, symName: _sharedQueue.queue, symObjAddr: 0x10378, symBinAddr: 0x2205C0, symSize: 0x0 }
   - { offset: 0xF2F3A, size: 0x8, addend: 0x0, symName: '+[AACAnalyticsQueue analyticsDispatchQueue]', symObjAddr: 0x60, symBinAddr: 0x6C688, symSize: 0x30 }
-  - { offset: 0xF2F63, size: 0x8, addend: 0x0, symName: _analyticsDispatchQueue.onceToken, symObjAddr: 0x106A8, symBinAddr: 0x2205C8, symSize: 0x0 }
-  - { offset: 0xF2F78, size: 0x8, addend: 0x0, symName: _analyticsDispatchQueue.serialQueue, symObjAddr: 0x106B0, symBinAddr: 0x2205D0, symSize: 0x0 }
+  - { offset: 0xF2F63, size: 0x8, addend: 0x0, symName: _analyticsDispatchQueue.onceToken, symObjAddr: 0x10380, symBinAddr: 0x2205C8, symSize: 0x0 }
+  - { offset: 0xF2F78, size: 0x8, addend: 0x0, symName: _analyticsDispatchQueue.serialQueue, symObjAddr: 0x10388, symBinAddr: 0x2205D0, symSize: 0x0 }
   - { offset: 0xF3119, size: 0x8, addend: 0x0, symName: '+[AACAnalyticsQueue sharedQueue].cold.1', symObjAddr: 0x2B48, symBinAddr: 0x138BEC, symSize: 0x14 }
   - { offset: 0xF3134, size: 0x8, addend: 0x0, symName: '+[AACAnalyticsQueue sharedQueue].cold.1', symObjAddr: 0x2B48, symBinAddr: 0x138BEC, symSize: 0x14 }
   - { offset: 0xF3145, size: 0x8, addend: 0x0, symName: '___32+[AACAnalyticsQueue sharedQueue]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x6C658, symSize: 0x30 }
@@ -3988,8 +3988,8 @@ relocations:
   - { offset: 0xF4469, size: 0x8, addend: 0x0, symName: '-[AACAnalyticsQueue .cxx_destruct]', symObjAddr: 0x2B0C, symBinAddr: 0x6F080, symSize: 0x3C }
   - { offset: 0xF5670, size: 0x8, addend: 0x0, symName: '+[AACSharedAnalyticsStore setTestPendingDirectoryURLOverride:]', symObjAddr: 0x0, symBinAddr: 0x6F0BC, symSize: 0x74 }
   - { offset: 0xF5689, size: 0x8, addend: 0x0, symName: _kAACSharedAnalyticsStoreMaxFiles, symObjAddr: 0xA38, symBinAddr: 0x16FA78, symSize: 0x0 }
-  - { offset: 0xF5718, size: 0x8, addend: 0x0, symName: _sTestPendingDirectoryURLOverride, symObjAddr: 0x3EE8, symBinAddr: 0x2205D8, symSize: 0x0 }
-  - { offset: 0xF5A25, size: 0x8, addend: 0x0, symName: _sTestAppGroupIdentifierOverride, symObjAddr: 0x3EF0, symBinAddr: 0x2205E0, symSize: 0x0 }
+  - { offset: 0xF5718, size: 0x8, addend: 0x0, symName: _sTestPendingDirectoryURLOverride, symObjAddr: 0x3EA0, symBinAddr: 0x2205D8, symSize: 0x0 }
+  - { offset: 0xF5A25, size: 0x8, addend: 0x0, symName: _sTestAppGroupIdentifierOverride, symObjAddr: 0x3EA8, symBinAddr: 0x2205E0, symSize: 0x0 }
   - { offset: 0xF5A39, size: 0x8, addend: 0x0, symName: '+[AACSharedAnalyticsStore setTestPendingDirectoryURLOverride:]', symObjAddr: 0x0, symBinAddr: 0x6F0BC, symSize: 0x74 }
   - { offset: 0xF5A74, size: 0x8, addend: 0x0, symName: '+[AACSharedAnalyticsStore setTestAppGroupIdentifierOverride:]', symObjAddr: 0x74, symBinAddr: 0x6F130, symSize: 0x28 }
   - { offset: 0xF5AAF, size: 0x8, addend: 0x0, symName: '+[AACSharedAnalyticsStore appGroupIdentifierFromMainBundle]', symObjAddr: 0x9C, symBinAddr: 0x6F158, symSize: 0xD8 }
@@ -4075,8 +4075,8 @@ relocations:
   - { offset: 0xFAF47, size: 0x8, addend: 0x0, symName: '-[AACFontFamily .cxx_destruct]', symObjAddr: 0x1CC, symBinAddr: 0x71E2C, symSize: 0x30 }
   - { offset: 0xFB000, size: 0x8, addend: 0x0, symName: '-[AACSwiftUISession init]', symObjAddr: 0x0, symBinAddr: 0x71E5C, symSize: 0xA4 }
   - { offset: 0xFB00D, size: 0x8, addend: 0x0, symName: '+[AACSwiftUISession sharedSession]', symObjAddr: 0xA4, symBinAddr: 0x71F00, symSize: 0x30 }
-  - { offset: 0xFB036, size: 0x8, addend: 0x0, symName: _sharedSession.onceToken, symObjAddr: 0x9C20, symBinAddr: 0x2205E8, symSize: 0x0 }
-  - { offset: 0xFB04B, size: 0x8, addend: 0x0, symName: _sharedSession.session, symObjAddr: 0x9C28, symBinAddr: 0x2205F0, symSize: 0x0 }
+  - { offset: 0xFB036, size: 0x8, addend: 0x0, symName: _sharedSession.onceToken, symObjAddr: 0x98C8, symBinAddr: 0x2205E8, symSize: 0x0 }
+  - { offset: 0xFB04B, size: 0x8, addend: 0x0, symName: _sharedSession.session, symObjAddr: 0x98D0, symBinAddr: 0x2205F0, symSize: 0x0 }
   - { offset: 0xFB2E9, size: 0x8, addend: 0x0, symName: '-[AACSwiftUISession init]', symObjAddr: 0x0, symBinAddr: 0x71E5C, symSize: 0xA4 }
   - { offset: 0xFB3B4, size: 0x8, addend: 0x0, symName: '+[AACSwiftUISession sharedSession].cold.1', symObjAddr: 0xBA4, symBinAddr: 0x138C14, symSize: 0x14 }
   - { offset: 0xFB3CF, size: 0x8, addend: 0x0, symName: '+[AACSwiftUISession sharedSession].cold.1', symObjAddr: 0xBA4, symBinAddr: 0x138C14, symSize: 0x14 }
@@ -4254,8 +4254,8 @@ relocations:
   - { offset: 0x10C897, size: 0x8, addend: 0x0, symName: '-[AACListScrimView .cxx_destruct]', symObjAddr: 0x1FB8, symBinAddr: 0x77394, symSize: 0x12C }
   - { offset: 0x10D2F9, size: 0x8, addend: 0x0, symName: '+[NSDateFormatter(AACFormatters) aac_shortDayMonthYearFormatter]', symObjAddr: 0x0, symBinAddr: 0x774C0, symSize: 0x30 }
   - { offset: 0x10D306, size: 0x8, addend: 0x0, symName: '+[NSDateFormatter(AACFormatters) aac_shortDayMonthYearFormatter]', symObjAddr: 0x0, symBinAddr: 0x774C0, symSize: 0x30 }
-  - { offset: 0x10D32F, size: 0x8, addend: 0x0, symName: _aac_shortDayMonthYearFormatter.onceToken, symObjAddr: 0x22C0, symBinAddr: 0x2205F8, symSize: 0x0 }
-  - { offset: 0x10D344, size: 0x8, addend: 0x0, symName: _aac_shortDayMonthYearFormatter.formatter, symObjAddr: 0x22C8, symBinAddr: 0x220600, symSize: 0x0 }
+  - { offset: 0x10D32F, size: 0x8, addend: 0x0, symName: _aac_shortDayMonthYearFormatter.onceToken, symObjAddr: 0x2278, symBinAddr: 0x2205F8, symSize: 0x0 }
+  - { offset: 0x10D344, size: 0x8, addend: 0x0, symName: _aac_shortDayMonthYearFormatter.formatter, symObjAddr: 0x2280, symBinAddr: 0x220600, symSize: 0x0 }
   - { offset: 0x10D9FA, size: 0x8, addend: 0x0, symName: '+[NSDateFormatter(AACFormatters) aac_shortDayMonthYearFormatter].cold.1', symObjAddr: 0x78, symBinAddr: 0x138C28, symSize: 0x14 }
   - { offset: 0x10DA15, size: 0x8, addend: 0x0, symName: '+[NSDateFormatter(AACFormatters) aac_shortDayMonthYearFormatter].cold.1', symObjAddr: 0x78, symBinAddr: 0x138C28, symSize: 0x14 }
   - { offset: 0x10DA26, size: 0x8, addend: 0x0, symName: '___64+[NSDateFormatter(AACFormatters) aac_shortDayMonthYearFormatter]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x774F0, symSize: 0x48 }
@@ -4415,17 +4415,17 @@ relocations:
   - { offset: 0x11A6CD, size: 0x8, addend: 0x0, symName: _kJWTFetchingTimeOut, symObjAddr: 0x1C98, symBinAddr: 0x21B450, symSize: 0x0 }
   - { offset: 0x11A6E2, size: 0x8, addend: 0x0, symName: _AACAuthTokenServiceErrorDomain, symObjAddr: 0x25D0, symBinAddr: 0x1CA208, symSize: 0x0 }
   - { offset: 0x11A6F0, size: 0x8, addend: 0x0, symName: '+[AACAuthService userIdDispatchQueue]', symObjAddr: 0x0, symBinAddr: 0x7D350, symSize: 0x30 }
-  - { offset: 0x11A719, size: 0x8, addend: 0x0, symName: _userIdDispatchQueue.onceToken, symObjAddr: 0xE040, symBinAddr: 0x220608, symSize: 0x0 }
-  - { offset: 0x11A72E, size: 0x8, addend: 0x0, symName: _userIdDispatchQueue.concurrentQueue, symObjAddr: 0xE048, symBinAddr: 0x220610, symSize: 0x0 }
+  - { offset: 0x11A719, size: 0x8, addend: 0x0, symName: _userIdDispatchQueue.onceToken, symObjAddr: 0xDD40, symBinAddr: 0x220608, symSize: 0x0 }
+  - { offset: 0x11A72E, size: 0x8, addend: 0x0, symName: _userIdDispatchQueue.concurrentQueue, symObjAddr: 0xDD48, symBinAddr: 0x220610, symSize: 0x0 }
   - { offset: 0x11A7A9, size: 0x8, addend: 0x0, symName: '+[AACAuthService initialiseEventSemaphore]', symObjAddr: 0x994, symBinAddr: 0x7DC24, symSize: 0x30 }
-  - { offset: 0x11A7D2, size: 0x8, addend: 0x0, symName: _initialiseEventSemaphore.onceToken, symObjAddr: 0xE050, symBinAddr: 0x220618, symSize: 0x0 }
-  - { offset: 0x11A7E7, size: 0x8, addend: 0x0, symName: _initialiseEventSemaphore.semaphore, symObjAddr: 0xE058, symBinAddr: 0x220620, symSize: 0x0 }
+  - { offset: 0x11A7D2, size: 0x8, addend: 0x0, symName: _initialiseEventSemaphore.onceToken, symObjAddr: 0xDD50, symBinAddr: 0x220618, symSize: 0x0 }
+  - { offset: 0x11A7E7, size: 0x8, addend: 0x0, symName: _initialiseEventSemaphore.semaphore, symObjAddr: 0xDD58, symBinAddr: 0x220620, symSize: 0x0 }
   - { offset: 0x11A827, size: 0x8, addend: 0x0, symName: '+[AACAuthService initialiseEventDispatchQueue]', symObjAddr: 0x9EC, symBinAddr: 0x7DC7C, symSize: 0x30 }
-  - { offset: 0x11A850, size: 0x8, addend: 0x0, symName: _initialiseEventDispatchQueue.onceToken, symObjAddr: 0xE060, symBinAddr: 0x220628, symSize: 0x0 }
-  - { offset: 0x11A865, size: 0x8, addend: 0x0, symName: _initialiseEventDispatchQueue.serialQueue, symObjAddr: 0xE068, symBinAddr: 0x220630, symSize: 0x0 }
+  - { offset: 0x11A850, size: 0x8, addend: 0x0, symName: _initialiseEventDispatchQueue.onceToken, symObjAddr: 0xDD60, symBinAddr: 0x220628, symSize: 0x0 }
+  - { offset: 0x11A865, size: 0x8, addend: 0x0, symName: _initialiseEventDispatchQueue.serialQueue, symObjAddr: 0xDD68, symBinAddr: 0x220630, symSize: 0x0 }
   - { offset: 0x11A89A, size: 0x8, addend: 0x0, symName: '+[AACAuthService initialiseDelegateSemaphore]', symObjAddr: 0xA78, symBinAddr: 0x7DD08, symSize: 0x30 }
-  - { offset: 0x11A8C3, size: 0x8, addend: 0x0, symName: _initialiseDelegateSemaphore.onceToken, symObjAddr: 0xE070, symBinAddr: 0x220638, symSize: 0x0 }
-  - { offset: 0x11A8D8, size: 0x8, addend: 0x0, symName: _initialiseDelegateSemaphore.semaphore, symObjAddr: 0xE078, symBinAddr: 0x220640, symSize: 0x0 }
+  - { offset: 0x11A8C3, size: 0x8, addend: 0x0, symName: _initialiseDelegateSemaphore.onceToken, symObjAddr: 0xDD70, symBinAddr: 0x220638, symSize: 0x0 }
+  - { offset: 0x11A8D8, size: 0x8, addend: 0x0, symName: _initialiseDelegateSemaphore.semaphore, symObjAddr: 0xDD78, symBinAddr: 0x220640, symSize: 0x0 }
   - { offset: 0x11ACEF, size: 0x8, addend: 0x0, symName: '+[AACAuthService userIdDispatchQueue].cold.1', symObjAddr: 0x1B3C, symBinAddr: 0x138C3C, symSize: 0x14 }
   - { offset: 0x11AD0A, size: 0x8, addend: 0x0, symName: '+[AACAuthService userIdDispatchQueue].cold.1', symObjAddr: 0x1B3C, symBinAddr: 0x138C3C, symSize: 0x14 }
   - { offset: 0x11AD1B, size: 0x8, addend: 0x0, symName: '___37+[AACAuthService userIdDispatchQueue]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x7D380, symSize: 0x34 }
@@ -4726,11 +4726,11 @@ relocations:
   - { offset: 0x13279D, size: 0x8, addend: 0x0, symName: '-[NSString(JSONDictionaryParsing) aac_jsonDictionary]', symObjAddr: 0x0, symBinAddr: 0x87BCC, symSize: 0xB0 }
   - { offset: 0x1329DC, size: 0x8, addend: 0x0, symName: '+[AACCardOverflowView overflowIcon]', symObjAddr: 0x0, symBinAddr: 0x87C7C, symSize: 0x30 }
   - { offset: 0x1329E9, size: 0x8, addend: 0x0, symName: '+[AACCardOverflowView overflowIcon]', symObjAddr: 0x0, symBinAddr: 0x87C7C, symSize: 0x30 }
-  - { offset: 0x132A12, size: 0x8, addend: 0x0, symName: _overflowIcon.onceToken, symObjAddr: 0xD7C0, symBinAddr: 0x220648, symSize: 0x0 }
-  - { offset: 0x132A27, size: 0x8, addend: 0x0, symName: _overflowIcon.overflowIcon, symObjAddr: 0xD7C8, symBinAddr: 0x220650, symSize: 0x0 }
+  - { offset: 0x132A12, size: 0x8, addend: 0x0, symName: _overflowIcon.onceToken, symObjAddr: 0xD678, symBinAddr: 0x220648, symSize: 0x0 }
+  - { offset: 0x132A27, size: 0x8, addend: 0x0, symName: _overflowIcon.overflowIcon, symObjAddr: 0xD680, symBinAddr: 0x220650, symSize: 0x0 }
   - { offset: 0x13383F, size: 0x8, addend: 0x0, symName: '+[AACCardOverflowView dismissIcon]', symObjAddr: 0x90, symBinAddr: 0x87D0C, symSize: 0x30 }
-  - { offset: 0x133868, size: 0x8, addend: 0x0, symName: _dismissIcon.onceToken, symObjAddr: 0xD7D0, symBinAddr: 0x220658, symSize: 0x0 }
-  - { offset: 0x13387D, size: 0x8, addend: 0x0, symName: _dismissIcon.dismissIcon, symObjAddr: 0xD7D8, symBinAddr: 0x220660, symSize: 0x0 }
+  - { offset: 0x133868, size: 0x8, addend: 0x0, symName: _dismissIcon.onceToken, symObjAddr: 0xD688, symBinAddr: 0x220658, symSize: 0x0 }
+  - { offset: 0x13387D, size: 0x8, addend: 0x0, symName: _dismissIcon.dismissIcon, symObjAddr: 0xD690, symBinAddr: 0x220660, symSize: 0x0 }
   - { offset: 0x13488F, size: 0x8, addend: 0x0, symName: '+[AACCardOverflowView overflowIcon].cold.1', symObjAddr: 0xA34, symBinAddr: 0x138C8C, symSize: 0x14 }
   - { offset: 0x1348AA, size: 0x8, addend: 0x0, symName: '+[AACCardOverflowView overflowIcon].cold.1', symObjAddr: 0xA34, symBinAddr: 0x138C8C, symSize: 0x14 }
   - { offset: 0x1348BB, size: 0x8, addend: 0x0, symName: '___35+[AACCardOverflowView overflowIcon]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x87CAC, symSize: 0x60 }
@@ -4972,20 +4972,20 @@ relocations:
   - { offset: 0x14BCB6, size: 0x8, addend: 0x0, symName: _kAACFontRegistryCacheFileName, symObjAddr: 0x6D0, symBinAddr: 0x1CA460, symSize: 0x0 }
   - { offset: 0x14BCCB, size: 0x8, addend: 0x0, symName: _kAACAnalyticsCacheFileName, symObjAddr: 0x6D8, symBinAddr: 0x1CA468, symSize: 0x0 }
   - { offset: 0x14BCD4, size: 0x8, addend: 0x0, symName: '-[NSFileManager(AACApplicationSupport) aac_applicationSupportDirectoryPath]', symObjAddr: 0x0, symBinAddr: 0x8FBA0, symSize: 0x78 }
-  - { offset: 0x14BCFD, size: 0x8, addend: 0x0, symName: _aac_applicationSupportDirectoryPath.onceToken, symObjAddr: 0x4000, symBinAddr: 0x220668, symSize: 0x0 }
-  - { offset: 0x14BD12, size: 0x8, addend: 0x0, symName: _aac_applicationSupportDirectoryPath.applicationSupportUrl, symObjAddr: 0x4008, symBinAddr: 0x220670, symSize: 0x0 }
+  - { offset: 0x14BCFD, size: 0x8, addend: 0x0, symName: _aac_applicationSupportDirectoryPath.onceToken, symObjAddr: 0x3FB8, symBinAddr: 0x220668, symSize: 0x0 }
+  - { offset: 0x14BD12, size: 0x8, addend: 0x0, symName: _aac_applicationSupportDirectoryPath.applicationSupportUrl, symObjAddr: 0x3FC0, symBinAddr: 0x220670, symSize: 0x0 }
   - { offset: 0x14C089, size: 0x8, addend: 0x0, symName: '-[NSFileManager(AACApplicationSupport) aac_appearanceCacheDirectory]', symObjAddr: 0x230, symBinAddr: 0x8FDC0, symSize: 0x78 }
-  - { offset: 0x14C0B2, size: 0x8, addend: 0x0, symName: _aac_appearanceCacheDirectory.onceToken, symObjAddr: 0x4010, symBinAddr: 0x220678, symSize: 0x0 }
-  - { offset: 0x14C0C7, size: 0x8, addend: 0x0, symName: _aac_appearanceCacheDirectory.appearanceCacheDirectory, symObjAddr: 0x4018, symBinAddr: 0x220680, symSize: 0x0 }
+  - { offset: 0x14C0B2, size: 0x8, addend: 0x0, symName: _aac_appearanceCacheDirectory.onceToken, symObjAddr: 0x3FC8, symBinAddr: 0x220678, symSize: 0x0 }
+  - { offset: 0x14C0C7, size: 0x8, addend: 0x0, symName: _aac_appearanceCacheDirectory.appearanceCacheDirectory, symObjAddr: 0x3FD0, symBinAddr: 0x220680, symSize: 0x0 }
   - { offset: 0x14C113, size: 0x8, addend: 0x0, symName: '-[NSFileManager(AACApplicationSupport) aac_fontCacheDirectory]', symObjAddr: 0x300, symBinAddr: 0x8FE90, symSize: 0x78 }
-  - { offset: 0x14C13C, size: 0x8, addend: 0x0, symName: _aac_fontCacheDirectory.onceToken, symObjAddr: 0x4020, symBinAddr: 0x220688, symSize: 0x0 }
-  - { offset: 0x14C151, size: 0x8, addend: 0x0, symName: _aac_fontCacheDirectory.fontCacheDirectory, symObjAddr: 0x4028, symBinAddr: 0x220690, symSize: 0x0 }
+  - { offset: 0x14C13C, size: 0x8, addend: 0x0, symName: _aac_fontCacheDirectory.onceToken, symObjAddr: 0x3FD8, symBinAddr: 0x220688, symSize: 0x0 }
+  - { offset: 0x14C151, size: 0x8, addend: 0x0, symName: _aac_fontCacheDirectory.fontCacheDirectory, symObjAddr: 0x3FE0, symBinAddr: 0x220690, symSize: 0x0 }
   - { offset: 0x14C19D, size: 0x8, addend: 0x0, symName: '-[NSFileManager(AACApplicationSupport) aac_fontRegistryCachePath]', symObjAddr: 0x3D0, symBinAddr: 0x8FF60, symSize: 0x78 }
-  - { offset: 0x14C1C6, size: 0x8, addend: 0x0, symName: _aac_fontRegistryCachePath.onceToken, symObjAddr: 0x4030, symBinAddr: 0x220698, symSize: 0x0 }
-  - { offset: 0x14C1DB, size: 0x8, addend: 0x0, symName: _aac_fontRegistryCachePath.fontRegistryCachePath, symObjAddr: 0x4038, symBinAddr: 0x2206A0, symSize: 0x0 }
+  - { offset: 0x14C1C6, size: 0x8, addend: 0x0, symName: _aac_fontRegistryCachePath.onceToken, symObjAddr: 0x3FE8, symBinAddr: 0x220698, symSize: 0x0 }
+  - { offset: 0x14C1DB, size: 0x8, addend: 0x0, symName: _aac_fontRegistryCachePath.fontRegistryCachePath, symObjAddr: 0x3FF0, symBinAddr: 0x2206A0, symSize: 0x0 }
   - { offset: 0x14C227, size: 0x8, addend: 0x0, symName: '-[NSFileManager(AACApplicationSupport) aac_analyticsCachePath]', symObjAddr: 0x4A0, symBinAddr: 0x90030, symSize: 0x78 }
-  - { offset: 0x14C250, size: 0x8, addend: 0x0, symName: _aac_analyticsCachePath.onceToken, symObjAddr: 0x4040, symBinAddr: 0x2206A8, symSize: 0x0 }
-  - { offset: 0x14C265, size: 0x8, addend: 0x0, symName: _aac_analyticsCachePath.analyticsCachePath, symObjAddr: 0x4048, symBinAddr: 0x2206B0, symSize: 0x0 }
+  - { offset: 0x14C250, size: 0x8, addend: 0x0, symName: _aac_analyticsCachePath.onceToken, symObjAddr: 0x3FF8, symBinAddr: 0x2206A8, symSize: 0x0 }
+  - { offset: 0x14C265, size: 0x8, addend: 0x0, symName: _aac_analyticsCachePath.analyticsCachePath, symObjAddr: 0x4000, symBinAddr: 0x2206B0, symSize: 0x0 }
   - { offset: 0x14C353, size: 0x8, addend: 0x0, symName: '___75-[NSFileManager(AACApplicationSupport) aac_applicationSupportDirectoryPath]_block_invoke', symObjAddr: 0x78, symBinAddr: 0x8FC18, symSize: 0x11C }
   - { offset: 0x14C3AC, size: 0x8, addend: 0x0, symName: '-[NSFileManager(AACApplicationSupport) aac_appearanceCachePathForStreamContainerId:]', symObjAddr: 0x1A4, symBinAddr: 0x8FD34, symSize: 0x8C }
   - { offset: 0x14C3FE, size: 0x8, addend: 0x0, symName: '___68-[NSFileManager(AACApplicationSupport) aac_appearanceCacheDirectory]_block_invoke', symObjAddr: 0x2A8, symBinAddr: 0x8FE38, symSize: 0x58 }
@@ -5377,19 +5377,19 @@ relocations:
   - { offset: 0x163CFF, size: 0x8, addend: 0x0, symName: '-[AACCollectionViewFlowLayout .cxx_destruct]', symObjAddr: 0x2488, symBinAddr: 0x9CC88, symSize: 0x78 }
   - { offset: 0x164192, size: 0x8, addend: 0x0, symName: '+[AACSVGDecoder sharedCoder]', symObjAddr: 0x0, symBinAddr: 0x9CD00, symSize: 0x30 }
   - { offset: 0x16419F, size: 0x8, addend: 0x0, symName: '+[AACSVGDecoder sharedCoder]', symObjAddr: 0x0, symBinAddr: 0x9CD00, symSize: 0x30 }
-  - { offset: 0x1641C8, size: 0x8, addend: 0x0, symName: _sharedCoder.onceToken, symObjAddr: 0x8398, symBinAddr: 0x2206B8, symSize: 0x0 }
-  - { offset: 0x1641DD, size: 0x8, addend: 0x0, symName: _sharedCoder.coder, symObjAddr: 0x83A0, symBinAddr: 0x2206C0, symSize: 0x0 }
+  - { offset: 0x1641C8, size: 0x8, addend: 0x0, symName: _sharedCoder.onceToken, symObjAddr: 0x8358, symBinAddr: 0x2206B8, symSize: 0x0 }
+  - { offset: 0x1641DD, size: 0x8, addend: 0x0, symName: _sharedCoder.coder, symObjAddr: 0x8360, symBinAddr: 0x2206C0, symSize: 0x0 }
   - { offset: 0x164279, size: 0x8, addend: 0x0, symName: '+[AACSVGDecoder supportsVectorSVGImage]', symObjAddr: 0x8B8, symBinAddr: 0x9D5A8, symSize: 0x30 }
-  - { offset: 0x1642A2, size: 0x8, addend: 0x0, symName: _supportsVectorSVGImage.onceToken, symObjAddr: 0x83E8, symBinAddr: 0x220708, symSize: 0x0 }
-  - { offset: 0x1642B7, size: 0x8, addend: 0x0, symName: _supportsVectorSVGImage.supports, symObjAddr: 0x83F0, symBinAddr: 0x220710, symSize: 0x0 }
-  - { offset: 0x164337, size: 0x8, addend: 0x0, symName: _h3j5klz2wq, symObjAddr: 0x83A8, symBinAddr: 0x2206C8, symSize: 0x0 }
-  - { offset: 0x164371, size: 0x8, addend: 0x0, symName: _x0v1n4ms8b, symObjAddr: 0x83B0, symBinAddr: 0x2206D0, symSize: 0x0 }
-  - { offset: 0x164392, size: 0x8, addend: 0x0, symName: _a7c6d9e2f8, symObjAddr: 0x83B8, symBinAddr: 0x2206D8, symSize: 0x0 }
-  - { offset: 0x1643F0, size: 0x8, addend: 0x0, symName: _p4r5t3u6i0, symObjAddr: 0x83C0, symBinAddr: 0x2206E0, symSize: 0x0 }
-  - { offset: 0x16441B, size: 0x8, addend: 0x0, symName: _g2h8j1l5n9, symObjAddr: 0x83C8, symBinAddr: 0x2206E8, symSize: 0x0 }
-  - { offset: 0x164456, size: 0x8, addend: 0x0, symName: _y3o4w7q2s1, symObjAddr: 0x83D0, symBinAddr: 0x2206F0, symSize: 0x0 }
-  - { offset: 0x1644B9, size: 0x8, addend: 0x0, symName: _k8m6p0z4r2, symObjAddr: 0x83D8, symBinAddr: 0x2206F8, symSize: 0x0 }
-  - { offset: 0x1644E1, size: 0x8, addend: 0x0, symName: _j3g5b7e1t9, symObjAddr: 0x83E0, symBinAddr: 0x220700, symSize: 0x0 }
+  - { offset: 0x1642A2, size: 0x8, addend: 0x0, symName: _supportsVectorSVGImage.onceToken, symObjAddr: 0x83A8, symBinAddr: 0x220708, symSize: 0x0 }
+  - { offset: 0x1642B7, size: 0x8, addend: 0x0, symName: _supportsVectorSVGImage.supports, symObjAddr: 0x83B0, symBinAddr: 0x220710, symSize: 0x0 }
+  - { offset: 0x164337, size: 0x8, addend: 0x0, symName: _h3j5klz2wq, symObjAddr: 0x8368, symBinAddr: 0x2206C8, symSize: 0x0 }
+  - { offset: 0x164371, size: 0x8, addend: 0x0, symName: _x0v1n4ms8b, symObjAddr: 0x8370, symBinAddr: 0x2206D0, symSize: 0x0 }
+  - { offset: 0x164392, size: 0x8, addend: 0x0, symName: _a7c6d9e2f8, symObjAddr: 0x8378, symBinAddr: 0x2206D8, symSize: 0x0 }
+  - { offset: 0x1643F0, size: 0x8, addend: 0x0, symName: _p4r5t3u6i0, symObjAddr: 0x8380, symBinAddr: 0x2206E0, symSize: 0x0 }
+  - { offset: 0x16441B, size: 0x8, addend: 0x0, symName: _g2h8j1l5n9, symObjAddr: 0x8388, symBinAddr: 0x2206E8, symSize: 0x0 }
+  - { offset: 0x164456, size: 0x8, addend: 0x0, symName: _y3o4w7q2s1, symObjAddr: 0x8390, symBinAddr: 0x2206F0, symSize: 0x0 }
+  - { offset: 0x1644B9, size: 0x8, addend: 0x0, symName: _k8m6p0z4r2, symObjAddr: 0x8398, symBinAddr: 0x2206F8, symSize: 0x0 }
+  - { offset: 0x1644E1, size: 0x8, addend: 0x0, symName: _j3g5b7e1t9, symObjAddr: 0x83A0, symBinAddr: 0x220700, symSize: 0x0 }
   - { offset: 0x1652B0, size: 0x8, addend: 0x0, symName: '+[AACSVGDecoder sharedCoder].cold.1', symObjAddr: 0x9D4, symBinAddr: 0x138F5C, symSize: 0x14 }
   - { offset: 0x1652CB, size: 0x8, addend: 0x0, symName: '+[AACSVGDecoder sharedCoder].cold.1', symObjAddr: 0x9D4, symBinAddr: 0x138F5C, symSize: 0x14 }
   - { offset: 0x1652DC, size: 0x8, addend: 0x0, symName: '___28+[AACSVGDecoder sharedCoder]_block_invoke', symObjAddr: 0x30, symBinAddr: 0x9CD30, symSize: 0x30 }
@@ -5442,8 +5442,8 @@ relocations:
   - { offset: 0x16ACBD, size: 0x8, addend: 0x0, symName: '-[AACCardService initWithStreamContainerId:instanceId:configuration:]', symObjAddr: 0x0, symBinAddr: 0x9E8B8, symSize: 0x108 }
   - { offset: 0x16AD34, size: 0x8, addend: 0x0, symName: _AACCardServiceErrorDomain, symObjAddr: 0x5898, symBinAddr: 0x1CA8B0, symSize: 0x0 }
   - { offset: 0x16AD42, size: 0x8, addend: 0x0, symName: '+[AACCardService cardsWithVariablesPredicate]', symObjAddr: 0x334, symBinAddr: 0x9EBEC, symSize: 0x30 }
-  - { offset: 0x16AD6B, size: 0x8, addend: 0x0, symName: _cardsWithVariablesPredicate.onceToken, symObjAddr: 0x19FD0, symBinAddr: 0x220718, symSize: 0x0 }
-  - { offset: 0x16AD80, size: 0x8, addend: 0x0, symName: _cardsWithVariablesPredicate.predicate, symObjAddr: 0x19FD8, symBinAddr: 0x220720, symSize: 0x0 }
+  - { offset: 0x16AD6B, size: 0x8, addend: 0x0, symName: _cardsWithVariablesPredicate.onceToken, symObjAddr: 0x19C38, symBinAddr: 0x220718, symSize: 0x0 }
+  - { offset: 0x16AD80, size: 0x8, addend: 0x0, symName: _cardsWithVariablesPredicate.predicate, symObjAddr: 0x19C40, symBinAddr: 0x220720, symSize: 0x0 }
   - { offset: 0x16B1D0, size: 0x8, addend: 0x0, symName: '-[AACCardService initWithStreamContainerId:instanceId:configuration:]', symObjAddr: 0x0, symBinAddr: 0x9E8B8, symSize: 0x108 }
   - { offset: 0x16B25E, size: 0x8, addend: 0x0, symName: '-[AACCardService initWithStreamContainerId:feedApi:responseApi:configuration:]', symObjAddr: 0x108, symBinAddr: 0x9E9C0, symSize: 0x22C }
   - { offset: 0x16B3A1, size: 0x8, addend: 0x0, symName: '+[AACCardService cardsWithVariablesPredicate].cold.1', symObjAddr: 0x4C54, symBinAddr: 0x138F84, symSize: 0x14 }
@@ -5565,8 +5565,8 @@ relocations:
   - { offset: 0x171385, size: 0x8, addend: 0x0, symName: '-[AACCardViewRadioItem .cxx_destruct]', symObjAddr: 0x5B4, symBinAddr: 0xA3858, symSize: 0x84 }
   - { offset: 0x171DE7, size: 0x8, addend: 0x0, symName: '-[AACWSRequest init]', symObjAddr: 0x0, symBinAddr: 0xA38DC, symSize: 0x90 }
   - { offset: 0x171DF4, size: 0x8, addend: 0x0, symName: '+[AACWSRequest requestTypeMapping]', symObjAddr: 0x90, symBinAddr: 0xA396C, symSize: 0x30 }
-  - { offset: 0x171E1D, size: 0x8, addend: 0x0, symName: _requestTypeMapping.onceToken, symObjAddr: 0x2890, symBinAddr: 0x220728, symSize: 0x0 }
-  - { offset: 0x171E32, size: 0x8, addend: 0x0, symName: _requestTypeMapping.requestTypeMapping, symObjAddr: 0x2898, symBinAddr: 0x220730, symSize: 0x0 }
+  - { offset: 0x171E1D, size: 0x8, addend: 0x0, symName: _requestTypeMapping.onceToken, symObjAddr: 0x27C8, symBinAddr: 0x220728, symSize: 0x0 }
+  - { offset: 0x171E32, size: 0x8, addend: 0x0, symName: _requestTypeMapping.requestTypeMapping, symObjAddr: 0x27D0, symBinAddr: 0x220730, symSize: 0x0 }
   - { offset: 0x171F3A, size: 0x8, addend: 0x0, symName: '-[AACWSRequest init]', symObjAddr: 0x0, symBinAddr: 0xA38DC, symSize: 0x90 }
   - { offset: 0x172005, size: 0x8, addend: 0x0, symName: '+[AACWSRequest requestTypeMapping].cold.1', symObjAddr: 0x3B0, symBinAddr: 0x138F98, symSize: 0x14 }
   - { offset: 0x172020, size: 0x8, addend: 0x0, symName: '+[AACWSRequest requestTypeMapping].cold.1', symObjAddr: 0x3B0, symBinAddr: 0x138F98, symSize: 0x14 }
@@ -5606,11 +5606,11 @@ relocations:
   - { offset: 0x174BD4, size: 0x8, addend: 0x0, symName: _kAACCardComponentSubviewMediaRadius, symObjAddr: 0x1868, symBinAddr: 0x16FB80, symSize: 0x0 }
   - { offset: 0x174C00, size: 0x8, addend: 0x0, symName: _kAACCCardComponentGroupedBorderInset, symObjAddr: 0x1870, symBinAddr: 0x16FB88, symSize: 0x0 }
   - { offset: 0x174C09, size: 0x8, addend: 0x0, symName: '+[AACCardComponentView borderHeight]', symObjAddr: 0x0, symBinAddr: 0xA4500, symSize: 0x30 }
-  - { offset: 0x174C32, size: 0x8, addend: 0x0, symName: _borderHeight.onceToken, symObjAddr: 0x10080, symBinAddr: 0x220738, symSize: 0x0 }
-  - { offset: 0x174C47, size: 0x8, addend: 0x0, symName: _borderHeight.borderHeight, symObjAddr: 0x10088, symBinAddr: 0x220740, symSize: 0x0 }
+  - { offset: 0x174C32, size: 0x8, addend: 0x0, symName: _borderHeight.onceToken, symObjAddr: 0xFF20, symBinAddr: 0x220738, symSize: 0x0 }
+  - { offset: 0x174C47, size: 0x8, addend: 0x0, symName: _borderHeight.borderHeight, symObjAddr: 0xFF28, symBinAddr: 0x220740, symSize: 0x0 }
   - { offset: 0x174CA4, size: 0x8, addend: 0x0, symName: '+[AACCardComponentView groupBorderHeight]', symObjAddr: 0x78, symBinAddr: 0xA4578, symSize: 0x30 }
-  - { offset: 0x174CCD, size: 0x8, addend: 0x0, symName: _groupBorderHeight.onceToken, symObjAddr: 0x10090, symBinAddr: 0x220748, symSize: 0x0 }
-  - { offset: 0x174CE2, size: 0x8, addend: 0x0, symName: _groupBorderHeight.borderHeight, symObjAddr: 0x10098, symBinAddr: 0x220750, symSize: 0x0 }
+  - { offset: 0x174CCD, size: 0x8, addend: 0x0, symName: _groupBorderHeight.onceToken, symObjAddr: 0xFF30, symBinAddr: 0x220748, symSize: 0x0 }
+  - { offset: 0x174CE2, size: 0x8, addend: 0x0, symName: _groupBorderHeight.borderHeight, symObjAddr: 0xFF38, symBinAddr: 0x220750, symSize: 0x0 }
   - { offset: 0x176FFB, size: 0x8, addend: 0x0, symName: '+[AACCardComponentView borderHeight].cold.1', symObjAddr: 0x1840, symBinAddr: 0x138FAC, symSize: 0x14 }
   - { offset: 0x177016, size: 0x8, addend: 0x0, symName: '+[AACCardComponentView borderHeight].cold.1', symObjAddr: 0x1840, symBinAddr: 0x138FAC, symSize: 0x14 }
   - { offset: 0x177027, size: 0x8, addend: 0x0, symName: '___36+[AACCardComponentView borderHeight]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xA4530, symSize: 0x48 }
@@ -5716,11 +5716,11 @@ relocations:
   - { offset: 0x17BD24, size: 0x8, addend: 0x0, symName: '-[AACCardListPresenterWebSocket setIsFirstLoad:]', symObjAddr: 0xF80, symBinAddr: 0xA6F54, symSize: 0x10 }
   - { offset: 0x17CC7F, size: 0x8, addend: 0x0, symName: '+[NSError(AACErrorHandling) networkConnectivityErrorCodes]', symObjAddr: 0x0, symBinAddr: 0xA6F64, symSize: 0x30 }
   - { offset: 0x17CC8C, size: 0x8, addend: 0x0, symName: '+[NSError(AACErrorHandling) networkConnectivityErrorCodes]', symObjAddr: 0x0, symBinAddr: 0xA6F64, symSize: 0x30 }
-  - { offset: 0x17CCB5, size: 0x8, addend: 0x0, symName: _networkConnectivityErrorCodes.onceToken, symObjAddr: 0x2B40, symBinAddr: 0x220758, symSize: 0x0 }
-  - { offset: 0x17CCCA, size: 0x8, addend: 0x0, symName: _networkConnectivityErrorCodes.errorSet, symObjAddr: 0x2B48, symBinAddr: 0x220760, symSize: 0x0 }
+  - { offset: 0x17CCB5, size: 0x8, addend: 0x0, symName: _networkConnectivityErrorCodes.onceToken, symObjAddr: 0x2B00, symBinAddr: 0x220758, symSize: 0x0 }
+  - { offset: 0x17CCCA, size: 0x8, addend: 0x0, symName: _networkConnectivityErrorCodes.errorSet, symObjAddr: 0x2B08, symBinAddr: 0x220760, symSize: 0x0 }
   - { offset: 0x17CD85, size: 0x8, addend: 0x0, symName: '+[NSError(AACErrorHandling) networkDownErrorCodes]', symObjAddr: 0x118, symBinAddr: 0xA707C, symSize: 0x30 }
-  - { offset: 0x17CDAE, size: 0x8, addend: 0x0, symName: _networkDownErrorCodes.onceToken, symObjAddr: 0x2B50, symBinAddr: 0x220768, symSize: 0x0 }
-  - { offset: 0x17CDC3, size: 0x8, addend: 0x0, symName: _networkDownErrorCodes.errorSet, symObjAddr: 0x2B58, symBinAddr: 0x220770, symSize: 0x0 }
+  - { offset: 0x17CDAE, size: 0x8, addend: 0x0, symName: _networkDownErrorCodes.onceToken, symObjAddr: 0x2B10, symBinAddr: 0x220768, symSize: 0x0 }
+  - { offset: 0x17CDC3, size: 0x8, addend: 0x0, symName: _networkDownErrorCodes.errorSet, symObjAddr: 0x2B18, symBinAddr: 0x220770, symSize: 0x0 }
   - { offset: 0x17CE9B, size: 0x8, addend: 0x0, symName: '+[NSError(AACErrorHandling) networkConnectivityErrorCodes].cold.1', symObjAddr: 0x4CC, symBinAddr: 0x138FD4, symSize: 0x14 }
   - { offset: 0x17CEB6, size: 0x8, addend: 0x0, symName: '+[NSError(AACErrorHandling) networkConnectivityErrorCodes].cold.1', symObjAddr: 0x4CC, symBinAddr: 0x138FD4, symSize: 0x14 }
   - { offset: 0x17CEC7, size: 0x8, addend: 0x0, symName: '___58+[NSError(AACErrorHandling) networkConnectivityErrorCodes]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xA6F94, symSize: 0xE8 }
@@ -5731,8 +5731,8 @@ relocations:
   - { offset: 0x17CF8E, size: 0x8, addend: 0x0, symName: '-[NSError(AACErrorHandling) isNetworkDownError]', symObjAddr: 0x3A4, symBinAddr: 0xA7308, symSize: 0x128 }
   - { offset: 0x17D225, size: 0x8, addend: 0x0, symName: '+[AACLocalSettingsRegistry sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xA7430, symSize: 0x30 }
   - { offset: 0x17D290, size: 0x8, addend: 0x0, symName: '+[AACLocalSettingsRegistry sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xA7430, symSize: 0x30 }
-  - { offset: 0x17D2B9, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x2588, symBinAddr: 0x220778, symSize: 0x0 }
-  - { offset: 0x17D2CE, size: 0x8, addend: 0x0, symName: _sharedInstance.settingsRegistry, symObjAddr: 0x2590, symBinAddr: 0x220780, symSize: 0x0 }
+  - { offset: 0x17D2B9, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x2548, symBinAddr: 0x220778, symSize: 0x0 }
+  - { offset: 0x17D2CE, size: 0x8, addend: 0x0, symName: _sharedInstance.settingsRegistry, symObjAddr: 0x2550, symBinAddr: 0x220780, symSize: 0x0 }
   - { offset: 0x17D424, size: 0x8, addend: 0x0, symName: '+[AACLocalSettingsRegistry sharedInstance].cold.1', symObjAddr: 0x3C8, symBinAddr: 0x138FFC, symSize: 0x14 }
   - { offset: 0x17D43F, size: 0x8, addend: 0x0, symName: '+[AACLocalSettingsRegistry sharedInstance].cold.1', symObjAddr: 0x3C8, symBinAddr: 0x138FFC, symSize: 0x14 }
   - { offset: 0x17D450, size: 0x8, addend: 0x0, symName: '___42+[AACLocalSettingsRegistry sharedInstance]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xA7460, symSize: 0x30 }
@@ -5786,18 +5786,18 @@ relocations:
   - { offset: 0x181B6B, size: 0x8, addend: 0x0, symName: _AACImageViewDidFinishLoadingImageNotification, symObjAddr: 0x24B8, symBinAddr: 0x1CAB50, symSize: 0x0 }
   - { offset: 0x181B80, size: 0x8, addend: 0x0, symName: _AACImageViewErrorDomain, symObjAddr: 0x24C0, symBinAddr: 0x1CAB58, symSize: 0x0 }
   - { offset: 0x181B89, size: 0x8, addend: 0x0, symName: '+[AACImageView sharedImageCache]', symObjAddr: 0x0, symBinAddr: 0xA9640, symSize: 0x30 }
-  - { offset: 0x181BB2, size: 0x8, addend: 0x0, symName: _sharedImageCache.onceToken, symObjAddr: 0x14468, symBinAddr: 0x220788, symSize: 0x0 }
-  - { offset: 0x181BC7, size: 0x8, addend: 0x0, symName: _sharedImageCache.urlCache, symObjAddr: 0x14470, symBinAddr: 0x220790, symSize: 0x0 }
+  - { offset: 0x181BB2, size: 0x8, addend: 0x0, symName: _sharedImageCache.onceToken, symObjAddr: 0x14338, symBinAddr: 0x220788, symSize: 0x0 }
+  - { offset: 0x181BC7, size: 0x8, addend: 0x0, symName: _sharedImageCache.urlCache, symObjAddr: 0x14340, symBinAddr: 0x220790, symSize: 0x0 }
   - { offset: 0x181C92, size: 0x8, addend: 0x0, symName: '+[AACImageView sharedDecodedImageCache]', symObjAddr: 0x70, symBinAddr: 0xA96B0, symSize: 0x30 }
-  - { offset: 0x181CBB, size: 0x8, addend: 0x0, symName: _sharedDecodedImageCache.onceToken, symObjAddr: 0x14478, symBinAddr: 0x220798, symSize: 0x0 }
-  - { offset: 0x181CD0, size: 0x8, addend: 0x0, symName: _sharedDecodedImageCache.cache, symObjAddr: 0x14480, symBinAddr: 0x2207A0, symSize: 0x0 }
+  - { offset: 0x181CBB, size: 0x8, addend: 0x0, symName: _sharedDecodedImageCache.onceToken, symObjAddr: 0x14348, symBinAddr: 0x220798, symSize: 0x0 }
+  - { offset: 0x181CD0, size: 0x8, addend: 0x0, symName: _sharedDecodedImageCache.cache, symObjAddr: 0x14350, symBinAddr: 0x2207A0, symSize: 0x0 }
   - { offset: 0x181D8C, size: 0x8, addend: 0x0, symName: '+[AACImageView sharedSessionConfiguration]', symObjAddr: 0xD0, symBinAddr: 0xA9710, symSize: 0x30 }
-  - { offset: 0x181DB5, size: 0x8, addend: 0x0, symName: _sharedSessionConfiguration.onceToken, symObjAddr: 0x14488, symBinAddr: 0x2207A8, symSize: 0x0 }
-  - { offset: 0x181DCA, size: 0x8, addend: 0x0, symName: _sharedSessionConfiguration.configuration, symObjAddr: 0x14490, symBinAddr: 0x2207B0, symSize: 0x0 }
+  - { offset: 0x181DB5, size: 0x8, addend: 0x0, symName: _sharedSessionConfiguration.onceToken, symObjAddr: 0x14358, symBinAddr: 0x2207A8, symSize: 0x0 }
+  - { offset: 0x181DCA, size: 0x8, addend: 0x0, symName: _sharedSessionConfiguration.configuration, symObjAddr: 0x14360, symBinAddr: 0x2207B0, symSize: 0x0 }
   - { offset: 0x1822A7, size: 0x8, addend: 0x0, symName: '+[AACImageView imageDecodingQueue]', symObjAddr: 0x228, symBinAddr: 0xA9868, symSize: 0x30 }
-  - { offset: 0x1822D0, size: 0x8, addend: 0x0, symName: _imageDecodingQueue.onceToken, symObjAddr: 0x144A0, symBinAddr: 0x2207C0, symSize: 0x0 }
-  - { offset: 0x1822E5, size: 0x8, addend: 0x0, symName: _imageDecodingQueue.serialQueue, symObjAddr: 0x144A8, symBinAddr: 0x2207C8, symSize: 0x0 }
-  - { offset: 0x1823A0, size: 0x8, addend: 0x0, symName: _sharedSession, symObjAddr: 0x14498, symBinAddr: 0x2207B8, symSize: 0x0 }
+  - { offset: 0x1822D0, size: 0x8, addend: 0x0, symName: _imageDecodingQueue.onceToken, symObjAddr: 0x14370, symBinAddr: 0x2207C0, symSize: 0x0 }
+  - { offset: 0x1822E5, size: 0x8, addend: 0x0, symName: _imageDecodingQueue.serialQueue, symObjAddr: 0x14378, symBinAddr: 0x2207C8, symSize: 0x0 }
+  - { offset: 0x1823A0, size: 0x8, addend: 0x0, symName: _sharedSession, symObjAddr: 0x14368, symBinAddr: 0x2207B8, symSize: 0x0 }
   - { offset: 0x184498, size: 0x8, addend: 0x0, symName: '+[AACImageView sharedImageCache].cold.1', symObjAddr: 0x207C, symBinAddr: 0x139010, symSize: 0x14 }
   - { offset: 0x1844B3, size: 0x8, addend: 0x0, symName: '+[AACImageView sharedImageCache].cold.1', symObjAddr: 0x207C, symBinAddr: 0x139010, symSize: 0x14 }
   - { offset: 0x1844C4, size: 0x8, addend: 0x0, symName: '___32+[AACImageView sharedImageCache]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xA9670, symSize: 0x40 }
@@ -5847,11 +5847,11 @@ relocations:
   - { offset: 0x18550D, size: 0x8, addend: 0x0, symName: '-[AACImageView .cxx_destruct]', symObjAddr: 0x2058, symBinAddr: 0xAB538, symSize: 0x14 }
   - { offset: 0x185FBA, size: 0x8, addend: 0x0, symName: '+[AACCardViewDateDropdownPresenter defaultDateFormatter]', symObjAddr: 0x0, symBinAddr: 0xAB54C, symSize: 0x30 }
   - { offset: 0x186025, size: 0x8, addend: 0x0, symName: '+[AACCardViewDateDropdownPresenter defaultDateFormatter]', symObjAddr: 0x0, symBinAddr: 0xAB54C, symSize: 0x30 }
-  - { offset: 0x18604E, size: 0x8, addend: 0x0, symName: _defaultDateFormatter.onceToken, symObjAddr: 0xA830, symBinAddr: 0x2207D0, symSize: 0x0 }
-  - { offset: 0x186063, size: 0x8, addend: 0x0, symName: _defaultDateFormatter.formatter, symObjAddr: 0xA838, symBinAddr: 0x2207D8, symSize: 0x0 }
+  - { offset: 0x18604E, size: 0x8, addend: 0x0, symName: _defaultDateFormatter.onceToken, symObjAddr: 0xA730, symBinAddr: 0x2207D0, symSize: 0x0 }
+  - { offset: 0x186063, size: 0x8, addend: 0x0, symName: _defaultDateFormatter.formatter, symObjAddr: 0xA738, symBinAddr: 0x2207D8, symSize: 0x0 }
   - { offset: 0x186623, size: 0x8, addend: 0x0, symName: '+[AACCardViewDateDropdownPresenter defaultTimeFormatter]', symObjAddr: 0x80, symBinAddr: 0xAB5CC, symSize: 0x30 }
-  - { offset: 0x18664C, size: 0x8, addend: 0x0, symName: _defaultTimeFormatter.onceToken, symObjAddr: 0xA840, symBinAddr: 0x2207E0, symSize: 0x0 }
-  - { offset: 0x186661, size: 0x8, addend: 0x0, symName: _defaultTimeFormatter.formatter, symObjAddr: 0xA848, symBinAddr: 0x2207E8, symSize: 0x0 }
+  - { offset: 0x18664C, size: 0x8, addend: 0x0, symName: _defaultTimeFormatter.onceToken, symObjAddr: 0xA740, symBinAddr: 0x2207E0, symSize: 0x0 }
+  - { offset: 0x186661, size: 0x8, addend: 0x0, symName: _defaultTimeFormatter.formatter, symObjAddr: 0xA748, symBinAddr: 0x2207E8, symSize: 0x0 }
   - { offset: 0x18750B, size: 0x8, addend: 0x0, symName: '+[AACCardViewDateDropdownPresenter defaultDateFormatter].cold.1', symObjAddr: 0x730, symBinAddr: 0x139060, symSize: 0x14 }
   - { offset: 0x187526, size: 0x8, addend: 0x0, symName: '+[AACCardViewDateDropdownPresenter defaultDateFormatter].cold.1', symObjAddr: 0x730, symBinAddr: 0x139060, symSize: 0x14 }
   - { offset: 0x187537, size: 0x8, addend: 0x0, symName: '___56+[AACCardViewDateDropdownPresenter defaultDateFormatter]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xAB57C, symSize: 0x50 }
@@ -5986,14 +5986,14 @@ relocations:
   - { offset: 0x192927, size: 0x8, addend: 0x0, symName: _AACLoggerInternalLogLevel, symObjAddr: 0x7F8, symBinAddr: 0x16FBA8, symSize: 0x0 }
   - { offset: 0x192953, size: 0x8, addend: 0x0, symName: _AACLoggerMaxLogLevel, symObjAddr: 0x800, symBinAddr: 0x16FBB0, symSize: 0x0 }
   - { offset: 0x19295C, size: 0x8, addend: 0x0, symName: '+[AACLogger sharedLogger]', symObjAddr: 0x0, symBinAddr: 0xAEE7C, symSize: 0x30 }
-  - { offset: 0x192985, size: 0x8, addend: 0x0, symName: _sharedLogger.onceToken, symObjAddr: 0x45B0, symBinAddr: 0x2207F0, symSize: 0x0 }
-  - { offset: 0x19299A, size: 0x8, addend: 0x0, symName: _sharedLogger.sharedLogger, symObjAddr: 0x45B8, symBinAddr: 0x2207F8, symSize: 0x0 }
+  - { offset: 0x192985, size: 0x8, addend: 0x0, symName: _sharedLogger.onceToken, symObjAddr: 0x4568, symBinAddr: 0x2207F0, symSize: 0x0 }
+  - { offset: 0x19299A, size: 0x8, addend: 0x0, symName: _sharedLogger.sharedLogger, symObjAddr: 0x4570, symBinAddr: 0x2207F8, symSize: 0x0 }
   - { offset: 0x192A75, size: 0x8, addend: 0x0, symName: '+[AACLogger error:format:]', symObjAddr: 0x148, symBinAddr: 0xAEFC4, symSize: 0x144 }
   - { offset: 0x192BAA, size: 0x8, addend: 0x0, symName: '+[AACLogger warn:format:]', symObjAddr: 0x28C, symBinAddr: 0xAF108, symSize: 0x144 }
   - { offset: 0x192CC0, size: 0x8, addend: 0x0, symName: '+[AACLogger log:format:]', symObjAddr: 0x3D0, symBinAddr: 0xAF24C, symSize: 0x144 }
   - { offset: 0x192DD6, size: 0x8, addend: 0x0, symName: '+[AACLogger statisticLog]', symObjAddr: 0x600, symBinAddr: 0xAF47C, symSize: 0x30 }
-  - { offset: 0x192DFF, size: 0x8, addend: 0x0, symName: _statisticLog.onceToken, symObjAddr: 0x45C0, symBinAddr: 0x220800, symSize: 0x0 }
-  - { offset: 0x192E14, size: 0x8, addend: 0x0, symName: _statisticLog.log, symObjAddr: 0x45C8, symBinAddr: 0x220808, symSize: 0x0 }
+  - { offset: 0x192DFF, size: 0x8, addend: 0x0, symName: _statisticLog.onceToken, symObjAddr: 0x4578, symBinAddr: 0x220800, symSize: 0x0 }
+  - { offset: 0x192E14, size: 0x8, addend: 0x0, symName: _statisticLog.log, symObjAddr: 0x4580, symBinAddr: 0x220808, symSize: 0x0 }
   - { offset: 0x192E8E, size: 0x8, addend: 0x0, symName: _AACTSKLog, symObjAddr: 0x680, symBinAddr: 0xAF4FC, symSize: 0x118 }
   - { offset: 0x193055, size: 0x8, addend: 0x0, symName: '+[AACLogger sharedLogger].cold.1', symObjAddr: 0x798, symBinAddr: 0x139088, symSize: 0x14 }
   - { offset: 0x193070, size: 0x8, addend: 0x0, symName: '+[AACLogger sharedLogger].cold.1', symObjAddr: 0x798, symBinAddr: 0x139088, symSize: 0x14 }
@@ -6078,11 +6078,11 @@ relocations:
   - { offset: 0x19800B, size: 0x8, addend: 0x0, symName: _kAACCardListPresenterHorizontalPaddingForVerticalContainer, symObjAddr: 0x8B98, symBinAddr: 0x16FBE8, symSize: 0x0 }
   - { offset: 0x198020, size: 0x8, addend: 0x0, symName: _AACCardListPresenterErrorDomain, symObjAddr: 0x9728, symBinAddr: 0x1CAE58, symSize: 0x0 }
   - { offset: 0x19802E, size: 0x8, addend: 0x0, symName: '+[AACCardListPresenterBase snoozeDateFormatterAfterToday]', symObjAddr: 0x5C, symBinAddr: 0xB1FA4, symSize: 0x30 }
-  - { offset: 0x198057, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterAfterToday.onceToken, symObjAddr: 0x33D08, symBinAddr: 0x220810, symSize: 0x0 }
-  - { offset: 0x19806C, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterAfterToday.formatter, symObjAddr: 0x33D10, symBinAddr: 0x220818, symSize: 0x0 }
+  - { offset: 0x198057, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterAfterToday.onceToken, symObjAddr: 0x33808, symBinAddr: 0x220810, symSize: 0x0 }
+  - { offset: 0x19806C, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterAfterToday.formatter, symObjAddr: 0x33810, symBinAddr: 0x220818, symSize: 0x0 }
   - { offset: 0x198625, size: 0x8, addend: 0x0, symName: '+[AACCardListPresenterBase snoozeDateFormatterForToday]', symObjAddr: 0xD4, symBinAddr: 0xB201C, symSize: 0x30 }
-  - { offset: 0x19864E, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterForToday.onceToken, symObjAddr: 0x33D18, symBinAddr: 0x220820, symSize: 0x0 }
-  - { offset: 0x198663, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterForToday.formatter, symObjAddr: 0x33D20, symBinAddr: 0x220828, symSize: 0x0 }
+  - { offset: 0x19864E, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterForToday.onceToken, symObjAddr: 0x33818, symBinAddr: 0x220820, symSize: 0x0 }
+  - { offset: 0x198663, size: 0x8, addend: 0x0, symName: _snoozeDateFormatterForToday.formatter, symObjAddr: 0x33820, symBinAddr: 0x220828, symSize: 0x0 }
   - { offset: 0x199C2B, size: 0x8, addend: 0x0, symName: '-[AACCardListPresenterBase dealloc]', symObjAddr: 0x0, symBinAddr: 0xB1F48, symSize: 0x5C }
   - { offset: 0x199CEB, size: 0x8, addend: 0x0, symName: '+[AACCardListPresenterBase snoozeDateFormatterAfterToday].cold.1', symObjAddr: 0x87E8, symBinAddr: 0x1390B0, symSize: 0x14 }
   - { offset: 0x199D06, size: 0x8, addend: 0x0, symName: '+[AACCardListPresenterBase snoozeDateFormatterAfterToday].cold.1', symObjAddr: 0x87E8, symBinAddr: 0x1390B0, symSize: 0x14 }
@@ -6370,8 +6370,8 @@ relocations:
   - { offset: 0x1A5B33, size: 0x8, addend: 0x0, symName: '-[AACCardNodeCustomIcon .cxx_destruct]', symObjAddr: 0x368, symBinAddr: 0xBBD58, symSize: 0x48 }
   - { offset: 0x1A5BFD, size: 0x8, addend: 0x0, symName: '+[AACSRRunLoopThread sharedThread]', symObjAddr: 0x0, symBinAddr: 0xBBDA0, symSize: 0x30 }
   - { offset: 0x1A5C0A, size: 0x8, addend: 0x0, symName: '+[AACSRRunLoopThread sharedThread]', symObjAddr: 0x0, symBinAddr: 0xBBDA0, symSize: 0x30 }
-  - { offset: 0x1A5C33, size: 0x8, addend: 0x0, symName: _sharedThread.thread, symObjAddr: 0x2FF0, symBinAddr: 0x220830, symSize: 0x0 }
-  - { offset: 0x1A5C48, size: 0x8, addend: 0x0, symName: _sharedThread.onceToken, symObjAddr: 0x2FF8, symBinAddr: 0x220838, symSize: 0x0 }
+  - { offset: 0x1A5C33, size: 0x8, addend: 0x0, symName: _sharedThread.thread, symObjAddr: 0x2FA0, symBinAddr: 0x220830, symSize: 0x0 }
+  - { offset: 0x1A5C48, size: 0x8, addend: 0x0, symName: _sharedThread.onceToken, symObjAddr: 0x2FA8, symBinAddr: 0x220838, symSize: 0x0 }
   - { offset: 0x1A6021, size: 0x8, addend: 0x0, symName: '+[AACSRRunLoopThread sharedThread].cold.1', symObjAddr: 0x284, symBinAddr: 0x1390D8, symSize: 0x14 }
   - { offset: 0x1A603C, size: 0x8, addend: 0x0, symName: '+[AACSRRunLoopThread sharedThread].cold.1', symObjAddr: 0x284, symBinAddr: 0x1390D8, symSize: 0x14 }
   - { offset: 0x1A604D, size: 0x8, addend: 0x0, symName: '___34+[AACSRRunLoopThread sharedThread]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xBBDD0, symSize: 0x50 }
@@ -6502,8 +6502,8 @@ relocations:
   - { offset: 0x1AFFBD, size: 0x8, addend: 0x0, symName: '-[AACTypographyRenderingOptions init]', symObjAddr: 0x0, symBinAddr: 0xBF0C8, symSize: 0x40 }
   - { offset: 0x1AFFD6, size: 0x8, addend: 0x0, symName: _kAACTypographyFontSizeUndefined, symObjAddr: 0x1198, symBinAddr: 0x16FBF8, symSize: 0x0 }
   - { offset: 0x1B0023, size: 0x8, addend: 0x0, symName: '+[AACTypography contentSizeCategoryAdjustments]', symObjAddr: 0x254, symBinAddr: 0xBF31C, symSize: 0x30 }
-  - { offset: 0x1B004C, size: 0x8, addend: 0x0, symName: _contentSizeCategoryAdjustments.onceToken, symObjAddr: 0xA188, symBinAddr: 0x220840, symSize: 0x0 }
-  - { offset: 0x1B0061, size: 0x8, addend: 0x0, symName: _contentSizeCategoryAdjustments.contentSizeCategories, symObjAddr: 0xA190, symBinAddr: 0x220848, symSize: 0x0 }
+  - { offset: 0x1B004C, size: 0x8, addend: 0x0, symName: _contentSizeCategoryAdjustments.onceToken, symObjAddr: 0xA100, symBinAddr: 0x220840, symSize: 0x0 }
+  - { offset: 0x1B0061, size: 0x8, addend: 0x0, symName: _contentSizeCategoryAdjustments.contentSizeCategories, symObjAddr: 0xA108, symBinAddr: 0x220848, symSize: 0x0 }
   - { offset: 0x1B0869, size: 0x8, addend: 0x0, symName: '-[AACTypographyRenderingOptions init]', symObjAddr: 0x0, symBinAddr: 0xBF0C8, symSize: 0x40 }
   - { offset: 0x1B089D, size: 0x8, addend: 0x0, symName: '-[AACTypographyRenderingOptions key]', symObjAddr: 0x40, symBinAddr: 0xBF108, symSize: 0x194 }
   - { offset: 0x1B08D1, size: 0x8, addend: 0x0, symName: '-[AACTypographyRenderingOptions textAlignment]', symObjAddr: 0x1D4, symBinAddr: 0xBF29C, symSize: 0x8 }
@@ -6579,14 +6579,14 @@ relocations:
   - { offset: 0x1B2274, size: 0x8, addend: 0x0, symName: '-[AACCardFilterValue .cxx_destruct]', symObjAddr: 0xA18, symBinAddr: 0xC0C60, symSize: 0x3C }
   - { offset: 0x1B24F3, size: 0x8, addend: 0x0, symName: '+[AACCardNode nodeMapping]', symObjAddr: 0x0, symBinAddr: 0xC0C9C, symSize: 0x30 }
   - { offset: 0x1B2500, size: 0x8, addend: 0x0, symName: '+[AACCardNode nodeMapping]', symObjAddr: 0x0, symBinAddr: 0xC0C9C, symSize: 0x30 }
-  - { offset: 0x1B2529, size: 0x8, addend: 0x0, symName: _nodeMapping.onceToken, symObjAddr: 0x10940, symBinAddr: 0x220850, symSize: 0x0 }
-  - { offset: 0x1B253E, size: 0x8, addend: 0x0, symName: _nodeMapping.nodeMapping, symObjAddr: 0x10948, symBinAddr: 0x220858, symSize: 0x0 }
+  - { offset: 0x1B2529, size: 0x8, addend: 0x0, symName: _nodeMapping.onceToken, symObjAddr: 0x10870, symBinAddr: 0x220850, symSize: 0x0 }
+  - { offset: 0x1B253E, size: 0x8, addend: 0x0, symName: _nodeMapping.nodeMapping, symObjAddr: 0x10878, symBinAddr: 0x220858, symSize: 0x0 }
   - { offset: 0x1B25F9, size: 0x8, addend: 0x0, symName: '+[AACCardNode validationMapping]', symObjAddr: 0x350, symBinAddr: 0xC0FEC, symSize: 0x30 }
-  - { offset: 0x1B2622, size: 0x8, addend: 0x0, symName: _validationMapping.onceToken, symObjAddr: 0x10950, symBinAddr: 0x220860, symSize: 0x0 }
-  - { offset: 0x1B2637, size: 0x8, addend: 0x0, symName: _validationMapping.validationMapping, symObjAddr: 0x10958, symBinAddr: 0x220868, symSize: 0x0 }
+  - { offset: 0x1B2622, size: 0x8, addend: 0x0, symName: _validationMapping.onceToken, symObjAddr: 0x10880, symBinAddr: 0x220860, symSize: 0x0 }
+  - { offset: 0x1B2637, size: 0x8, addend: 0x0, symName: _validationMapping.validationMapping, symObjAddr: 0x10888, symBinAddr: 0x220868, symSize: 0x0 }
   - { offset: 0x1B266C, size: 0x8, addend: 0x0, symName: '+[AACCardNode validationOrder]', symObjAddr: 0x52C, symBinAddr: 0xC11C8, symSize: 0x30 }
-  - { offset: 0x1B2695, size: 0x8, addend: 0x0, symName: _validationOrder.onceToken, symObjAddr: 0x10960, symBinAddr: 0x220870, symSize: 0x0 }
-  - { offset: 0x1B26AA, size: 0x8, addend: 0x0, symName: _validationOrder.validationOrder, symObjAddr: 0x10968, symBinAddr: 0x220878, symSize: 0x0 }
+  - { offset: 0x1B2695, size: 0x8, addend: 0x0, symName: _validationOrder.onceToken, symObjAddr: 0x10890, symBinAddr: 0x220870, symSize: 0x0 }
+  - { offset: 0x1B26AA, size: 0x8, addend: 0x0, symName: _validationOrder.validationOrder, symObjAddr: 0x10898, symBinAddr: 0x220878, symSize: 0x0 }
   - { offset: 0x1B2F7B, size: 0x8, addend: 0x0, symName: '+[AACCardNode nodeMapping].cold.1', symObjAddr: 0x2D74, symBinAddr: 0x139100, symSize: 0x14 }
   - { offset: 0x1B2F96, size: 0x8, addend: 0x0, symName: '+[AACCardNode nodeMapping].cold.1', symObjAddr: 0x2D74, symBinAddr: 0x139100, symSize: 0x14 }
   - { offset: 0x1B2FA7, size: 0x8, addend: 0x0, symName: '___26+[AACCardNode nodeMapping]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xC0CCC, symSize: 0x320 }
@@ -6693,8 +6693,8 @@ relocations:
   - { offset: 0x1B4C5C, size: 0x8, addend: 0x0, symName: _kAACCoreAPIETagHeaderName, symObjAddr: 0x38C8, symBinAddr: 0x1CB098, symSize: 0x0 }
   - { offset: 0x1B4C71, size: 0x8, addend: 0x0, symName: _kAACCoreAPIIfNoneMatchHeaderName, symObjAddr: 0x38D0, symBinAddr: 0x1CB0A0, symSize: 0x0 }
   - { offset: 0x1B4C7A, size: 0x8, addend: 0x0, symName: '+[AACCoreAPI requestIdForStaticApi]', symObjAddr: 0x1D4, symBinAddr: 0xC3BE4, symSize: 0x30 }
-  - { offset: 0x1B4CA3, size: 0x8, addend: 0x0, symName: _requestIdForStaticApi.onceToken, symObjAddr: 0x10AE8, symBinAddr: 0x220880, symSize: 0x0 }
-  - { offset: 0x1B4CB8, size: 0x8, addend: 0x0, symName: _requestIdForStaticApi.uniqueId, symObjAddr: 0x10AF0, symBinAddr: 0x220888, symSize: 0x0 }
+  - { offset: 0x1B4CA3, size: 0x8, addend: 0x0, symName: _requestIdForStaticApi.onceToken, symObjAddr: 0x107E8, symBinAddr: 0x220880, symSize: 0x0 }
+  - { offset: 0x1B4CB8, size: 0x8, addend: 0x0, symName: _requestIdForStaticApi.uniqueId, symObjAddr: 0x107F0, symBinAddr: 0x220888, symSize: 0x0 }
   - { offset: 0x1B5910, size: 0x8, addend: 0x0, symName: '-[AACCoreAPI initWithBaseUrl:urlSession:instanceId:]', symObjAddr: 0x0, symBinAddr: 0xC3A10, symSize: 0x150 }
   - { offset: 0x1B598E, size: 0x8, addend: 0x0, symName: '-[AACCoreAPI dealloc]', symObjAddr: 0x150, symBinAddr: 0xC3B60, symSize: 0x5C }
   - { offset: 0x1B59BE, size: 0x8, addend: 0x0, symName: '-[AACCoreAPI httpMethodForValue:]', symObjAddr: 0x1AC, symBinAddr: 0xC3BBC, symSize: 0x28 }
@@ -6723,8 +6723,8 @@ relocations:
   - { offset: 0x1B6618, size: 0x8, addend: 0x0, symName: '-[AACCoreAPI .cxx_destruct]', symObjAddr: 0x2898, symBinAddr: 0xC61A8, symSize: 0x3C }
   - { offset: 0x1B753B, size: 0x8, addend: 0x0, symName: '+[AACVideoSession sharedSession]', symObjAddr: 0x0, symBinAddr: 0xC61E4, symSize: 0x30 }
   - { offset: 0x1B7548, size: 0x8, addend: 0x0, symName: '+[AACVideoSession sharedSession]', symObjAddr: 0x0, symBinAddr: 0xC61E4, symSize: 0x30 }
-  - { offset: 0x1B7571, size: 0x8, addend: 0x0, symName: _sharedSession.onceToken, symObjAddr: 0x24F0, symBinAddr: 0x220890, symSize: 0x0 }
-  - { offset: 0x1B7586, size: 0x8, addend: 0x0, symName: _sharedSession.videoSession, symObjAddr: 0x24F8, symBinAddr: 0x220898, symSize: 0x0 }
+  - { offset: 0x1B7571, size: 0x8, addend: 0x0, symName: _sharedSession.onceToken, symObjAddr: 0x24A8, symBinAddr: 0x220890, symSize: 0x0 }
+  - { offset: 0x1B7586, size: 0x8, addend: 0x0, symName: _sharedSession.videoSession, symObjAddr: 0x24B0, symBinAddr: 0x220898, symSize: 0x0 }
   - { offset: 0x1B7714, size: 0x8, addend: 0x0, symName: '+[AACVideoSession sharedSession].cold.1', symObjAddr: 0x2D0, symBinAddr: 0x139150, symSize: 0x14 }
   - { offset: 0x1B772F, size: 0x8, addend: 0x0, symName: '+[AACVideoSession sharedSession].cold.1', symObjAddr: 0x2D0, symBinAddr: 0x139150, symSize: 0x14 }
   - { offset: 0x1B7740, size: 0x8, addend: 0x0, symName: '___32+[AACVideoSession sharedSession]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xC6214, symSize: 0x30 }
@@ -6740,8 +6740,8 @@ relocations:
   - { offset: 0x1B795D, size: 0x8, addend: 0x0, symName: '-[AACVideoSession .cxx_destruct]', symObjAddr: 0x2A4, symBinAddr: 0xC6488, symSize: 0x2C }
   - { offset: 0x1B7A5D, size: 0x8, addend: 0x0, symName: '+[AACComponentFactory classMapping]', symObjAddr: 0x0, symBinAddr: 0xC64B4, symSize: 0x30 }
   - { offset: 0x1B7A6A, size: 0x8, addend: 0x0, symName: '+[AACComponentFactory classMapping]', symObjAddr: 0x0, symBinAddr: 0xC64B4, symSize: 0x30 }
-  - { offset: 0x1B7A93, size: 0x8, addend: 0x0, symName: _classMapping.onceToken, symObjAddr: 0x7F18, symBinAddr: 0x2208A0, symSize: 0x0 }
-  - { offset: 0x1B7AA8, size: 0x8, addend: 0x0, symName: _classMapping.mapping, symObjAddr: 0x7F20, symBinAddr: 0x2208A8, symSize: 0x0 }
+  - { offset: 0x1B7A93, size: 0x8, addend: 0x0, symName: _classMapping.onceToken, symObjAddr: 0x7DD8, symBinAddr: 0x2208A0, symSize: 0x0 }
+  - { offset: 0x1B7AA8, size: 0x8, addend: 0x0, symName: _classMapping.mapping, symObjAddr: 0x7DE0, symBinAddr: 0x2208A8, symSize: 0x0 }
   - { offset: 0x1B7FF4, size: 0x8, addend: 0x0, symName: '+[AACComponentFactory classMapping].cold.1', symObjAddr: 0x6A4, symBinAddr: 0x139164, symSize: 0x14 }
   - { offset: 0x1B800F, size: 0x8, addend: 0x0, symName: '+[AACComponentFactory classMapping].cold.1', symObjAddr: 0x6A4, symBinAddr: 0x139164, symSize: 0x14 }
   - { offset: 0x1B8020, size: 0x8, addend: 0x0, symName: '___35+[AACComponentFactory classMapping]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xC64E4, symSize: 0x438 }
@@ -6860,11 +6860,11 @@ relocations:
   - { offset: 0x1C407C, size: 0x8, addend: 0x0, symName: '-[AACCustomEvent .cxx_destruct]', symObjAddr: 0xB4, symBinAddr: 0xC9A3C, symSize: 0x30 }
   - { offset: 0x1C411F, size: 0x8, addend: 0x0, symName: '-[AACNoCardsView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0xC9A6C, symSize: 0x70 }
   - { offset: 0x1C412C, size: 0x8, addend: 0x0, symName: '+[AACNoCardsView completeIcon]', symObjAddr: 0xD8, symBinAddr: 0xC9B44, symSize: 0x30 }
-  - { offset: 0x1C4155, size: 0x8, addend: 0x0, symName: _completeIcon.onceToken, symObjAddr: 0xC0B0, symBinAddr: 0x2208B0, symSize: 0x0 }
-  - { offset: 0x1C416A, size: 0x8, addend: 0x0, symName: _completeIcon.image, symObjAddr: 0xC0B8, symBinAddr: 0x2208B8, symSize: 0x0 }
+  - { offset: 0x1C4155, size: 0x8, addend: 0x0, symName: _completeIcon.onceToken, symObjAddr: 0xBFA8, symBinAddr: 0x2208B0, symSize: 0x0 }
+  - { offset: 0x1C416A, size: 0x8, addend: 0x0, symName: _completeIcon.image, symObjAddr: 0xBFB0, symBinAddr: 0x2208B8, symSize: 0x0 }
   - { offset: 0x1C4F82, size: 0x8, addend: 0x0, symName: '+[AACNoCardsView tutorialIcon]', symObjAddr: 0x168, symBinAddr: 0xC9BD4, symSize: 0x30 }
-  - { offset: 0x1C4FAB, size: 0x8, addend: 0x0, symName: _tutorialIcon.onceToken, symObjAddr: 0xC0C0, symBinAddr: 0x2208C0, symSize: 0x0 }
-  - { offset: 0x1C4FC0, size: 0x8, addend: 0x0, symName: _tutorialIcon.image, symObjAddr: 0xC0C8, symBinAddr: 0x2208C8, symSize: 0x0 }
+  - { offset: 0x1C4FAB, size: 0x8, addend: 0x0, symName: _tutorialIcon.onceToken, symObjAddr: 0xBFB8, symBinAddr: 0x2208C0, symSize: 0x0 }
+  - { offset: 0x1C4FC0, size: 0x8, addend: 0x0, symName: _tutorialIcon.image, symObjAddr: 0xBFC0, symBinAddr: 0x2208C8, symSize: 0x0 }
   - { offset: 0x1C6B50, size: 0x8, addend: 0x0, symName: '-[AACNoCardsView initWithFrame:]', symObjAddr: 0x0, symBinAddr: 0xC9A6C, symSize: 0x70 }
   - { offset: 0x1C6B8F, size: 0x8, addend: 0x0, symName: '-[AACNoCardsView awakeFromNib]', symObjAddr: 0x70, symBinAddr: 0xC9ADC, symSize: 0x68 }
   - { offset: 0x1C6C4F, size: 0x8, addend: 0x0, symName: '+[AACNoCardsView completeIcon].cold.1', symObjAddr: 0x700, symBinAddr: 0x139178, symSize: 0x14 }
@@ -7118,8 +7118,8 @@ relocations:
   - { offset: 0x1D6844, size: 0x8, addend: 0x0, symName: '-[AACCardCellDropdown .cxx_destruct]', symObjAddr: 0x1B44, symBinAddr: 0xD131C, symSize: 0x10 }
   - { offset: 0x1D732A, size: 0x8, addend: 0x0, symName: '+[AACCardRuntimeVariable typeMapping]', symObjAddr: 0x0, symBinAddr: 0xD132C, symSize: 0x30 }
   - { offset: 0x1D7337, size: 0x8, addend: 0x0, symName: '+[AACCardRuntimeVariable typeMapping]', symObjAddr: 0x0, symBinAddr: 0xD132C, symSize: 0x30 }
-  - { offset: 0x1D7360, size: 0x8, addend: 0x0, symName: _typeMapping.onceToken, symObjAddr: 0x4330, symBinAddr: 0x2208D0, symSize: 0x0 }
-  - { offset: 0x1D7375, size: 0x8, addend: 0x0, symName: _typeMapping.mapping, symObjAddr: 0x4338, symBinAddr: 0x2208D8, symSize: 0x0 }
+  - { offset: 0x1D7360, size: 0x8, addend: 0x0, symName: _typeMapping.onceToken, symObjAddr: 0x42C0, symBinAddr: 0x2208D0, symSize: 0x0 }
+  - { offset: 0x1D7375, size: 0x8, addend: 0x0, symName: _typeMapping.mapping, symObjAddr: 0x42C8, symBinAddr: 0x2208D8, symSize: 0x0 }
   - { offset: 0x1D75ED, size: 0x8, addend: 0x0, symName: '+[AACCardRuntimeVariable typeMapping].cold.1', symObjAddr: 0x580, symBinAddr: 0x1391A0, symSize: 0x14 }
   - { offset: 0x1D7608, size: 0x8, addend: 0x0, symName: '+[AACCardRuntimeVariable typeMapping].cold.1', symObjAddr: 0x580, symBinAddr: 0x1391A0, symSize: 0x14 }
   - { offset: 0x1D7619, size: 0x8, addend: 0x0, symName: '___37+[AACCardRuntimeVariable typeMapping]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xD135C, symSize: 0x184 }
@@ -7136,12 +7136,12 @@ relocations:
   - { offset: 0x1DC348, size: 0x8, addend: 0x0, symName: '-[AACMainFlowCoordinatorSingleCard setPresentingVC:]', symObjAddr: 0x378, symBinAddr: 0xD1C24, symSize: 0x14 }
   - { offset: 0x1DC385, size: 0x8, addend: 0x0, symName: '-[AACMainFlowCoordinatorSingleCard .cxx_destruct]', symObjAddr: 0x38C, symBinAddr: 0xD1C38, symSize: 0x10 }
   - { offset: 0x1DCF0D, size: 0x8, addend: 0x0, symName: '+[NSAttributedString(AACFontAwesome) aac_attributedStringForFontAwesomeIcon:iconSize:attributes:verticalAligned:]', symObjAddr: 0x0, symBinAddr: 0xD1C48, symSize: 0x2B0 }
-  - { offset: 0x1DCF26, size: 0x8, addend: 0x0, symName: _aac_fontAwesomeInvalidIcons, symObjAddr: 0x2630, symBinAddr: 0x2208E0, symSize: 0x0 }
+  - { offset: 0x1DCF26, size: 0x8, addend: 0x0, symName: _aac_fontAwesomeInvalidIcons, symObjAddr: 0x25E8, symBinAddr: 0x2208E0, symSize: 0x0 }
   - { offset: 0x1DD126, size: 0x8, addend: 0x0, symName: '+[NSAttributedString(AACFontAwesome) aac_attributedStringForFontAwesomeIcon:iconSize:attributes:verticalAligned:]', symObjAddr: 0x0, symBinAddr: 0xD1C48, symSize: 0x2B0 }
   - { offset: 0x1DD5C0, size: 0x8, addend: 0x0, symName: '+[AACVideoAssetLoader delegateQueue]', symObjAddr: 0x0, symBinAddr: 0xD1EF8, symSize: 0x30 }
   - { offset: 0x1DD5CD, size: 0x8, addend: 0x0, symName: '+[AACVideoAssetLoader delegateQueue]', symObjAddr: 0x0, symBinAddr: 0xD1EF8, symSize: 0x30 }
-  - { offset: 0x1DD5F6, size: 0x8, addend: 0x0, symName: _delegateQueue.onceToken, symObjAddr: 0x88E8, symBinAddr: 0x2208E8, symSize: 0x0 }
-  - { offset: 0x1DD60B, size: 0x8, addend: 0x0, symName: _delegateQueue.serialQueue, symObjAddr: 0x88F0, symBinAddr: 0x2208F0, symSize: 0x0 }
+  - { offset: 0x1DD5F6, size: 0x8, addend: 0x0, symName: _delegateQueue.onceToken, symObjAddr: 0x8850, symBinAddr: 0x2208E8, symSize: 0x0 }
+  - { offset: 0x1DD60B, size: 0x8, addend: 0x0, symName: _delegateQueue.serialQueue, symObjAddr: 0x8858, symBinAddr: 0x2208F0, symSize: 0x0 }
   - { offset: 0x1DE2DA, size: 0x8, addend: 0x0, symName: '+[AACVideoAssetLoader delegateQueue].cold.1', symObjAddr: 0x870, symBinAddr: 0x1391B4, symSize: 0x14 }
   - { offset: 0x1DE2F5, size: 0x8, addend: 0x0, symName: '+[AACVideoAssetLoader delegateQueue].cold.1', symObjAddr: 0x870, symBinAddr: 0x1391B4, symSize: 0x14 }
   - { offset: 0x1DE306, size: 0x8, addend: 0x0, symName: '___36+[AACVideoAssetLoader delegateQueue]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xD1F28, symSize: 0x5C }
@@ -7196,17 +7196,17 @@ relocations:
   - { offset: 0x1E009E, size: 0x8, addend: 0x0, symName: '+[AACWSCardUpdateAction classMapping]', symObjAddr: 0x0, symBinAddr: 0xD2F28, symSize: 0x30 }
   - { offset: 0x1E00B7, size: 0x8, addend: 0x0, symName: _kEventCardUpdateActionUnknownKey, symObjAddr: 0x1198, symBinAddr: 0x1CB218, symSize: 0x0 }
   - { offset: 0x1E0123, size: 0x8, addend: 0x0, symName: '+[AACWSCardUpdateAction classMapping]', symObjAddr: 0x0, symBinAddr: 0xD2F28, symSize: 0x30 }
-  - { offset: 0x1E014C, size: 0x8, addend: 0x0, symName: _classMapping.onceToken, symObjAddr: 0x7288, symBinAddr: 0x2208F8, symSize: 0x0 }
-  - { offset: 0x1E0161, size: 0x8, addend: 0x0, symName: _classMapping.classMapping, symObjAddr: 0x7290, symBinAddr: 0x220900, symSize: 0x0 }
+  - { offset: 0x1E014C, size: 0x8, addend: 0x0, symName: _classMapping.onceToken, symObjAddr: 0x71A8, symBinAddr: 0x2208F8, symSize: 0x0 }
+  - { offset: 0x1E0161, size: 0x8, addend: 0x0, symName: _classMapping.classMapping, symObjAddr: 0x71B0, symBinAddr: 0x220900, symSize: 0x0 }
   - { offset: 0x1E01E0, size: 0x8, addend: 0x0, symName: '+[AACWSCardUpdateAction typeMapping]', symObjAddr: 0x118, symBinAddr: 0xD3040, symSize: 0x30 }
-  - { offset: 0x1E0209, size: 0x8, addend: 0x0, symName: _typeMapping.onceToken, symObjAddr: 0x7298, symBinAddr: 0x220908, symSize: 0x0 }
-  - { offset: 0x1E021E, size: 0x8, addend: 0x0, symName: _typeMapping.typeMapping, symObjAddr: 0x72A0, symBinAddr: 0x220910, symSize: 0x0 }
+  - { offset: 0x1E0209, size: 0x8, addend: 0x0, symName: _typeMapping.onceToken, symObjAddr: 0x71B8, symBinAddr: 0x220908, symSize: 0x0 }
+  - { offset: 0x1E021E, size: 0x8, addend: 0x0, symName: _typeMapping.typeMapping, symObjAddr: 0x71C0, symBinAddr: 0x220910, symSize: 0x0 }
   - { offset: 0x1E0253, size: 0x8, addend: 0x0, symName: '+[AACWSCardUpdateActionRemoveCard removalTypeMapping]', symObjAddr: 0x65C, symBinAddr: 0xD3584, symSize: 0x30 }
-  - { offset: 0x1E027C, size: 0x8, addend: 0x0, symName: _removalTypeMapping.onceToken, symObjAddr: 0x72A8, symBinAddr: 0x220918, symSize: 0x0 }
-  - { offset: 0x1E0291, size: 0x8, addend: 0x0, symName: _removalTypeMapping.removalTypeMapping, symObjAddr: 0x72B0, symBinAddr: 0x220920, symSize: 0x0 }
+  - { offset: 0x1E027C, size: 0x8, addend: 0x0, symName: _removalTypeMapping.onceToken, symObjAddr: 0x71C8, symBinAddr: 0x220918, symSize: 0x0 }
+  - { offset: 0x1E0291, size: 0x8, addend: 0x0, symName: _removalTypeMapping.removalTypeMapping, symObjAddr: 0x71D0, symBinAddr: 0x220920, symSize: 0x0 }
   - { offset: 0x1E02C6, size: 0x8, addend: 0x0, symName: '+[AACWSCardUpdateActionUpdateCard updateTypeMapping]', symObjAddr: 0x980, symBinAddr: 0xD38A8, symSize: 0x30 }
-  - { offset: 0x1E02EF, size: 0x8, addend: 0x0, symName: _updateTypeMapping.onceToken, symObjAddr: 0x72B8, symBinAddr: 0x220928, symSize: 0x0 }
-  - { offset: 0x1E0304, size: 0x8, addend: 0x0, symName: _updateTypeMapping.updateTypeMapping, symObjAddr: 0x72C0, symBinAddr: 0x220930, symSize: 0x0 }
+  - { offset: 0x1E02EF, size: 0x8, addend: 0x0, symName: _updateTypeMapping.onceToken, symObjAddr: 0x71D8, symBinAddr: 0x220928, symSize: 0x0 }
+  - { offset: 0x1E0304, size: 0x8, addend: 0x0, symName: _updateTypeMapping.updateTypeMapping, symObjAddr: 0x71E0, symBinAddr: 0x220930, symSize: 0x0 }
   - { offset: 0x1E0A35, size: 0x8, addend: 0x0, symName: '+[AACWSCardUpdateAction classMapping].cold.1', symObjAddr: 0xE20, symBinAddr: 0x1391C8, symSize: 0x14 }
   - { offset: 0x1E0A50, size: 0x8, addend: 0x0, symName: '+[AACWSCardUpdateAction classMapping].cold.1', symObjAddr: 0xE20, symBinAddr: 0x1391C8, symSize: 0x14 }
   - { offset: 0x1E0A61, size: 0x8, addend: 0x0, symName: '___37+[AACWSCardUpdateAction classMapping]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xD2F58, symSize: 0xE8 }
@@ -7327,8 +7327,8 @@ relocations:
   - { offset: 0x1E5903, size: 0x8, addend: 0x0, symName: '-[AACHorizontalContainerView .cxx_destruct]', symObjAddr: 0x89C, symBinAddr: 0xD5BE8, symSize: 0x3C }
   - { offset: 0x1E5E6B, size: 0x8, addend: 0x0, symName: '+[AACPrototypeCellProvider sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xD5C24, symSize: 0x30 }
   - { offset: 0x1E5E78, size: 0x8, addend: 0x0, symName: '+[AACPrototypeCellProvider sharedInstance]', symObjAddr: 0x0, symBinAddr: 0xD5C24, symSize: 0x30 }
-  - { offset: 0x1E5EA1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x9A08, symBinAddr: 0x220938, symSize: 0x0 }
-  - { offset: 0x1E5EB6, size: 0x8, addend: 0x0, symName: _sharedInstance.provider, symObjAddr: 0x9A10, symBinAddr: 0x220940, symSize: 0x0 }
+  - { offset: 0x1E5EA1, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x98E8, symBinAddr: 0x220938, symSize: 0x0 }
+  - { offset: 0x1E5EB6, size: 0x8, addend: 0x0, symName: _sharedInstance.provider, symObjAddr: 0x98F0, symBinAddr: 0x220940, symSize: 0x0 }
   - { offset: 0x1E6623, size: 0x8, addend: 0x0, symName: '+[AACPrototypeCellProvider sharedInstance].cold.1', symObjAddr: 0x544, symBinAddr: 0x139218, symSize: 0x14 }
   - { offset: 0x1E663E, size: 0x8, addend: 0x0, symName: '+[AACPrototypeCellProvider sharedInstance].cold.1', symObjAddr: 0x544, symBinAddr: 0x139218, symSize: 0x14 }
   - { offset: 0x1E664F, size: 0x8, addend: 0x0, symName: '___42+[AACPrototypeCellProvider sharedInstance]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xD5C54, symSize: 0x30 }
@@ -7500,8 +7500,8 @@ relocations:
   - { offset: 0x1F44E8, size: 0x8, addend: 0x0, symName: '-[AACCardViewBaseButton .cxx_destruct]', symObjAddr: 0x1C0, symBinAddr: 0xDB8E0, symSize: 0x54 }
   - { offset: 0x1F4607, size: 0x8, addend: 0x0, symName: '+[AACNetworkRequestInterceptor sharedInterceptor]', symObjAddr: 0x0, symBinAddr: 0xDB934, symSize: 0x30 }
   - { offset: 0x1F4672, size: 0x8, addend: 0x0, symName: '+[AACNetworkRequestInterceptor sharedInterceptor]', symObjAddr: 0x0, symBinAddr: 0xDB934, symSize: 0x30 }
-  - { offset: 0x1F469B, size: 0x8, addend: 0x0, symName: _sharedInterceptor.onceToken, symObjAddr: 0x8BC0, symBinAddr: 0x220948, symSize: 0x0 }
-  - { offset: 0x1F46B0, size: 0x8, addend: 0x0, symName: _sharedInterceptor.interceptor, symObjAddr: 0x8BC8, symBinAddr: 0x220950, symSize: 0x0 }
+  - { offset: 0x1F469B, size: 0x8, addend: 0x0, symName: _sharedInterceptor.onceToken, symObjAddr: 0x8B10, symBinAddr: 0x220948, symSize: 0x0 }
+  - { offset: 0x1F46B0, size: 0x8, addend: 0x0, symName: _sharedInterceptor.interceptor, symObjAddr: 0x8B18, symBinAddr: 0x220950, symSize: 0x0 }
   - { offset: 0x1F4BFD, size: 0x8, addend: 0x0, symName: '+[AACNetworkRequestInterceptor sharedInterceptor].cold.1', symObjAddr: 0x9F0, symBinAddr: 0x13922C, symSize: 0x14 }
   - { offset: 0x1F4C18, size: 0x8, addend: 0x0, symName: '+[AACNetworkRequestInterceptor sharedInterceptor].cold.1', symObjAddr: 0x9F0, symBinAddr: 0x13922C, symSize: 0x14 }
   - { offset: 0x1F4C29, size: 0x8, addend: 0x0, symName: '___49+[AACNetworkRequestInterceptor sharedInterceptor]_block_invoke', symObjAddr: 0x30, symBinAddr: 0xDB964, symSize: 0x30 }
@@ -7520,29 +7520,29 @@ relocations:
   - { offset: 0x1F50C7, size: 0x8, addend: 0x0, symName: '-[AACNetworkRequestInterceptor .cxx_destruct]', symObjAddr: 0x9B4, symBinAddr: 0xDC2E8, symSize: 0x3C }
   - { offset: 0x1F5FED, size: 0x8, addend: 0x0, symName: '-[AACMarkdownLineParseResult isList]', symObjAddr: 0x0, symBinAddr: 0xDC324, symSize: 0x8 }
   - { offset: 0x1F5FFA, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser sharedParser]', symObjAddr: 0x3C, symBinAddr: 0xDC360, symSize: 0x30 }
-  - { offset: 0x1F6023, size: 0x8, addend: 0x0, symName: _sharedParser.onceToken, symObjAddr: 0x82D8, symBinAddr: 0x220958, symSize: 0x0 }
-  - { offset: 0x1F6038, size: 0x8, addend: 0x0, symName: _sharedParser.parser, symObjAddr: 0x82E0, symBinAddr: 0x220960, symSize: 0x0 }
+  - { offset: 0x1F6023, size: 0x8, addend: 0x0, symName: _sharedParser.onceToken, symObjAddr: 0x8268, symBinAddr: 0x220958, symSize: 0x0 }
+  - { offset: 0x1F6038, size: 0x8, addend: 0x0, symName: _sharedParser.parser, symObjAddr: 0x8270, symBinAddr: 0x220960, symSize: 0x0 }
   - { offset: 0x1F60D4, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser markdownCharacterSet]', symObjAddr: 0x9C, symBinAddr: 0xDC3C0, symSize: 0x30 }
-  - { offset: 0x1F60FD, size: 0x8, addend: 0x0, symName: _markdownCharacterSet.onceToken, symObjAddr: 0x82E8, symBinAddr: 0x220968, symSize: 0x0 }
-  - { offset: 0x1F6112, size: 0x8, addend: 0x0, symName: _markdownCharacterSet.characterSet, symObjAddr: 0x82F0, symBinAddr: 0x220970, symSize: 0x0 }
+  - { offset: 0x1F60FD, size: 0x8, addend: 0x0, symName: _markdownCharacterSet.onceToken, symObjAddr: 0x8278, symBinAddr: 0x220968, symSize: 0x0 }
+  - { offset: 0x1F6112, size: 0x8, addend: 0x0, symName: _markdownCharacterSet.characterSet, symObjAddr: 0x8280, symBinAddr: 0x220970, symSize: 0x0 }
   - { offset: 0x1F6280, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser numberedListRegularExpression]', symObjAddr: 0x150, symBinAddr: 0xDC474, symSize: 0x30 }
-  - { offset: 0x1F62A9, size: 0x8, addend: 0x0, symName: _numberedListRegularExpression.onceToken, symObjAddr: 0x82F8, symBinAddr: 0x220978, symSize: 0x0 }
-  - { offset: 0x1F62BE, size: 0x8, addend: 0x0, symName: _numberedListRegularExpression.regex, symObjAddr: 0x8300, symBinAddr: 0x220980, symSize: 0x0 }
+  - { offset: 0x1F62A9, size: 0x8, addend: 0x0, symName: _numberedListRegularExpression.onceToken, symObjAddr: 0x8288, symBinAddr: 0x220978, symSize: 0x0 }
+  - { offset: 0x1F62BE, size: 0x8, addend: 0x0, symName: _numberedListRegularExpression.regex, symObjAddr: 0x8290, symBinAddr: 0x220980, symSize: 0x0 }
   - { offset: 0x1F63DB, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser bulletedListRegularExpression]', symObjAddr: 0x1C0, symBinAddr: 0xDC4E4, symSize: 0x30 }
-  - { offset: 0x1F6404, size: 0x8, addend: 0x0, symName: _bulletedListRegularExpression.onceToken, symObjAddr: 0x8308, symBinAddr: 0x220988, symSize: 0x0 }
-  - { offset: 0x1F6419, size: 0x8, addend: 0x0, symName: _bulletedListRegularExpression.regex, symObjAddr: 0x8310, symBinAddr: 0x220990, symSize: 0x0 }
+  - { offset: 0x1F6404, size: 0x8, addend: 0x0, symName: _bulletedListRegularExpression.onceToken, symObjAddr: 0x8298, symBinAddr: 0x220988, symSize: 0x0 }
+  - { offset: 0x1F6419, size: 0x8, addend: 0x0, symName: _bulletedListRegularExpression.regex, symObjAddr: 0x82A0, symBinAddr: 0x220990, symSize: 0x0 }
   - { offset: 0x1F644E, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser unescapedLinkRegularExpression]', symObjAddr: 0x230, symBinAddr: 0xDC554, symSize: 0x30 }
-  - { offset: 0x1F6477, size: 0x8, addend: 0x0, symName: _unescapedLinkRegularExpression.onceToken, symObjAddr: 0x8318, symBinAddr: 0x220998, symSize: 0x0 }
-  - { offset: 0x1F648C, size: 0x8, addend: 0x0, symName: _unescapedLinkRegularExpression.regex, symObjAddr: 0x8320, symBinAddr: 0x2209A0, symSize: 0x0 }
+  - { offset: 0x1F6477, size: 0x8, addend: 0x0, symName: _unescapedLinkRegularExpression.onceToken, symObjAddr: 0x82A8, symBinAddr: 0x220998, symSize: 0x0 }
+  - { offset: 0x1F648C, size: 0x8, addend: 0x0, symName: _unescapedLinkRegularExpression.regex, symObjAddr: 0x82B0, symBinAddr: 0x2209A0, symSize: 0x0 }
   - { offset: 0x1F64C1, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser newLineRegularExpression]', symObjAddr: 0x2A0, symBinAddr: 0xDC5C4, symSize: 0x30 }
-  - { offset: 0x1F64EA, size: 0x8, addend: 0x0, symName: _newLineRegularExpression.onceToken, symObjAddr: 0x8328, symBinAddr: 0x2209A8, symSize: 0x0 }
-  - { offset: 0x1F64FF, size: 0x8, addend: 0x0, symName: _newLineRegularExpression.regex, symObjAddr: 0x8330, symBinAddr: 0x2209B0, symSize: 0x0 }
+  - { offset: 0x1F64EA, size: 0x8, addend: 0x0, symName: _newLineRegularExpression.onceToken, symObjAddr: 0x82B8, symBinAddr: 0x2209A8, symSize: 0x0 }
+  - { offset: 0x1F64FF, size: 0x8, addend: 0x0, symName: _newLineRegularExpression.regex, symObjAddr: 0x82C0, symBinAddr: 0x2209B0, symSize: 0x0 }
   - { offset: 0x1F6534, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser escapedLinkAndHashCharsRegularExpression]', symObjAddr: 0x310, symBinAddr: 0xDC634, symSize: 0x30 }
-  - { offset: 0x1F655D, size: 0x8, addend: 0x0, symName: _escapedLinkAndHashCharsRegularExpression.onceToken, symObjAddr: 0x8338, symBinAddr: 0x2209B8, symSize: 0x0 }
-  - { offset: 0x1F6572, size: 0x8, addend: 0x0, symName: _escapedLinkAndHashCharsRegularExpression.regex, symObjAddr: 0x8340, symBinAddr: 0x2209C0, symSize: 0x0 }
+  - { offset: 0x1F655D, size: 0x8, addend: 0x0, symName: _escapedLinkAndHashCharsRegularExpression.onceToken, symObjAddr: 0x82C8, symBinAddr: 0x2209B8, symSize: 0x0 }
+  - { offset: 0x1F6572, size: 0x8, addend: 0x0, symName: _escapedLinkAndHashCharsRegularExpression.regex, symObjAddr: 0x82D0, symBinAddr: 0x2209C0, symSize: 0x0 }
   - { offset: 0x1F65A7, size: 0x8, addend: 0x0, symName: '+[AACMarkdownParser linkReplacementTemplate]', symObjAddr: 0x380, symBinAddr: 0xDC6A4, symSize: 0x30 }
-  - { offset: 0x1F65D0, size: 0x8, addend: 0x0, symName: _linkReplacementTemplate.onceToken, symObjAddr: 0x8348, symBinAddr: 0x2209C8, symSize: 0x0 }
-  - { offset: 0x1F65E5, size: 0x8, addend: 0x0, symName: _linkReplacementTemplate.str, symObjAddr: 0x8350, symBinAddr: 0x2209D0, symSize: 0x0 }
+  - { offset: 0x1F65D0, size: 0x8, addend: 0x0, symName: _linkReplacementTemplate.onceToken, symObjAddr: 0x82D8, symBinAddr: 0x2209C8, symSize: 0x0 }
+  - { offset: 0x1F65E5, size: 0x8, addend: 0x0, symName: _linkReplacementTemplate.str, symObjAddr: 0x82E0, symBinAddr: 0x2209D0, symSize: 0x0 }
   - { offset: 0x1F677F, size: 0x8, addend: 0x0, symName: '-[AACMarkdownLineParseResult isList]', symObjAddr: 0x0, symBinAddr: 0xDC324, symSize: 0x8 }
   - { offset: 0x1F67B3, size: 0x8, addend: 0x0, symName: '-[AACMarkdownLineParseResult setIsList:]', symObjAddr: 0x8, symBinAddr: 0xDC32C, symSize: 0x8 }
   - { offset: 0x1F67EA, size: 0x8, addend: 0x0, symName: '-[AACMarkdownLineParseResult isNumberedList]', symObjAddr: 0x10, symBinAddr: 0xDC334, symSize: 0x8 }
@@ -8850,7 +8850,7 @@ relocations:
   - { offset: 0x247490, size: 0x8, addend: 0x0, symName: '_$s9AtomicSDK3DOMO5ColorO2eeoiySbAE_AEtFZTf4nnd_n', symObjAddr: 0x1018, symBinAddr: 0x12F0B0, symSize: 0x214 }
   - { offset: 0x247520, size: 0x8, addend: 0x0, symName: '_$s9AtomicSDK3DOMO5ColorO7KeywordO8rawValueAGSgSS_tcfCTf4nd_n', symObjAddr: 0x122C, symBinAddr: 0x12F2C4, symSize: 0x48C }
   - { offset: 0x247682, size: 0x8, addend: 0x0, symName: '_$s9AtomicSDK9LayerTreeO4PathC10DerivativeV5rootsSaySfGvg', symObjAddr: 0x0, symBinAddr: 0x12F9B0, symSize: 0x1C8 }
-  - { offset: 0x2476A6, size: 0x8, addend: 0x0, symName: '_$s9AtomicSDK9LayerTreeO5PointV7minimumAEvpZ', symObjAddr: 0x89A8, symBinAddr: 0x224FB8, symSize: 0x0 }
+  - { offset: 0x2476A6, size: 0x8, addend: 0x0, symName: '_$s9AtomicSDK9LayerTreeO5PointV7minimumAEvpZ', symObjAddr: 0x8930, symBinAddr: 0x224FB8, symSize: 0x0 }
   - { offset: 0x2477F8, size: 0x8, addend: 0x0, symName: '_$s9AtomicSDK9LayerTreeO5PointV7minimum_WZ', symObjAddr: 0x1C8, symBinAddr: 0x12FB78, symSize: 0x10 }
   - { offset: 0x247833, size: 0x8, addend: 0x0, symName: '_$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnFSf_Tg5', symObjAddr: 0x1D8, symBinAddr: 0x12FB88, symSize: 0xF4 }
   - { offset: 0x247902, size: 0x8, addend: 0x0, symName: '_$sSh8_VariantV6insertySb8inserted_x17memberAfterInserttxnF9AtomicSDK3DOMO5ColorO_Tg5', symObjAddr: 0x2CC, symBinAddr: 0x12FC7C, symSize: 0x338 }

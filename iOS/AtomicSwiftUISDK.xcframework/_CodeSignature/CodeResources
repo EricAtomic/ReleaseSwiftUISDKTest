@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/AtomicSwiftUISDK.framework/AtomicSwiftUISDK</key>
 		<data>
-		qx6CePIPSwFy2qcGGTdcNmiAIFQ=
+		nFrCEbvq6Y9TSITm6muA4xrb1B0=
 		</data>
 		<key>ios-arm64/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
 		<data>
@@ -62,11 +62,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/DWARF/AtomicSwiftUISDK</key>
 		<data>
-		v83qK4JYMcb/kAifcmP/gGEHCmg=
+		YK5nCWG85wlfYK2n58hbZXN8EDw=
 		</data>
 		<key>ios-arm64/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/AtomicSwiftUISDK.yml</key>
 		<data>
-		i0y4HFOF9J9W9YYzLSW9AsOaUXQ=
+		+wiT5UdGx5a77Nkq+jqBdKdwpEk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/Assets.car</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/AtomicSwiftUISDK</key>
 		<data>
-		aP0FtK2V5cKQvTQK41X6x1MTTao=
+		OBrWly+D63235ktQMalAg3Y711I=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		2bqw7nf7eI7LNW4m/TLj4gV+BEM=
+		KW0GzAJ2w96OWyKk8OnHjB+3Aiw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -142,15 +142,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/DWARF/AtomicSwiftUISDK</key>
 		<data>
-		q4PHB9XDsg5DsjCqEjlNht/FKD4=
+		ljpchZhMM4yqLV4Q/PXy096beM4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/AtomicSwiftUISDK.yml</key>
 		<data>
-		fAinZcmsFf4Ov5f+YydRVEysvkU=
+		ZEDOwOFnlLSFxlD28NPT8ERWT+s=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/x86_64/AtomicSwiftUISDK.yml</key>
 		<data>
-		3ypIbLBn76SWNmgil1vLIX2Smao=
+		16oJDCvcNDlixdR+zJ4O1JzzGx4=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -170,11 +170,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qx6CePIPSwFy2qcGGTdcNmiAIFQ=
+			nFrCEbvq6Y9TSITm6muA4xrb1B0=
 			</data>
 			<key>hash2</key>
 			<data>
-			tb1o3b7ai6gK5qeY4AkJeEIijVHNjqvX3/OksRSx55w=
+			qHhjtryBnnz2QqUkOcyLiLzJmEAjEXzPoOmQxOYDNfg=
 			</data>
 		</dict>
 		<key>ios-arm64/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
@@ -313,22 +313,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v83qK4JYMcb/kAifcmP/gGEHCmg=
+			YK5nCWG85wlfYK2n58hbZXN8EDw=
 			</data>
 			<key>hash2</key>
 			<data>
-			t1uIMgnMVqdgaUNTYrRJ952xqP4zRl+JdIagG7cO7iY=
+			jyxq8qM5LAnzdr6VhTpfx58M/whI4kjrRWdeVgTyKpc=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/AtomicSwiftUISDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i0y4HFOF9J9W9YYzLSW9AsOaUXQ=
+			+wiT5UdGx5a77Nkq+jqBdKdwpEk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ED5ffqpMopBYKldvgk3XFHMun8zk5i+Bn9uKw3MfRtE=
+			Xreipm5pjt/Td2Kt62OYVkXypKX8VFg2EJXaHPgMBNQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/Assets.car</key>
@@ -346,11 +346,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aP0FtK2V5cKQvTQK41X6x1MTTao=
+			OBrWly+D63235ktQMalAg3Y711I=
 			</data>
 			<key>hash2</key>
 			<data>
-			S1XwvndFJgvzkEiFTIY+aAfskvlRci3NsmeLMQEQsy0=
+			1PfZEisKwn1B6AG/f2QdfGfo3rTM+pyG0sOQVe4ZVNA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
@@ -511,11 +511,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2bqw7nf7eI7LNW4m/TLj4gV+BEM=
+			KW0GzAJ2w96OWyKk8OnHjB+3Aiw=
 			</data>
 			<key>hash2</key>
 			<data>
-			Mgs0GCzRayxV5t3R9hNEi28jiuN/89GJUpmkG+4ZH4o=
+			6b7g0ZnMOsZn50SGYWxcYLEzyrzFuQfDOVT65Z7J8Q8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Info.plist</key>
@@ -533,33 +533,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			q4PHB9XDsg5DsjCqEjlNht/FKD4=
+			ljpchZhMM4yqLV4Q/PXy096beM4=
 			</data>
 			<key>hash2</key>
 			<data>
-			wh/7vTsmNOrV5yMfmWR0T0OBRLZfRGlx9rprPc1Bc+s=
+			AWj065p4E02CCTq9pM3/WUAwmmqTgWcNjh6trJayDso=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/AtomicSwiftUISDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fAinZcmsFf4Ov5f+YydRVEysvkU=
+			ZEDOwOFnlLSFxlD28NPT8ERWT+s=
 			</data>
 			<key>hash2</key>
 			<data>
-			4/+xVeYbIirwnq9hF3i4t9jub8ojHe1oIj4qII/qhhU=
+			MWdL4JIOZtUSWJrnyNnd9ey6/loh66QRkLSEeWtdCwA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/x86_64/AtomicSwiftUISDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3ypIbLBn76SWNmgil1vLIX2Smao=
+			16oJDCvcNDlixdR+zJ4O1JzzGx4=
 			</data>
 			<key>hash2</key>
 			<data>
-			sOI3Q8/xFwVcs8LXbGetOcmg4euwCQFq4keMTnJ+TOs=
+			0TRmrwIEXWuJvOQE65VzMbB5BYLrZf+U7A6Avcoyu3Y=
 			</data>
 		</dict>
 	</dict>
