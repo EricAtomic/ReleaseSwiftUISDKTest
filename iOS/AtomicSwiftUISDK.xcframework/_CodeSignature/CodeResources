@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/AtomicSwiftUISDK</key>
 		<data>
-		+CzfpHSgFbWWMoa9LJOcqdKQpfs=
+		aP0FtK2V5cKQvTQK41X6x1MTTao=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		0eAZ54mN+PtsRFRwzMQlxx/0GQs=
+		2bqw7nf7eI7LNW4m/TLj4gV+BEM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -346,11 +346,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+CzfpHSgFbWWMoa9LJOcqdKQpfs=
+			aP0FtK2V5cKQvTQK41X6x1MTTao=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kicx3dO0sGGW2IIAhRp0+kT09qN8qM8ijf6/pnFgUmU=
+			S1XwvndFJgvzkEiFTIY+aAfskvlRci3NsmeLMQEQsy0=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
@@ -511,11 +511,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0eAZ54mN+PtsRFRwzMQlxx/0GQs=
+			2bqw7nf7eI7LNW4m/TLj4gV+BEM=
 			</data>
 			<key>hash2</key>
 			<data>
-			SdxLSf4e8izsqMO6Q+7HxkZXGS8ttn0TbAyom6Z+Rs4=
+			Mgs0GCzRayxV5t3R9hNEi28jiuN/89GJUpmkG+4ZH4o=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Info.plist</key>
