@@ -74,7 +74,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/AtomicSwiftUISDK</key>
 		<data>
-		AwA2IKzcCd6vO3ImYoZClfqdqo8=
+		RVcpkJmRzqIkI/c6JrqE+v6owrM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		U9QfraQTVEBkIABXa10Lv4zRAiQ=
+		S0VUgsQkSP8ZhNHlGlknt9yZeSM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/aarch64/AtomicSwiftUISDK.yml</key>
 		<data>
-		ZEDOwOFnlLSFxlD28NPT8ERWT+s=
+		OI4kqu/k4biAHsy1ymiFCz2Cslg=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/x86_64/AtomicSwiftUISDK.yml</key>
 		<data>
@@ -346,11 +346,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AwA2IKzcCd6vO3ImYoZClfqdqo8=
+			RVcpkJmRzqIkI/c6JrqE+v6owrM=
 			</data>
 			<key>hash2</key>
 			<data>
-			ebs3pBsIMfD57FzeQy/wRG5HZzr7zfjmBum758LtFBA=
+			iMrIXeX9YSN4iLLa9m2sDgcwY33Ol9iiqM7ccuggmBA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSwiftUISDK.framework/FontAwesome.otf</key>
@@ -511,11 +511,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U9QfraQTVEBkIABXa10Lv4zRAiQ=
+			S0VUgsQkSP8ZhNHlGlknt9yZeSM=
 			</data>
 			<key>hash2</key>
 			<data>
-			xySdE7dvz+6cz5MhzpMCaDu1EEEec4sQvWJ+l04Fu1w=
+			RP34QvzMvwRX1L+zQQ9cQJD/Jv47+RGfrzXcTi7Ym9Q=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Info.plist</key>
@@ -544,11 +544,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZEDOwOFnlLSFxlD28NPT8ERWT+s=
+			OI4kqu/k4biAHsy1ymiFCz2Cslg=
 			</data>
 			<key>hash2</key>
 			<data>
-			MWdL4JIOZtUSWJrnyNnd9ey6/loh66QRkLSEeWtdCwA=
+			BREqQddyWmQh3jmUBmJKBfrjVvw1WzWxOJUlJx2fqWc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/AtomicSwiftUISDK.framework.dSYM/Contents/Resources/Relocations/x86_64/AtomicSwiftUISDK.yml</key>

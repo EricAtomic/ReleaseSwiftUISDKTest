@@ -2765,7 +2765,7 @@ relocations:
   - { offset: 0x64359, size: 0x8, addend: 0x0, symName: '_$sSo15UIBarButtonItemCMa', symObjAddr: 0x264, symBinAddr: 0xB327C, symSize: 0x44 }
   - { offset: 0x6436C, size: 0x8, addend: 0x0, symName: '_$sSo9UIToolbarC16AtomicSwiftUISDKE29toolbarWithDoneNegativeTarget_10doneAction09plusMinusK0ABypSg_10ObjectiveC8SelectorVAJtFZTf4nnnd_n', symObjAddr: 0x2EC, symBinAddr: 0xB32C0, symSize: 0x2B0 }
   - { offset: 0x64680, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010CrossStackD033_4C2E29908CB9D64CF5AD5E8583BDCE5BLLVAA0D2IDAdaHP12defaultValue2in12CoreGraphics7CGFloatVAA14ViewDimensionsV_tFZTW', symObjAddr: 0x0, symBinAddr: 0xB3570, symSize: 0x24 }
-  - { offset: 0x646A3, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010crossStackD5GuideACvpZ', symObjAddr: 0x2CF8, symBinAddr: 0x3293B8, symSize: 0x0 }
+  - { offset: 0x646A3, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010crossStackD5GuideACvpZ', symObjAddr: 0x2CF0, symBinAddr: 0x3293B8, symSize: 0x0 }
   - { offset: 0x646F0, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010crossStackD5Guide_WZ', symObjAddr: 0x28, symBinAddr: 0xB3598, symSize: 0x2C }
   - { offset: 0x64709, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010CrossStackD033_4C2E29908CB9D64CF5AD5E8583BDCE5BLLVAgA0D2IDADWl', symObjAddr: 0x54, symBinAddr: 0xB35C4, symSize: 0x40 }
   - { offset: 0x6471C, size: 0x8, addend: 0x0, symName: '_$s7SwiftUI17VerticalAlignmentV06AtomicA5UISDKE010CrossStackD033_4C2E29908CB9D64CF5AD5E8583BDCE5BLLVMa', symObjAddr: 0x94, symBinAddr: 0xB3604, symSize: 0x10 }
@@ -5241,7 +5241,7 @@ relocations:
   - { offset: 0x106F47, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK25SnoozeDatePickerViewModelCfD', symObjAddr: 0x2118, symBinAddr: 0x162AF4, symSize: 0x8C }
   - { offset: 0x106F8C, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK25SnoozeDatePickerViewModelC13timeFormatter33_2F59FE4B1C2F451E9E327152FCFFBD90LLSo06NSDateJ0CvgTf4d_n', symObjAddr: 0x272C, symBinAddr: 0x1630B8, symSize: 0x11C }
   - { offset: 0x106FDE, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK25SnoozeDatePickerViewModelC25shouldAdjustHourAndMinute33_2F59FE4B1C2F451E9E327152FCFFBD90LL_03maxE10ComponentsSb10Foundation0eW0V_AItFTf4nnd_n', symObjAddr: 0x2B28, symBinAddr: 0x163424, symSize: 0xE4 }
-  - { offset: 0x107269, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea16AtomicSwiftUISDKE20videoPlaybackChangedABvpZ', symObjAddr: 0xF840, symBinAddr: 0x3295C8, symSize: 0x0 }
+  - { offset: 0x107269, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea16AtomicSwiftUISDKE20videoPlaybackChangedABvpZ', symObjAddr: 0xF838, symBinAddr: 0x3295C8, symSize: 0x0 }
   - { offset: 0x1072D7, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea16AtomicSwiftUISDKE20videoPlaybackChanged_WZ', symObjAddr: 0xC, symBinAddr: 0x163780, symSize: 0x34 }
   - { offset: 0x1075F0, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK20VideoPlayerViewModelCMU', symObjAddr: 0x728, symBinAddr: 0x163E34, symSize: 0x8 }
   - { offset: 0x107603, size: 0x8, addend: 0x0, symName: '_$s16AtomicSwiftUISDK20VideoPlayerViewModelCMa', symObjAddr: 0x730, symBinAddr: 0x163E3C, symSize: 0x38 }
