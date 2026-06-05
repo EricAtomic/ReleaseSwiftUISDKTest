@@ -778,7 +778,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/AtomicSDK</key>
 		<data>
-		ChEzl9a0wsCa6ExBOMvzj22wzS8=
+		MDHnEXPRENNDbOvEjpdhTD/G2Nk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Headers/AACAppearance.h</key>
 		<data>
@@ -1162,7 +1162,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		16m50QVa7EF/ALVi0/frzsr8vLM=
+		nUld+/iS0LE+jSJTazJ2Y7X/120=
 		</data>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/fontawesome-5-solid.otf</key>
 		<data>
@@ -3314,11 +3314,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ChEzl9a0wsCa6ExBOMvzj22wzS8=
+			MDHnEXPRENNDbOvEjpdhTD/G2Nk=
 			</data>
 			<key>hash2</key>
 			<data>
-			sERL+zB57tIYI5QhCPWOPejkouVCDOEeVoo5KaHWRkQ=
+			UcRjZzSdXtpcAGbPA3SnSsaxwL//ReqiAggqdD4GdSU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/Headers/AACAppearance.h</key>
@@ -4370,11 +4370,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			16m50QVa7EF/ALVi0/frzsr8vLM=
+			nUld+/iS0LE+jSJTazJ2Y7X/120=
 			</data>
 			<key>hash2</key>
 			<data>
-			v4rAIsMUNaBoqjQO21qcsVTaftvPtvrtedSENoeMAIY=
+			P3t2RNP+ezVYfb5PjtMPNSxOtvPscM8iAuaZr20jYxM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/AtomicSDK.framework/fontawesome-5-solid.otf</key>
