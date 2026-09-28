@@ -115,9 +115,16 @@
 #pragma mark - Node definitions
 
 /**
- A heading node, which represents a top-level title.
- Has only a `text` property.
+ A heading node, which represents a card headline.
+ Has text, optional icon, and appearance metadata.
  */
+
+typedef NS_ENUM(NSInteger, AACCardNodeHeading1Appearance) {
+    AACCardNodeHeading1AppearanceH1,
+    AACCardNodeHeading1AppearanceH2,
+    AACCardNodeHeading1AppearanceH3,
+};
+
 @interface AACCardNodeHeading1: AACCardNode
 
 /**
@@ -129,6 +136,11 @@
  The headline to display.
  */
 @property (nonatomic, copy, nonnull) NSString* text;
+
+/**
+ The visual appearance variant to use when rendering the headline.
+ */
+@property (nonatomic) AACCardNodeHeading1Appearance appearance;
 
 @end
 
